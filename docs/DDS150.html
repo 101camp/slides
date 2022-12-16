@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ALL HANDS">
+  <title>DDS150</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">DDS150</h1>
+  <p class="author">ALL HANDS</p>
+  <p class="date">211122 0930</p>
+</section>
+
+<section><section id="怂" class="title-slide slide level1"><h1>怂</h1></section><section id="dds" class="slide level2">
+<h2>DDS</h2>
+<blockquote>
+<p>大电商</p>
+</blockquote>
+<ul>
+<li class="fragment">Distributed</li>
+<li class="fragment">DropSh<strong>o</strong>pping</li>
+<li class="fragment">System</li>
+</ul>
+</section><section id="服务矩阵" class="slide level2">
+<h2>服务矩阵</h2>
+<blockquote>
+<p>~&gt; DDS 全家桶</p>
+</blockquote>
+<ul>
+<li>PD: Presto Direct
+<ul>
+<li>PP: Presto Plus</li>
+<li>AP: Action Proxy</li>
+</ul></li>
+<li>PS: Presto Support</li>
+<li>PM: Presto Mart</li>
+</ul>
+</section><section id="pdbase" class="slide level2">
+<h2>PD/base</h2>
+<blockquote>
+<p>PD/Presto Direct:</p>
+</blockquote>
+<ul>
+<li class="fragment">Supplier &lt;= (SP:SA)</li>
+<li class="fragment">Retailer &lt;= +(WP:WS+DA),APP</li>
+<li class="fragment">Manager &lt;= +DM</li>
+<li class="fragment">Developer &lt;= *(AP+FP)</li>
+<li class="fragment">Buyer &lt;= PP/P/M,PL…</li>
+</ul>
+</section><section id="ds" class="slide level2">
+<h2>DS</h2>
+<blockquote>
+<p>DS: DropShopping 落地…</p>
+</blockquote>
+<p>Shopify 围绕:</p>
+<ul>
+<li>ShopifyAppRadar</li>
+<li>FreeDropship</li>
+<li>TubeBook</li>
+<li>OmniBuy</li>
+</ul>
+<blockquote>
+<p>流量+数据</p>
+</blockquote>
+</section><section id="价值观" class="slide level2">
+<h2>价值观</h2>
+<blockquote>
+<p>逐步落实 v3</p>
+</blockquote>
+<ul>
+<li class="fragment">0: 用心服务</li>
+<li class="fragment">1: 自由自律</li>
+<li class="fragment">2: 追求卓越</li>
+</ul>
+</section><section id="第0步" class="slide level2">
+<h2>第0步</h2>
+<blockquote>
+<p>日常节奏</p>
+</blockquote>
+<ul>
+<li>有提交</li>
+<li>有合并</li>
+<li>有上线</li>
+</ul>
+</section><section id="每天" class="slide level2">
+<h2>每天</h2>
+</section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-18-kcn_sleep.png!/fw/510" alt="Zzz…" /><figcaption>Zzz…</figcaption>
+</figure>
+</section><section id="原始笔记" class="slide level2">
+<h2>原始笔记</h2>
+<blockquote>
+<p>随时可交付 -&gt; 根据文档</p>
+</blockquote>
+<p>教会三年前的自己接手当前系统:</p>
+<ul>
+<li class="fragment">有什么</li>
+<li class="fragment">在哪儿</li>
+<li class="fragment">如何安装/部署/调试/检验/…</li>
+<li class="fragment">…</li>
+</ul>
+</section><section id="w1h" class="slide level2">
+<h2>5W1H</h2>
+<blockquote>
+<p>固定结构</p>
+</blockquote>
+<ul>
+<li class="fragment">Why</li>
+<li class="fragment">What</li>
+<li class="fragment">When</li>
+<li class="fragment">Where</li>
+<li class="fragment">Who</li>
+<li class="fragment">How</li>
+</ul>
+</section><section id="及时" class="slide level2">
+<h2>及时</h2>
+<blockquote>
+<p>感觉可依靠:</p>
+</blockquote>
+<ul>
+<li>上班时@ 15分钟以内</li>
+<li>下班后@ 42分钟以内</li>
+<li>关键不明, 立即发起会议…</li>
+</ul>
+</section></section>
+<section><section id="section" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/DDS150.html">slides.101.camp/DDS150</a></p>
+</section><section id="hr" class="slide level2">
+<h2>HR</h2>
+<ul>
+<li class="fragment">5+, touch</li>
+<li class="fragment">2+位,面试</li>
+<li class="fragment">0位, 期待</li>
+<li class="fragment">1位, 入职</li>
+</ul>
+</section><section id="会议" class="slide level2">
+<h2>会议</h2>
+<ul>
+<li>2+次, 对外</li>
+<li>17+次, Scrumming</li>
+<li>3+次, discuss</li>
+</ul>
+</section><section id="w47" class="slide level2">
+<h2>21W47</h2>
+<ul>
+<li>COCORO 二期/++Facebook</li>
+<li>COCORO 自营探索/咨询</li>
+<li>HLF 日常开发/运营配套</li>
+<li>Spark 初步跑通</li>
+</ul>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>211121 Weekly</li>
+<li>211114 Weekly</li>
+<li>211031 Weekly</li>
+<li>211024 Weekly</li>
+<li>211017 Weekly</li>
+<li>211010 Weekly</li>
+<li>210926 Weekly</li>
+<li>210912 Weekly</li>
+<li>210905 Weekly</li>
+<li>210829 Weekly</li>
+<li>210822 Weekly</li>
+<li>210808 Weekly</li>
+<li>210801 Weekly</li>
+<li>210725 Weekly</li>
+<li>210718 Weekly</li>
+<li>210711 Weekly</li>
+<li>210704 Weekly</li>
+<li>210627 Weekly</li>
+<li>210620 Weekly</li>
+<li>210615 Weekly</li>
+<li>210606 Weekly</li>
+<li>210530 Weekly</li>
+<li>210523 Weekly</li>
+<li>210513 Weekly</li>
+<li>210509 Weekly</li>
+<li>210425 Weekly</li>
+<li>210418 Weekly</li>
+<li>210411 Weekly</li>
+<li>210322 Weekly</li>
+<li>210329 Weekly</li>
+<li>210315 Weekly</li>
+<li>210308 Weekly</li>
+<li>210228 Weekly</li>
+<li>210222 Weekly</li>
+<li>210218 Weekly</li>
+<li>210208 Weekly</li>
+<li>210201 Weekly</li>
+<li>210125 Weekly</li>
+<li>210118 Weekly</li>
+<li>210111 Weekly</li>
+<li>210103 Weekly</li>
+<li>201228 Weekly</li>
+<li>201221 Weekly</li>
+<li>201214 Weekly</li>
+<li>201207 Weekly</li>
+<li>201130 Weekly</li>
+<li>201123 Weekly</li>
+<li>201120 startUP</li>
+<li>201111 running</li>
+<li>201101 jumpin</li>
+</ul>
+</section><section id="눈_눈-1" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="节奏" class="slide level2">
+<h2>节奏</h2>
+<blockquote>
+<p>习惯高效</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-09-26-ScreenShot%202021-09-26%2021.05.08.jpg" alt="有节奏" /><figcaption>有节奏</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-09-26-ScreenShot%202021-09-26%2021.08.40.jpg" alt="冇节奏" /><figcaption>冇节奏</figcaption>
+</figure>
+<h3 id="每天-1">每天?</h3>
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-17-ScreenShot%202021-10-17%2021.31.04.jpg" alt="复数" /><figcaption>复数</figcaption>
+</figure>
+<h3 id="复数">复数</h3>
+<blockquote>
+<p>时段提交复数热度</p>
+</blockquote>
+<pre><code>10.12
+| | +- 当前时段平均每次变更行数
+| +- 伪装成小数点的间隔符 
++- 当前时段完成 commit 次数</code></pre>
+<h3 id="短平快">短平快</h3>
+<blockquote>
+<p>将迭代/探索/调试过程也记录下来</p>
+</blockquote>
+<ul>
+<li class="fragment"><code>1.200</code></li>
+<li class="fragment"><code>200.1</code></li>
+<li class="fragment"><code>12.7</code></li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-17-ScreenShot%202021-10-17%2021.39.55.jpg!/fw/460" alt="好节奏" /><figcaption>好节奏</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-17-ScreenShot%202021-10-17%2021.41.15.jpg!/fw/460" alt="有节奏" /><figcaption>有节奏</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-17-ScreenShot%202021-10-17%2021.45.57.jpg!/fw/460" alt="节奏乱" /><figcaption>节奏乱</figcaption>
+</figure>
+</section><section id="最有用" class="slide level2">
+<h2>最有用</h2>
+<blockquote>
+<p><a href="https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md">提问的智慧</a></p>
+</blockquote>
+<p>认真嗯哼的技法</p>
+<h3 id="提问">提问</h3>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：最近出现了一个很严重的问题…….</li>
+<li class="fragment">B：什么问题？影响是什么呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：是什么原因呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：有什么解决办法吗？（或是问可能有什么方案吗？）</li>
+</ul>
+<h3 id="提问-1">提问</h3>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么好处呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么不足呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：你认为哪种方案最好呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+</ul>
+<p>B：哪我们就这个方案一起做罢（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+<h3 id="提问-2">提问</h3>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<p>B：哪我们就这个方案一起做罢</p>
+<p>（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+<h3 id="知识分享">知识分享</h3>
+<blockquote>
+<p>Chaosharing</p>
+</blockquote>
+<p><strong>每周五</strong>: 1742~1800</p>
+<p>准则:</p>
+<ul>
+<li class="fragment">有趣</li>
+<li class="fragment">有料</li>
+<li class="fragment">有种</li>
+</ul>
+</section><section id="靠谱" class="slide level2">
+<h2>靠谱</h2>
+<blockquote>
+<p>Kaopulity</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>K</strong>eep</li>
+<li class="fragment"><strong>a</strong>ll</li>
+<li class="fragment"><strong>o</strong>f</li>
+<li class="fragment"><strong>p</strong>rocesses</li>
+<li class="fragment"><strong>u</strong>sabi<strong>lity</strong></li>
+</ul>
+<h3 id="核心经验">核心经验</h3>
+<blockquote>
+<p>DDS 覆盖:</p>
+</blockquote>
+<ul>
+<li class="fragment">独立站</li>
+<li class="fragment">物流系统</li>
+<li class="fragment">支付终端</li>
+<li class="fragment">Shopify++</li>
+</ul>
+<h3 id="周边拓展">周边拓展</h3>
+<blockquote>
+<p>DDS 覆盖+</p>
+</blockquote>
+<ul>
+<li class="fragment">支付拓展</li>
+<li class="fragment">营销支持</li>
+<li class="fragment">直播能力</li>
+<li class="fragment">流量导入</li>
+</ul>
+<h3 id="节奏-1">节奏</h3>
+<blockquote>
+<p>习惯高效</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-09-26-ScreenShot%202021-09-26%2021.05.08.jpg" alt="有节奏" /><figcaption>有节奏</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-09-26-ScreenShot%202021-09-26%2021.08.40.jpg" alt="冇节奏" /><figcaption>冇节奏</figcaption>
+</figure>
+<h3 id="效能">效能</h3>
+<blockquote>
+<p>1+1 &gt; 2</p>
+</blockquote>
+<h3 id="及时-1">及时</h3>
+<blockquote>
+<p>感觉可靠:</p>
+</blockquote>
+<ul>
+<li>上班时@ ?分钟以内</li>
+<li>下班后@ ??分钟以内</li>
+<li>任何不明, 立即发起会议…</li>
+</ul>
+<h3 id="主动沟通">主动沟通</h3>
+<blockquote>
+<p>AKA</p>
+</blockquote>
+<h3 id="soho">SOHO</h3>
+<blockquote>
+<p>更主动的推动</p>
+</blockquote>
+<ul>
+<li>沟通</li>
+<li>指派</li>
+<li>交付</li>
+<li>检验</li>
+<li>上线</li>
+<li>…</li>
+</ul>
+</section><section id="客户价值" class="slide level2">
+<h2>客户价值</h2>
+<blockquote>
+<p>可靠能力</p>
+</blockquote>
+<p>不间断</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

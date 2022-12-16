@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="社区式课堂">
+  <title>蟒营®开源课程框架</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">蟒营®开源课程框架</h1>
+  <p class="author">社区式课堂</p>
+  <p class="date">211014 2142</p>
+</section>
+
+<section><section id="但行" class="title-slide slide level1"><h1>但行</h1></section><section id="section" class="slide level2">
+<h2></h2>
+<p><img data-src="https://ipic.zoomquiet.top/2021-10-15-happyhacking21.jpg" /></p>
+</section><section id="pascal" class="slide level2">
+<h2>Pascal</h2>
+<blockquote>
+<p>大二</p>
+</blockquote>
+</section><section id="c" class="slide level2">
+<h2>C</h2>
+<blockquote>
+<p>大三</p>
+</blockquote>
+</section><section id="cjava" class="slide level2">
+<h2>C++JAVA</h2>
+<blockquote>
+<p>大四</p>
+</blockquote>
+<p>Think in JAVA</p>
+</section><section id="actionscript" class="slide level2">
+<h2>ActionScript</h2>
+<blockquote>
+<p>1999, 常州利诚通讯</p>
+</blockquote>
+<p>Flash -&gt;</p>
+</section><section id="php" class="slide level2">
+<h2>PHP</h2>
+<blockquote>
+<p>2000, 上海讯博数码科技</p>
+</blockquote>
+<p>ASP -&gt;</p>
+</section><section id="nucleuscms" class="slide level2">
+<h2>NucleusCMS</h2>
+<blockquote>
+<p>2001</p>
+</blockquote>
+<p>Blogging</p>
+</section><section id="zope" class="slide level2">
+<h2>Zope</h2>
+<blockquote>
+<p>2002~07</p>
+</blockquote>
+<p>CZUG</p>
+<blockquote>
+<blockquote>
+<p>Plone 1.0</p>
+</blockquote>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2004-0930-effeBDragon.png" alt="2004-0930-effeBDragon" /><figcaption>2004-0930-effeBDragon</figcaption>
+</figure>
+</section><section id="linux" class="slide level2">
+<h2>Linux</h2>
+<blockquote>
+<p>2005~ Ubuntu</p>
+</blockquote>
+<p>日用</p>
+</section><section class="slide level2">
+
+<p><img data-src="https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg" /></p>
+</section><section id="python" class="slide level2">
+<h2>Python</h2>
+<blockquote>
+<p>2003~ 啄木鸟</p>
+</blockquote>
+<ul>
+<li>mailman</li>
+<li>MoinMoin 1.4.*</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg" alt="GDD+guido" /><figcaption>GDD+guido</figcaption>
+</figure>
+</section><section id="freebsd" class="slide level2">
+<h2>FreeBSD</h2>
+<blockquote>
+<p>2004 ~ SINA.com</p>
+</blockquote>
+<p>CPUG</p>
+</section><section id="erlang" class="slide level2">
+<h2>Erlang</h2>
+<blockquote>
+<p>2007 ~ 金山</p>
+</blockquote>
+<ul>
+<li>ECUG</li>
+<li><a href="https://github.com/ZoomQuiet/erlbattle">erlbattle</a></li>
+<li>2010-&gt;实效云用户组</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/0711-ecug-ii-bw.jpg" alt="ECUG II" /><figcaption>ECUG II</figcaption>
+</figure>
+</section><section id="sociallearnlab.org" class="slide level2">
+<h2>sociallearnlab.org</h2>
+<blockquote>
+<p>教育大发现 2008 ~ 2013</p>
+</blockquote>
+<p><a href="#/?">社区顾问</a></p>
+</section><section id="开源卫士" class="slide level2">
+<h2><a href="http://code.ijinshan.com/">开源卫士</a></h2>
+<blockquote>
+<p>2012~13 49期讲座</p>
+</blockquote>
+<ul>
+<li>golang</li>
+<li>node.js</li>
+<li>OpenResty</li>
+<li>crx.</li>
+<li>SAE</li>
+<li>…</li>
+</ul>
+</section><section id="dart" class="slide level2">
+<h2>Dart</h2>
+<blockquote>
+<p>2013 ~ GDG 珠海</p>
+</blockquote>
+<p>AngularJS ..</p>
+</section><section id="scheme" class="slide level2">
+<h2>Scheme</h2>
+<blockquote>
+<p>2017</p>
+</blockquote>
+<p>LISP..Haskell</p>
+</section><section id="typescript" class="slide level2">
+<h2>TypeScript</h2>
+<blockquote>
+<p>2018 … Flutter</p>
+</blockquote>
+</section><section id="tfug-珠海" class="slide level2">
+<h2>TFUG 珠海</h2>
+<blockquote>
+<p>190214 ~ AI 落地</p>
+</blockquote>
+<ul>
+<li>TersnorFlow</li>
+<li>Keras</li>
+<li>FAST.ai</li>
+<li>…</li>
+</ul>
+</section><section id="rust" class="slide level2">
+<h2>Rust</h2>
+<blockquote>
+<p>2019</p>
+</blockquote>
+<p>尝鲜…</p>
+</section><section id="hyperledger" class="slide level2">
+<h2>Hyperledger</h2>
+<blockquote>
+<p>2021</p>
+</blockquote>
+<p>Fabric/Cello/…</p>
+</section><section id="未来" class="slide level2">
+<h2>未来</h2>
+<blockquote>
+<p>.. 用什么学什么</p>
+</blockquote>
+</section></section>
+<section><section id="好事" class="title-slide slide level1"><h1>好事</h1></section><section id="开发" class="slide level2">
+<h2>开发</h2>
+<blockquote>
+<p>本分</p>
+</blockquote>
+<ul>
+<li>3D 动画</li>
+<li>职业顿悟</li>
+<li>…</li>
+</ul>
+</section><section id="管理" class="slide level2">
+<h2>管理</h2>
+<blockquote>
+<p>过程改进</p>
+</blockquote>
+<p>用<strong>技术</strong>改善<strong>技术人</strong>生活品质</p>
+</section><section id="写作" class="slide level2">
+<h2>写作</h2>
+<blockquote>
+<p>爱好</p>
+</blockquote>
+<p>22CC</p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/090902-lovpy.jpg" alt="2009" /><figcaption>2009</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/s20773481-rwipy.png?imageView2/2/h/510" alt="2013" /><figcaption>2013</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_export_now.jpg" alt="输出是更残酷的输入" /><figcaption>输出是更残酷的输入</figcaption>
+</figure>
+</section><section id="社区" class="slide level2">
+<h2>社区</h2>
+<blockquote>
+<p>GNU 感召</p>
+</blockquote>
+<ul>
+<li class="fragment">进入</li>
+<li class="fragment">理解</li>
+<li class="fragment">服务</li>
+<li class="fragment">发起</li>
+<li class="fragment">策划</li>
+<li class="fragment">etc.</li>
+</ul>
+</section><section id="社群" class="slide level2">
+<h2>社群</h2>
+<blockquote>
+<p>社区群落 ~&gt; 领域流量</p>
+</blockquote>
+<ul>
+<li>有关联</li>
+<li>场景向</li>
+<li>自运营</li>
+<li>…</li>
+</ul>
+</section><section id="自怼" class="slide level2">
+<h2>自怼</h2>
+<blockquote>
+<p>DebugUself</p>
+</blockquote>
+<p>有心无心,自然聚集</p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_use-the-force.jpg" alt="the force…" /><figcaption>the force…</figcaption>
+</figure>
+</section><section id="分享" class="slide level2">
+<h2>分享</h2>
+<blockquote>
+<p>有好东西一定给小朋友们分享</p>
+</blockquote>
+</section></section>
+<section><section id="莫问" class="title-slide slide level1"><h1>莫问</h1></section><section id="教育" class="slide level2">
+<h2>教育</h2>
+<blockquote>
+<p>目标应该是什么?</p>
+</blockquote>
+</section><section id="教育-1" class="slide level2">
+<h2>教育?</h2>
+<blockquote>
+<p>什么是教育?</p>
+</blockquote>
+</section><section id="学习" class="slide level2">
+<h2>学习</h2>
+<blockquote>
+<p>应该学习什么?</p>
+</blockquote>
+</section><section id="学习学习" class="slide level2">
+<h2>学习学习</h2>
+<blockquote>
+<p>学习是门手艺…</p>
+</blockquote>
+</section><section id="学习科学" class="slide level2">
+<h2>学习科学</h2>
+<blockquote>
+<p>新学科</p>
+</blockquote>
+</section><section id="唯有自学" class="slide level2">
+<h2>唯有自学</h2>
+<blockquote>
+<p>才能学通</p>
+</blockquote>
+</section><section id="限定" class="slide level2">
+<h2>限定</h2>
+<blockquote>
+<p>IT 技术</p>
+</blockquote>
+<ul>
+<li class="fragment">有电脑</li>
+<li class="fragment">有网络</li>
+<li class="fragment">好奇心</li>
+<li class="fragment">能坚持</li>
+</ul>
+</section><section id="前提" class="slide level2">
+<h2>前提</h2>
+<blockquote>
+<p>私人偏见</p>
+</blockquote>
+</section><section id="无穷" class="slide level2">
+<h2>无穷</h2>
+<blockquote>
+<p>网络资源</p>
+</blockquote>
+</section><section id="天生" class="slide level2">
+<h2>天生</h2>
+<blockquote>
+<p>会自学</p>
+</blockquote>
+<p>–&gt; 汉语</p>
+</section><section id="类比" class="slide level2">
+<h2>类比</h2>
+<blockquote>
+<p>为什么学不会编程?</p>
+</blockquote>
+<ul>
+<li class="fragment">动力</li>
+<li class="fragment">反馈</li>
+<li class="fragment">场景</li>
+</ul>
+</section><section id="教学形式" class="slide level2">
+<h2>教学形式</h2>
+<blockquote>
+<p>难以匹配编程学习</p>
+</blockquote>
+<ul>
+<li class="fragment">院校</li>
+<li class="fragment">MOOC</li>
+<li class="fragment">培训</li>
+<li class="fragment">咨询</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/HU-mis-learn.PNG" alt="常用焦虑安慰剂" /><figcaption>常用焦虑安慰剂</figcaption>
+</figure>
+</section></section>
+<section><section id="前程" class="title-slide slide level1"><h1>前程</h1></section><section id="feynman-technique" class="slide level2">
+<h2>Feynman Technique</h2>
+<blockquote>
+<p>史上最强</p>
+</blockquote>
+<ul>
+<li class="fragment">指定概念</li>
+<li class="fragment">假设教授</li>
+<li class="fragment">说不通顺-&gt;复习</li>
+<li class="fragment">简化陈述-&gt;用自己的话</li>
+</ul>
+</section><section id="热情" class="slide level2">
+<h2>热情</h2>
+<p>兴趣和内在动机才是长期坚持的动力</p>
+<ul>
+<li class="fragment">教育不是灌输, 而是<strong>点燃</strong>火熖</li>
+<li class="fragment">教育最有效的方法不是告诉答案,</li>
+<li class="fragment">而是向他们提问!</li>
+<li class="fragment"><pre><code>--- Σωκράτης (Socrates)</code></pre></li>
+</ul>
+</section><section id="教育-2" class="slide level2">
+<h2>教育</h2>
+<blockquote>
+<p>目标应该是什么?</p>
+</blockquote>
+</section><section id="编程" class="slide level2">
+<h2>编程</h2>
+<blockquote>
+<p>如何是会编程?</p>
+</blockquote>
+<ul>
+<li class="fragment">能自信
+<ul>
+<li class="fragment">将问题分解为</li>
+<li class="fragment">当前能力范畴内</li>
+<li class="fragment">子问题序列</li>
+</ul></li>
+</ul>
+</section><section id="mainium" class="slide level2">
+<h2>Mainium</h2>
+<blockquote>
+<p>昧因</p>
+</blockquote>
+<ul>
+<li class="fragment">基因 DNA</li>
+<li class="fragment">模因 MEME</li>
+<li class="fragment">技因 TEME</li>
+</ul>
+</section><section id="初心" class="slide level2">
+<h2>初心</h2>
+<p>THE MAIN ELEMENT TO ANTI-MEME FOR UPGRADE TEME.</p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_believe-101camp.JPG" alt="101.camp" /><figcaption>101.camp</figcaption>
+</figure>
+</section><section id="蟒营" class="slide level2">
+<h2>蟒营™</h2>
+<blockquote>
+<p>开源课程框架</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/cpc-index-h550.png" alt="2008蟒营架构" /><figcaption>2008蟒营架构</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/pyicamp-flow-all_wsd-napkin.png" alt="2010蟒营流程" /><figcaption>2010蟒营流程</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-10-20-sequ_debuguself_orig.png" alt="2017 DU" /><figcaption>2017 DU</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-10-20-sequ_101camp.png" alt="2018 101camp" /><figcaption>2018 101camp</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-10-20-sequ_debuguself_new19.png" alt="2019 DU" /><figcaption>2019 DU</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-10-20-sequ_du101camp.png" alt="2019 du101camp" /><figcaption>2019 du101camp</figcaption>
+</figure>
+</section><section id="私墪式" class="slide level2">
+<h2>私墪式</h2>
+<blockquote>
+<p>教学反转训练营</p>
+</blockquote>
+<p><a href="http://wiki.zoomquiet.io/IMHO/om-what-is-ke">什么是“课”?</a></p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-09-08-theory101camp_v2.jpg" alt="蟒营™态度" /><figcaption>蟒营™态度</figcaption>
+</figure>
+</section><section id="aristotle" class="slide level2">
+<h2>Aristotle</h2>
+<blockquote>
+<p>“For the things we have to learn before we can do them, we learn by doing them.”</p>
+</blockquote>
+</section><section id="亚里士多德" class="slide level2">
+<h2>亚里士多德</h2>
+<blockquote>
+<p>“我们通过做来学习</p>
+<p>我们必须学习去做的…”</p>
+</blockquote>
+<p>~ 伦理学</p>
+</section><section id="蟒营style" class="slide level2">
+<h2>蟒营™style</h2>
+<blockquote>
+<p>框架志趣</p>
+</blockquote>
+<ul>
+<li>AKA 环境</li>
+<li>节奏任务</li>
+<li>协同互助</li>
+<li>自学自爱</li>
+</ul>
+</section><section id="开源社区" class="slide level2">
+<h2>开源社区</h2>
+<blockquote>
+<p>敏捷项目式过程</p>
+</blockquote>
+<ul>
+<li>定期迭代</li>
+<li>代码共享</li>
+<li>站立会议</li>
+<li>…</li>
+</ul>
+</section><section id="难点" class="slide level2">
+<h2>难点</h2>
+<blockquote>
+<p>三有任务序列…</p>
+</blockquote>
+<ul>
+<li>有用</li>
+<li>有趣</li>
+<li>有种</li>
+</ul>
+</section><section id="目标" class="slide level2">
+<h2>目标</h2>
+<blockquote>
+<p>自学习型社区</p>
+</blockquote>
+<ul>
+<li class="fragment">学员 ~ 开发者</li>
+<li class="fragment">助教 ~ 资深开发</li>
+<li class="fragment">导师 ~ 社区经理</li>
+</ul>
+</section><section id="结合" class="slide level2">
+<h2>结合</h2>
+<blockquote>
+<p>多赢</p>
+</blockquote>
+<ul>
+<li>企业</li>
+<li>学校</li>
+<li>学生</li>
+<li>蟒营™社区</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-10-31-pycon2019stamp101camp_v2.png" alt="slogan" /><figcaption>slogan</figcaption>
+</figure>
+</section><section id="camp" class="slide level2">
+<h2>101.camp</h2>
+<blockquote>
+<p>伴你重享自学乐趣</p>
+</blockquote>
+<p>Reactivate Joy by Self-teach with You</p>
+</section><section id="开源框架" class="slide level2">
+<h2>开源框架</h2>
+<blockquote>
+<p>doc.101.camp</p>
+</blockquote>
+</section></section>
+<section><section id="section-1" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="https://ipic.zoomquiet.top/2021-10-15-happyhacking21.jpg" /></p>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/coscon21zh.html">slides.101.camp/coscon21zh</a></p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/2019-09-08-theory101camp_v2.jpg" alt="嗯哼" /><figcaption>嗯哼</figcaption>
+</figure>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>211031 speech</li>
+<li>211013 re-slides</li>
+<li>191102 speech</li>
+<li>191026 pub</li>
+<li>191001 重构</li>
+<li>190910 re-init.</li>
+<li>190801 init.</li>
+</ul>
+</section><section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>不忘初心…</p>
+</blockquote>
+<ul>
+<li>什么是教育?</li>
+<li>什么是编程?</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="coscon/coscon19QA.gif" alt="一个自毁倾向社区的形成" /><figcaption>一个自毁倾向社区的形成</figcaption>
+</figure>
+<p><a href="https://blog.101.camp/NC/190711-NC101-self-destruction//">Blogging 蟒营™ 博客</a></p>
+<pre><code>blog.101.camp/NC/190711-NC101-self-destruction</code></pre>
+<blockquote>
+<p>askdama@googlegroups.com</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

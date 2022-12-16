@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ALL HANDS">
+  <title>DDS4HLF</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/solarized.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">DDS4HLF</h1>
+  <p class="author">ALL HANDS</p>
+  <p class="date">220117 1742</p>
+</section>
+
+<section>
+<section id="hlf" class="title-slide slide level1">
+<h1>HLF</h1>
+
+</section>
+<section id="小结" class="slide level2">
+<h2>小结</h2>
+<blockquote>
+<p>HyperLedger-Fabric</p>
+</blockquote>
+<ul>
+<li class="fragment">210918 触发</li>
+<li class="fragment">211028 minifab</li>
+<li class="fragment">211208 debug-network</li>
+<li class="fragment">211212 golang-api</li>
+<li class="fragment">211215 docker-swarm</li>
+<li class="fragment">220111 双机自营网络+JAVA 合约</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2022-01-17-hlf5o3h3p3ca3couchdb.png" alt="自营网络" /><figcaption aria-hidden="true">自营网络</figcaption>
+</figure>
+</section>
+<section id="目标" class="slide level2">
+<h2>目标</h2>
+<blockquote>
+<p>DevOps</p>
+</blockquote>
+</section></section>
+<section>
+<section id="makefile" class="title-slide slide level1">
+<h1>Makefile</h1>
+
+</section>
+<section id="为什么" class="slide level2">
+<h2>为什么</h2>
+<blockquote>
+<p>每个程序员都有一个终生维护的 Makefile</p>
+</blockquote>
+</section>
+<section id="统一-env" class="slide level2">
+<h2>统一 env</h2>
+<blockquote>
+<p>.sh 和 .mk</p>
+</blockquote>
+<ul>
+<li>问题: 多种脚本间如何共享全局参数?</li>
+<li>解决: ENV</li>
+</ul>
+</section>
+<section id="source" class="slide level2">
+<h2>source</h2>
+<pre><code>#!/bin/bash
+export PS1=&quot;(CFG4HLF)$PS1 \n &quot;
+
+#   HLF HOST abt.
+export HLF_IP4mana0=139.59.233.1
+export HLF_PIPmana0=10.104.0.2
+
+...
+export -f infoln</code></pre>
+</section>
+<section id="yaml模板" class="slide level2">
+<h2>YAML模板?</h2>
+<blockquote>
+<p>.yaml 要动态加载配置</p>
+</blockquote>
+<p>官方并无好办法</p>
+</section>
+<section id="gnu工具" class="slide level2">
+<h2>GNU工具</h2>
+<blockquote>
+<p>envsubst &lt; tpl.yaml &gt; compose.yaml</p>
+</blockquote>
+<pre><code>...
+networks:
+  test:
+    aliases:
+      - cliOrg2.${HLF_aliaDomian}</code></pre>
+</section></section>
+<section>
+<section id="jenkins" class="title-slide slide level1">
+<h1>Jenkins</h1>
+
+</section>
+<section id="主机穿梭" class="slide level2">
+<h2>主机穿梭</h2>
+<blockquote>
+<p>多主机穿透</p>
+</blockquote>
+<pre><code>+- Jenkins 主机
+    +- 目标主机
+    |   |
+    V   +- 目标容器
+    +- 关联主机
+        +- 不同容器</code></pre>
+</section>
+<section id="双层调用" class="slide level2">
+<h2>双层调用</h2>
+<pre><code>ssh hlf1work &lt;&lt;EOF
+cd /opt/mk4hlf ;
+source ./swarm/cfg4hlf.sh ;
+ls -la $HLF_pathChaincode ;
+./swarm/network/scripts/CCup1worker.sh
+EOF</code></pre>
+</section>
+<section id="容器使用" class="slide level2">
+<h2>容器使用</h2>
+<blockquote>
+<p>内外一致</p>
+</blockquote>
+<pre><code>#!/bin/bash
+cd /opt/mk4hlf
+source ./swarm/cfg4hlf.sh 
+...
+export CLIdID=$(docker ps -qf &quot;name=^hlftool_cliOrg2.&quot;)
+...
+docker exec $CLIdID bash -c &quot;pwd ; . ./cfg4hlf.sh ; &quot;</code></pre>
+</section>
+<section id="具体行为" class="slide level2">
+<h2>具体行为</h2>
+<blockquote>
+<p><a href="http://jk.tt.wegox.cn/job/Inspired/job/HLF-chinacode-sandbox/3/console">Inspired » HLF-chinacode-sandbox #4</a></p>
+</blockquote>
+<ul>
+<li class="fragment">Jenkins 触发
+<ul>
+<li class="fragment">进入 manager 主机,同步代码
+<ul>
+<li class="fragment">进入 manager:CLI 容器
+<ul>
+<li class="fragment">对合约: 打包/安装/校验/提交</li>
+</ul></li>
+<li class="fragment">回到主机, 将打包好的合约同步到其它主机</li>
+</ul></li>
+<li class="fragment">进入 worker 主机, 同步代码
+<ul>
+<li class="fragment">进入 worker:CLI 容器
+<ul>
+<li class="fragment">对合约: 安装/校验/提交</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="todo" class="slide level2">
+<h2>TODO</h2>
+<blockquote>
+<p>坑</p>
+</blockquote>
+<ul>
+<li>安装合约</li>
+<li>升级合约</li>
+</ul>
+<blockquote>
+<blockquote>
+<p>关键参数不同</p>
+</blockquote>
+</blockquote>
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/DDS4HLF.html">slides.101.camp/DDS4HLF</a></p>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>220117 4th share</li>
+<li>220109 Weekly</li>
+<li>211219 Weekly</li>
+<li>211212 Weekly</li>
+<li>211205 Weekly</li>
+<li>211128 Weekly</li>
+<li>211121 Weekly</li>
+<li>211114 Weekly</li>
+<li>211031 Weekly</li>
+<li>211024 Weekly</li>
+<li>211017 Weekly</li>
+<li>211010 Weekly</li>
+<li>210926 Weekly</li>
+<li>210912 Weekly</li>
+<li>210905 Weekly</li>
+<li>210829 Weekly</li>
+<li>210822 Weekly</li>
+<li>210808 Weekly</li>
+<li>210801 Weekly</li>
+<li>210725 Weekly</li>
+<li>210718 Weekly</li>
+<li>210711 Weekly</li>
+<li>210704 Weekly</li>
+<li>210627 Weekly</li>
+<li>210620 Weekly</li>
+<li>210615 Weekly</li>
+<li>210606 Weekly</li>
+<li>210530 Weekly</li>
+<li>210523 Weekly</li>
+<li>210513 Weekly</li>
+<li>210509 Weekly</li>
+<li>210425 Weekly</li>
+<li>210418 Weekly</li>
+<li>210411 Weekly</li>
+<li>210322 Weekly</li>
+<li>210329 Weekly</li>
+<li>210315 Weekly</li>
+<li>210308 Weekly</li>
+<li>210228 Weekly</li>
+<li>210222 Weekly</li>
+<li>210218 Weekly</li>
+<li>210208 Weekly</li>
+<li>210201 Weekly</li>
+<li>210125 Weekly</li>
+<li>210118 Weekly</li>
+<li>210111 Weekly</li>
+<li>210103 Weekly</li>
+<li>201228 Weekly</li>
+<li>201221 Weekly</li>
+<li>201214 Weekly</li>
+<li>201207 Weekly</li>
+<li>201130 Weekly</li>
+<li>201123 Weekly</li>
+<li>201120 startUP</li>
+<li>201111 running</li>
+<li>201101 jumpin</li>
+</ul>
+</section>
+<section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

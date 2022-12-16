@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ChaoSharing">
+  <title>Ansible101</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Ansible101</h1>
+  <p class="author">ChaoSharing</p>
+  <p class="date">210507 1742</p>
+</section>
+
+<section><section id="叕" class="title-slide slide level1"><h1>叕</h1></section><section id="ansible" class="slide level2">
+<h2>Ansible</h2>
+<blockquote>
+<p>End’s Game</p>
+</blockquote>
+</section><section id="devops" class="slide level2">
+<h2>DevOps</h2>
+<blockquote>
+<p>问题场景</p>
+</blockquote>
+</section><section id="依赖" class="slide level2">
+<h2>依赖</h2>
+<ul>
+<li>Python</li>
+<li>SSH</li>
+</ul>
+</section><section id="特色" class="slide level2">
+<h2>特色</h2>
+<blockquote>
+<p>not C/S</p>
+</blockquote>
+</section><section id="生态" class="slide level2">
+<h2>生态</h2>
+<blockquote>
+<p>400+ 模块</p>
+</blockquote>
+</section><section id="日常" class="slide level2">
+<h2>日常</h2>
+<blockquote>
+<p>inventory+playbooks</p>
+</blockquote>
+<p>YAML</p>
+</section><section id="e.g." class="slide level2">
+<h2>e.g.</h2>
+<blockquote>
+<p>ansible-playbook -v -i playbook/inventory.ini playbook/frontend_svn2dist.yaml;</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2021-05-07-ScreenShot%202021-05-07%2016.18.40.jpg" /></p>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2021-05-07-ScreenShot%202021-05-07%2016.33.25.jpg" /></p>
+</section><section id="经验" class="slide level2">
+<h2>经验</h2>
+<blockquote>
+<p>幂等</p>
+</blockquote>
+</section></section>
+<section><section id="section" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/QCS21w19.html">slides.101.camp/QCS21w19</a></p>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>210507 ChaoShring</li>
+<li>210312 ChaoShring</li>
+<li>210304 ChaoShring</li>
+<li>210121 ChaoShring</li>
+<li>…</li>
+<li>201120 startUP</li>
+<li>201111 running</li>
+<li>201101 jumpin</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_ask-dama.jpg?imageView2/2/h/420" alt="askdama@googlegroups.com" /><figcaption>askdama@googlegroups.com</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-03-21-wx-zoomquiet.jpg?imageView2/2/w/420" alt="微信+公众号: ZoomQuiet" /><figcaption>微信+公众号: ZoomQuiet</figcaption>
+</figure>
+</section><section id="最有用" class="slide level2">
+<h2>最有用</h2>
+<blockquote>
+<p><a href="https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md">提问的智慧</a></p>
+</blockquote>
+<p>认真嗯哼的技法</p>
+</section><section id="提问" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：最近出现了一个很严重的问题…….</li>
+<li class="fragment">B：什么问题？影响是什么呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：是什么原因呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：有什么解决办法吗？（或是问可能有什么方案吗？）</li>
+</ul>
+</section><section id="提问-1" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么好处呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么不足呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：你认为哪种方案最好呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+</ul>
+<p>B：哪我们就这个方案一起做罢（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+</section><section id="提问-2" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<p>B：哪我们就这个方案一起做罢</p>
+<p>（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

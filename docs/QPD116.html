@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ALL HANDS">
+  <title>QPD116</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">QPD116</h1>
+  <p class="author">ALL HANDS</p>
+  <p class="date">210301 0930</p>
+</section>
+
+<section><section id="怂" class="title-slide slide level1"><h1>怂</h1></section><section id="follow-u-heart" class="slide level2">
+<h2>Follow u heart</h2>
+<blockquote>
+<p>从心而向</p>
+</blockquote>
+</section><section id="dropshipping" class="slide level2">
+<h2>Dropshipping</h2>
+<blockquote>
+<p>跨境电商+物流平台</p>
+</blockquote>
+</section><section id="核心" class="slide level2">
+<h2>核心</h2>
+<p>融合 Presto 全家桶</p>
+<ul>
+<li>Pay</li>
+<li>Member</li>
+<li>WMS/FMX</li>
+<li>…myus</li>
+</ul>
+</section><section id="构成" class="slide level2">
+<h2>构成</h2>
+<ul>
+<li>PD: Presto Direct</li>
+<li>CL: COCORO Life</li>
+<li>TTKUE</li>
+<li>…</li>
+</ul>
+</section><section id="sr" class="slide level2">
+<h2>SR</h2>
+<blockquote>
+<p>基于原有 Shopify 积累</p>
+</blockquote>
+<ul>
+<li>SR: supplier ~ 供应商 支持 体系
+<ul>
+<li>SP: supplier-portal ~ 供应商 社区+门户</li>
+<li>SA: Supplier App. 供应商自助</li>
+</ul></li>
+</ul>
+</section><section id="dm" class="slide level2">
+<h2>DM</h2>
+<p><strong>DM</strong>/Direct Managment</p>
+<blockquote>
+<p>Presto 用,管理后台</p>
+</blockquote>
+<ul>
+<li>Supplier 审核</li>
+<li>Retailer 店群管理</li>
+<li>交易审计/统计/报表/…</li>
+</ul>
+</section><section id="woo" class="slide level2">
+<h2>Woo+</h2>
+<blockquote>
+<p>Retailer 支持体系</p>
+</blockquote>
+<ul>
+<li>WP:woo-portal 零销商:门户</li>
+<li>WS:woo-store 门店
+<ul>
+<li>WN:woo-nest 店巢/门店发布</li>
+</ul></li>
+<li>DA:dropshipper App. 店长后台</li>
+</ul>
+</section><section id="ap" class="slide level2">
+<h2>AP</h2>
+<blockquote>
+<p>Action Proxy ~ 事务代理层</p>
+</blockquote>
+<ul>
+<li>外部接口</li>
+<li>内部结算</li>
+<li>通用支持</li>
+<li>…</li>
+</ul>
+</section><section id="里程碑" class="slide level2">
+<h2>里程碑</h2>
+<blockquote>
+<p>PD: (SP:SA)+(WP:WS+DA)+DM*AP</p>
+</blockquote>
+<ul>
+<li>2月, Supplier 进入</li>
+<li>3月, Retailer 进入</li>
+<li>4月, Buyer 进入</li>
+</ul>
+</section><section id="readme" class="slide level2">
+<h2>README</h2>
+<blockquote>
+<p>公用</p>
+</blockquote>
+<ul>
+<li><code>README</code> ~ 整体任务追踪/团队知识</li>
+<li>内部事务:
+<ul>
+<li>scm 配置管理</li>
+<li>playground 新手村</li>
+</ul></li>
+</ul>
+</section><section id="cl" class="slide level2">
+<h2>CL</h2>
+<blockquote>
+<p>COCORO Life: SHARP委托</p>
+</blockquote>
+<ul>
+<li>BC:Business Cocoro ~ 商用/工单系统
+<ul>
+<li>CCA:COCORO Consumer App. 用户应用<br />
+</li>
+<li>CBA:COCORO Business App. 商家/ASC 应用<br />
+</li>
+</ul></li>
+<li>CMB:COCORO Manage Back-end 后端管理系统</li>
+</ul>
+</section><section id="里程碑-1" class="slide level2">
+<h2>里程碑</h2>
+<blockquote>
+<p>CL:COCORO Life</p>
+</blockquote>
+<ul>
+<li><strong>V2/ 2021.2.25</strong>
+<ul>
+<li>商用Android+客用Android/iOS</li>
+<li>工单+支付?</li>
+<li>Live Chat:客服+推送</li>
+</ul></li>
+</ul>
+</section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_sleep.png?imageView2/2/w/510" alt="Zzz…" /><figcaption>Zzz…</figcaption>
+</figure>
+</section><section id="报复性晩睡" class="slide level2">
+<h2>报复性晩睡</h2>
+<blockquote>
+<p>毫无道理…</p>
+</blockquote>
+</section><section id="不加班" class="slide level2">
+<h2>不加班</h2>
+<blockquote>
+<p>但, 进展良好</p>
+</blockquote>
+</section></section>
+<section><section id="怼" class="title-slide slide level1"><h1>怼</h1></section><section id="right-in-heart" class="slide level2">
+<h2>Right in heart</h2>
+<blockquote>
+<p>对心而诺</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="img/190416got-ride-dragon.jpg" /></p>
+</section><section id="aka" class="slide level2">
+<h2>AKA</h2>
+<blockquote>
+<p>精益团队</p>
+</blockquote>
+<ul>
+<li class="fragment">All</li>
+<li class="fragment"><strong>Know</strong></li>
+<li class="fragment">All</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-12-27-remote-37signals.jpg" alt="remote" /><figcaption>remote</figcaption>
+</figure>
+</section><section id="signals" class="slide level2">
+<h2>37signals</h2>
+<blockquote>
+<p>和 Rework 共读有火腿味儿</p>
+</blockquote>
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2021-01-05-37s-remote123.jpg?imageView2/2/h/420" /></p>
+</section><section id="loop" class="slide level2">
+<h2>LOOP</h2>
+<p><a href="https://git.code.tencent.com/presto/README/wikis/home">最简信息环</a></p>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-12-13-Q-loop.jpg" /></p>
+</section><section id="时间线" class="slide level2">
+<h2>时间线</h2>
+<blockquote>
+<p>宏观</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-12-06-ScreenShot%202020-12-06%2023.24.29.jpg" alt="工程追踪" /><figcaption>工程追踪</figcaption>
+</figure>
+</section><section id="企业微信" class="slide level2">
+<h2>企业微信</h2>
+<blockquote>
+<p>标签化:</p>
+</blockquote>
+<ul>
+<li>[T] ~ Tasks</li>
+<li>[V] ~ Version</li>
+<li>[D] ~ Daily/CodeReview</li>
+<li>[N] ~ Notice</li>
+<li>…</li>
+<li>[F] ~ Finished</li>
+</ul>
+</section><section id="标签化" class="slide level2">
+<h2>标签化</h2>
+<blockquote>
+<p>为搜索</p>
+</blockquote>
+<pre><code>#4XX ~ DA </code></pre>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2021-02-17-wx-ent-search.jpg" alt="DA" /><figcaption>DA</figcaption>
+</figure>
+</section><section id="日常节奏" class="slide level2">
+<h2>日常节奏</h2>
+<blockquote>
+<p>每天…</p>
+</blockquote>
+<ul>
+<li>dev_* =&gt; sandbox
+<ul>
+<li>3+次</li>
+</ul></li>
+<li>0842 ~ 当日计划</li>
+<li>2042 ~ 当天日报</li>
+</ul>
+</section><section id="all-hands" class="slide level2">
+<h2>ALL HANDS</h2>
+<ul>
+<li class="fragment">每周一: 0930~ 全体+本周计划</li>
+</ul>
+</section><section id="对内交付" class="slide level2">
+<h2>对内交付</h2>
+<blockquote>
+<p>原先/现在/未来, 场景演示, 增强信心, 验收成果</p>
+</blockquote>
+<ul>
+<li>每周日: 1100 ~ inner deliver</li>
+<li>每周三: 1642 ~ mid show</li>
+<li>每周五: 1642 ~ quick show</li>
+</ul>
+</section><section id="知识分享" class="slide level2">
+<h2>知识分享</h2>
+<blockquote>
+<p>Chaosharing</p>
+</blockquote>
+<p>每周四: 1742~1800</p>
+<p>准则:</p>
+<ul>
+<li class="fragment">有趣</li>
+<li class="fragment">有料</li>
+<li class="fragment">有种</li>
+</ul>
+</section><section id="向上交付" class="slide level2">
+<h2>向上交付</h2>
+<blockquote>
+<p>PD:</p>
+</blockquote>
+<p>每周四 0930</p>
+</section><section id="cl日常" class="slide level2">
+<h2>CL日常</h2>
+<blockquote>
+<p>每周1+次 向上汇报</p>
+</blockquote>
+<ul>
+<li>每周内部演示:
+<ul>
+<li>周二: 2200</li>
+<li>周五: 2200</li>
+</ul></li>
+</ul>
+</section><section id="mar." class="slide level2">
+<h2>Mar.</h2>
+<blockquote>
+<p>Retailer 试用</p>
+</blockquote>
+<p>PD: SP+SA+WP+WS+DA+DM*AP</p>
+<blockquote>
+<p>接受客户试用</p>
+</blockquote>
+</section><section id="ap-1" class="slide level2">
+<h2>AP</h2>
+<blockquote>
+<p>Action Proxy 实用化:</p>
+</blockquote>
+<ul>
+<li>PrestoPay 开始支持</li>
+<li>Coupon 支持</li>
+<li>复式/计帐开始统计</li>
+<li>交易流水可查询,可报表</li>
+</ul>
+</section><section id="cl-1" class="slide level2">
+<h2>CL</h2>
+<blockquote>
+<p>COCORO Life 一期交付.</p>
+</blockquote>
+<ul>
+<li>admin+iOS+Android</li>
+<li>工单/流程</li>
+<li>支付</li>
+<li>广告/内容</li>
+<li>用户/师傅</li>
+</ul>
+</section><section id="ttkeu" class="slide level2">
+<h2>TTKEU</h2>
+<blockquote>
+<p>H5/手机版 推进ing..</p>
+</blockquote>
+<ul>
+<li>主持</li>
+<li>运维..</li>
+</ul>
+</section><section id="惑而不问" class="slide level2">
+<h2>惑而不问</h2>
+<blockquote>
+<p>最伤团队…</p>
+</blockquote>
+</section><section id="inner-deliver" class="slide level2">
+<h2>inner deliver</h2>
+<blockquote>
+<p>试行: 周末出镜补助</p>
+</blockquote>
+<p>每周日: <strong>对内交付</strong></p>
+<ul>
+<li>当月全参与</li>
+<li>演示1+</li>
+</ul>
+</section><section id="codereview" class="slide level2">
+<h2>CodeReview</h2>
+<blockquote>
+<p>启动</p>
+</blockquote>
+<ul>
+<li>*_dev -&gt; sandbox
+<ul>
+<li>2042 前</li>
+</ul></li>
+<li>sandbox<strong>-&gt;release</strong>/Review
+<ul>
+<li>每晩</li>
+</ul></li>
+<li>release-&gt;master/Deploy</li>
+</ul>
+</section><section id="事事" class="slide level2">
+<h2>事事</h2>
+<blockquote>
+<p>凡事</p>
+</blockquote>
+<ul>
+<li>主动理解是否相关</li>
+<li>相关, 则必有回响</li>
+</ul>
+<blockquote>
+<p>大信息量时如何…</p>
+</blockquote>
+</section></section>
+<section><section id="section" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈-1" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/QPD116.html">slides.101.camp/QPD116</a></p>
+</section><section id="hr" class="slide level2">
+<h2>HR</h2>
+<ul>
+<li class="fragment">20+, touch</li>
+<li class="fragment">5位,面试</li>
+<li class="fragment">1位, 期待</li>
+</ul>
+</section><section id="会议" class="slide level2">
+<h2>会议</h2>
+<ul>
+<li>5+次, 对外</li>
+<li>10+次, 内部</li>
+</ul>
+</section><section id="w10" class="slide level2">
+<h2>21W10</h2>
+<ul>
+<li class="fragment"><strong>年关</strong>:CL/ 交付1期</li>
+<li class="fragment">DevOps/Ansible</li>
+<li class="fragment">Daily/CodeReview</li>
+<li class="fragment">训练节奏</li>
+</ul>
+</section><section id="最有用" class="slide level2">
+<h2>最有用</h2>
+<blockquote>
+<p><a href="https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md">提问的智慧</a></p>
+</blockquote>
+<p>认真嗯哼的技法</p>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>210228 Weekly</li>
+<li>210222 Weekly</li>
+<li>210218 Weekly</li>
+<li>210208 Weekly</li>
+<li>210201 Weekly</li>
+<li>210125 Weekly</li>
+<li>210118 Weekly</li>
+<li>210111 Weekly</li>
+<li>210103 Weekly</li>
+<li>201228 Weekly</li>
+<li>201221 Weekly</li>
+<li>201214 Weekly</li>
+<li>201207 Weekly</li>
+<li>201130 Weekly</li>
+<li>201123 Weekly</li>
+<li>201120 startUP</li>
+<li>201111 running</li>
+<li>201101 jumpin</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_ask-dama.jpg?imageView2/2/h/420" alt="askdama@googlegroups.com" /><figcaption>askdama@googlegroups.com</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-03-21-wx-zoomquiet.jpg?imageView2/2/w/420" alt="微信+公众号: ZoomQuiet" /><figcaption>微信+公众号: ZoomQuiet</figcaption>
+</figure>
+</section><section id="提问" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：最近出现了一个很严重的问题…….</li>
+<li class="fragment">B：什么问题？影响是什么呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：是什么原因呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+<li class="fragment">B：有什么解决办法吗？（或是问可能有什么方案吗？）</li>
+</ul>
+</section><section id="提问-1" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<ul>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么好处呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：这些方案各有什么不足呢？</li>
+<li class="fragment">A：1/2/3/4/…..（此处省过xx字）</li>
+<li class="fragment">B：你认为哪种方案最好呢？</li>
+<li class="fragment">A：…..（此处省过xx字）</li>
+</ul>
+<p>B：哪我们就这个方案一起做罢（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+</section><section id="提问-2" class="slide level2">
+<h2>提问</h2>
+<blockquote>
+<p>7问7答</p>
+</blockquote>
+<p>B：哪我们就这个方案一起做罢</p>
+<p>（或是我们就最好的两个方案再找某人确定最可以执行的方案罢）</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Zoom.Quiet">
+  <title>Pandoc 2 Slide</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Pandoc 2 Slide</h1>
+  <p class="author">Zoom.Quiet</p>
+  <p class="date">181230 1414</p>
+</section>
+
+<section><section id="why" class="title-slide slide level1"><h1>Why</h1></section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+</section><section id="高桥流" class="slide level2">
+<h2>高桥流</h2>
+</section><section id="s5" class="slide level2">
+<h2>S5</h2>
+<ul>
+<li class="fragment">html+js+css</li>
+<li class="fragment">手工 html</li>
+<li class="fragment">rst2s5</li>
+<li class="fragment">markdown -&gt; s5</li>
+</ul>
+</section><section id="嗯哼" class="slide level2">
+<h2>嗯哼</h2>
+<ul>
+<li>更加现代</li>
+<li>更加快捷</li>
+<li>更加…</li>
+</ul>
+</section></section>
+<section><section id="what" class="title-slide slide level1"><h1>What</h1></section><section id="一键生成" class="slide level2">
+<h2>一键生成</h2>
+</section><section id="pages-兼容" class="slide level2">
+<h2>pages 兼容</h2>
+</section><section id="内置模板够美" class="slide level2">
+<h2>内置模板够美</h2>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://0.zoomquiet.top/ZQCollection/infograph/100126-formula-success.png" alt="formula-success）" /><figcaption>formula-success）</figcaption>
+</figure>
+</section></section>
+<section><section id="how" class="title-slide slide level1"><h1>How</h1></section><section id="安装" class="slide level2">
+<h2>安装</h2>
+<ul>
+<li>pip install pandoc</li>
+</ul>
+</section><section id="使用" class="slide level2">
+<h2>使用</h2>
+<pre><code>pandoc pandoc2slide.md \
+    -o pandoc2slide.html \
+    -t revealjs -s</code></pre>
+</section><section id="发布" class="slide level2">
+<h2>发布</h2>
+<ul>
+<li><a href="https://gitlab.com/pages/plain-html/">plain-html · GitLab</a></li>
+</ul>
+</section><section id="todo" class="slide level2">
+<h2>TODO</h2>
+<ul>
+<li class="fragment">自动化</li>
+<li class="fragment">可视化?</li>
+<li class="fragment">定制样式</li>
+<li class="fragment">Slack 结合</li>
+<li class="fragment">…</li>
+</ul>
+</section></section>
+<section><section id="是也乎" class="title-slide slide level1"><h1>是也乎</h1></section><section id="section" class="slide level2">
+<h2>(￣▽￣)</h2>
+<ul>
+<li><a href="https://gitlab.com/pythonicamp/slides">PythoniCamp / slides · GitLab</a></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

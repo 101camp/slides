@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="re-resummary">
+  <title>DDS4HLB</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">DDS4HLB</h1>
+  <p class="author">re-resummary</p>
+  <p class="date">210808 1100</p>
+</section>
+
+<section><section id="自怼" class="title-slide slide level1"><h1>自怼</h1></section><section id="aka" class="slide level2">
+<h2>AKA</h2>
+<blockquote>
+<p>精益团队</p>
+</blockquote>
+<ul>
+<li class="fragment">All</li>
+<li class="fragment"><strong>Know</strong></li>
+<li class="fragment">All</li>
+</ul>
+</section><section id="section" class="slide level2">
+<h2>8.7</h2>
+<blockquote>
+<p>7.31-&gt;8.7 始末</p>
+</blockquote>
+<ul>
+<li class="fragment">0900 …</li>
+<li class="fragment">1100 …</li>
+<li class="fragment">1104 …</li>
+<li class="fragment">1242 …</li>
+<li class="fragment">2342 .</li>
+</ul>
+</section><section id="行动" class="slide level2">
+<h2>行动</h2>
+<blockquote>
+<p>现场</p>
+</blockquote>
+<ul>
+<li>关闭 cloudflare block 规则</li>
+<li>紧急统计支付/库存</li>
+<li>关闭支付</li>
+<li>后续数据弥补</li>
+<li>…</li>
+</ul>
+</section><section id="根源" class="slide level2">
+<h2>根源</h2>
+<blockquote>
+<p>过于乐观</p>
+</blockquote>
+<ul>
+<li>无<strong>意外</strong>预案</li>
+</ul>
+</section><section id="目标" class="slide level2">
+<h2>目标</h2>
+<blockquote>
+<p>任何环节被意外, 客户感知都正常</p>
+</blockquote>
+<pre><code>客户进入 +&gt; WS浏览
+++&gt; WS下单
++++&gt; AP支付 +&gt; PrestoPay
+&lt;+ AP回调 
+&lt;++ AP记录成功 
+&lt;+++ SA同步
+&lt;++++ DA同步
+&lt;+++++ WS同步
+&lt;++++++ WS发送邮件
+&lt;+++++++ 门店显示/拒绝下单</code></pre>
+</section><section id="宏愿" class="slide level2">
+<h2>宏愿</h2>
+<blockquote>
+<p>即使缓慢,也可用<strong>且正确</strong></p>
+</blockquote>
+</section></section>
+<section><section id="section-1" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="goal" class="slide level2">
+<h2>GOAL</h2>
+<blockquote>
+<p>饭碗端漂亮…</p>
+</blockquote>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>210871 re-init.</li>
+<li>210801 init.</li>
+</ul>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/DDS4HLB.html">slides.101.camp/DDS4HLB</a></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

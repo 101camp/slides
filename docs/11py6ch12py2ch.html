@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ch6/2">
+  <meta name="author" content="协调/蟒营®">
+  <title>11+12py</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">11+12py</h1>
+  <p class="author">ch6/2</p>
+  <p class="author">协调/蟒营®</p>
+  <p class="date">201004 2000</p>
+</section>
+
+<section><section id="section" class="title-slide slide level1"><h1>101</h1></section><section id="camp" class="slide level2">
+<h2>Camp</h2>
+<blockquote>
+<p>比来时好</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-10-04-theory101camp_v3.jpg" alt="断言v3" /><figcaption>断言v3</figcaption>
+</figure>
+</section><section id="议程" class="slide level2">
+<h2>议程</h2>
+<blockquote>
+<p>~1.42h</p>
+</blockquote>
+<ul>
+<li class="fragment">11py 周报</li>
+<li class="fragment">WoW 邀请</li>
+<li class="fragment">大妈单口</li>
+</ul>
+</section><section id="camp11py" class="slide level2">
+<h2>101camp11py</h2>
+<blockquote>
+<p>蟒营®编程思维提高班 Python版/11期</p>
+</blockquote>
+<ul>
+<li>发布报名 2020.07.31</li>
+<li>报名截止 2020.08.23</li>
+<li>正式开课 2020.08.30</li>
+<li>课程结束 2020.10.11</li>
+</ul>
+</section><section id="team" class="slide level2">
+<h2>Team</h2>
+<blockquote>
+<p>周报</p>
+</blockquote>
+<ul>
+<li>完成了什么?</li>
+<li>什么没完成? 为什么?</li>
+<li>下周计划?
+<ul>
+<li>需要什么帮助?</li>
+</ul></li>
+<li>有什么内部规约?</li>
+</ul>
+</section><section id="lpythw" class="slide level2">
+<h2>LPYTHW</h2>
+<blockquote>
+<p>笨办法队/6人队 / 11py:<a href="https://gitlab.com/101camp/11py/tasks/-/issues/49">(#49)</a></p>
+</blockquote>
+<ul>
+<li>队长: <span class="citation" data-cites="stevenmjh">@stevenmjh</span></li>
+<li>成员: <span class="citation" data-cites="icex101">@icex101</span> <span class="citation" data-cites="luluzh">@luluzh</span> <span class="citation" data-cites="lele1989">@lele1989</span> <span class="citation" data-cites="mikecheng1992">@mikecheng1992</span> <span class="citation" data-cites="hazelhu">@hazelhu</span></li>
+</ul>
+<blockquote>
+<p>自动生日邮件/automail</p>
+</blockquote>
+</section><section id="小熊" class="slide level2">
+<h2>小熊🐻</h2>
+<blockquote>
+<p>bearbear/4人队/ 11py<a href="https://gitlab.com/101camp/11py/tasks/-/issues/50">(#50)</a></p>
+</blockquote>
+<ul>
+<li>队长: <span class="citation" data-cites="izhangshiying">@izhangshiying</span></li>
+<li>成员: <span class="citation" data-cites="humiaom">@humiaom</span> <span class="citation" data-cites="softsay">@softsay</span> /<span class="citation" data-cites="jianzuo">@jianzuo</span></li>
+</ul>
+</section><section id="wow" class="slide level2">
+<h2>WoW</h2>
+<blockquote>
+<p>预约学员嗯哼…</p>
+</blockquote>
+</section><section id="bc" class="slide level2">
+<h2>BC</h2>
+<blockquote>
+<p>血案(Blood Case)</p>
+</blockquote>
+</section><section id="坚持" class="slide level2">
+<h2>坚持</h2>
+<blockquote>
+<p>嗯哼 12py</p>
+</blockquote>
+<p><span class="citation" data-cites="jingxuanz">@jingxuanz</span> <span class="citation" data-cites="junstudy">@junstudy</span> <span class="citation" data-cites="oneeyeQ">@oneeyeQ</span></p>
+<blockquote>
+<blockquote>
+<p>周/曰报不断</p>
+</blockquote>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-10-04-ScreenShot%202020-10-04%2011.32.18.jpg" /></p>
+</section><section id="没坚持住" class="slide level2">
+<h2>没坚持住</h2>
+<blockquote>
+<p>嗯哼? 12py</p>
+</blockquote>
+<p><span class="citation" data-cites="jiajie101/菲兹">@jiajie101/菲兹</span> <span class="citation" data-cites="wanghua101">@wanghua101</span></p>
+</section><section id="oneeyeq" class="slide level2">
+<h2><span class="citation" data-cites="oneeyeQ">@oneeyeQ</span></h2>
+<blockquote>
+<p>12py:<a href="https://gitlab.com/101camp/12py/tasks/-/issues/17">#17</a></p>
+</blockquote>
+<p>从’傻眼’到<code>累</code></p>
+</section><section id="sm" class="slide level2">
+<h2>SM</h2>
+<blockquote>
+<p>Secret Mission</p>
+</blockquote>
+<p>隐藏任务…</p>
+</section><section id="humiaom" class="slide level2">
+<h2><span class="citation" data-cites="humiaom">@humiaom</span></h2>
+<blockquote>
+<p>11py: 系列嗯哼</p>
+</blockquote>
+<p>团队体会…</p>
+</section><section id="cheatsheet" class="slide level2">
+<h2>CheatSheet</h2>
+<blockquote>
+<p>作弊条</p>
+</blockquote>
+</section><section id="izhangshiying" class="slide level2">
+<h2><span class="citation" data-cites="izhangshiying">@izhangshiying</span></h2>
+<blockquote>
+<p>11py:<a href="https://gitlab.com/101camp/11py/tasks/-/commit/b4a43c59654aa1267aadd5930b52046aea041d86#note_422770719">b4a43c59</a></p>
+</blockquote>
+<p>论抄的艺术…</p>
+</section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_sleep.png?imageView2/2/w/510" alt="Zzz…" /><figcaption>Zzz…</figcaption>
+</figure>
+</section><section id="editor" class="slide level2">
+<h2>Editor</h2>
+<blockquote>
+<p>永远的难题</p>
+</blockquote>
+<ul>
+<li>10py:<a href="https://gitlab.com/101camp/10py/tasks/-/issues/9#note_381656883">#9</a> <span class="citation" data-cites="zhangpei101">@zhangpei101</span></li>
+<li>9py:<a href="https://gitlab.com/101camp/9py/tasks/-/issues/105#note_381764794">#105</a> <span class="citation" data-cites="shanshand">@shanshand</span></li>
+</ul>
+</section><section id="蟒营" class="slide level2">
+<h2>蟒营®</h2>
+<blockquote>
+<p>生存经验..</p>
+</blockquote>
+<ul>
+<li class="fragment">偏见为先</li>
+<li class="fragment">追踪记要</li>
+<li class="fragment">提问为要</li>
+</ul>
+<blockquote>
+<blockquote>
+<p>知行合一</p>
+</blockquote>
+</blockquote>
+</section><section id="camp12py" class="slide level2">
+<h2>101camp12py</h2>
+<blockquote>
+<p>蟒营®编程思维提高班 Python版/12期</p>
+</blockquote>
+<ul>
+<li>发布报名 2020.08.30</li>
+<li>报名截止 2020.09.21</li>
+<li>正式开课 2020.09.27</li>
+<li>课程结束 2020.11.08</li>
+</ul>
+<h3 id="破冰">破冰</h3>
+<blockquote>
+<p>灵魂三怼:</p>
+</blockquote>
+<ul>
+<li class="fragment">你是谁?</li>
+<li class="fragment">从哪来?</li>
+<li class="fragment">为何来?</li>
+</ul>
+<h3 id="吐糟">吐糟</h3>
+<blockquote>
+<p>血泪教训</p>
+</blockquote>
+<p>蟒营®生存指北</p>
+</section></section>
+<section><section id="怂" class="title-slide slide level1"><h1>怂</h1></section><section id="follow-u-heart" class="slide level2">
+<h2>Follow u heart</h2>
+<blockquote>
+<p>从心而向</p>
+</blockquote>
+</section><section id="主动学习" class="slide level2">
+<h2>主动学习</h2>
+<blockquote>
+<p>蟒营®设计理念</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-08-09-Learning-Pyramid-synap.jpg" /></p>
+</section><section id="蟒营-1" class="slide level2">
+<h2>蟒营®</h2>
+<blockquote>
+<p>是什么?</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>半</strong>永久<strong>自学习型</strong>社区</li>
+</ul>
+</section><section id="you" class="slide level2">
+<h2>YOU</h2>
+<blockquote>
+<p>唯一在乎的..</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-10-04-theory101camp_v3.jpg" alt="断言v3" /><figcaption>断言v3</figcaption>
+</figure>
+</section><section id="答" class="slide level2">
+<h2>答</h2>
+<p>问题-&gt; <strong>?</strong> -&gt;答案</p>
+</section><section id="问" class="slide level2">
+<h2>问</h2>
+<blockquote>
+<p>大妈总是爱用疑问句回复</p>
+</blockquote>
+<p>DAMA-style</p>
+</section><section id="然后" class="slide level2">
+<h2>然后?</h2>
+<blockquote>
+<p>蟒营®不消失..</p>
+</blockquote>
+<ul>
+<li class="fragment">仓库</li>
+<li class="fragment">Slack</li>
+<li class="fragment">ggroups</li>
+<li class="fragment">微信群</li>
+<li class="fragment">askdama@googlegroups.com</li>
+<li class="fragment">…</li>
+</ul>
+</section><section id="关键是" class="slide level2">
+<h2>关键是:</h2>
+<blockquote>
+<p>你<strong>想</strong>开发什么?</p>
+</blockquote>
+</section><section id="如何调试" class="slide level2">
+<h2>如何调试?</h2>
+<blockquote>
+<p>什么是程序?</p>
+</blockquote>
+</section><section id="打印大法" class="slide level2">
+<h2>打印大法</h2>
+<blockquote>
+<p>print()</p>
+</blockquote>
+<p>观察一切</p>
+</section><section id="pprint" class="slide level2">
+<h2><a href="https://docs.python.org/zh-cn/3.8/library/pprint.html">pprint</a></h2>
+<blockquote>
+<p>数据美化输出</p>
+</blockquote>
+<pre><code>&gt;&gt;&gt; from pprint import pprint as pp
+&gt;&gt;&gt; stuff = [&#39;spam&#39;, &#39;eggs&#39;, &#39;lumberjack&#39;, &#39;knights&#39;, &#39;ni&#39;]
+&gt;&gt;&gt; pp.(stuff)
+[   &#39;spam&#39;,
+    &#39;eggs&#39;,
+    &#39;lumberjack&#39;,
+    &#39;knights&#39;,
+    &#39;ni&#39;]</code></pre>
+</section><section id="dir" class="slide level2">
+<h2>dir()</h2>
+<blockquote>
+<p>自省一切</p>
+</blockquote>
+</section><section id="type" class="slide level2">
+<h2>type()</h2>
+<blockquote>
+<p>数据检验</p>
+</blockquote>
+</section><section id="冷冻疗法" class="slide level2">
+<h2>冷冻疗法</h2>
+<blockquote>
+<p>定位问题, 加速调试</p>
+</blockquote>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="cf">for</span> i <span class="kw">in</span> data:</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">    do1st(i)</a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">    do2en(i)</a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">    do3rd(i)</a>
+<a class="sourceLine" id="cb2-5" data-line-number="5">    ...</a></code></pre></div>
+</section><section id="break" class="slide level2">
+<h2>break</h2>
+<blockquote>
+<p>提前中断</p>
+</blockquote>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="cf">for</span> i <span class="kw">in</span> data:</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2">    <span class="co">#do1st(i)</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3">    do2en(i)</a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">    <span class="cf">break</span></a>
+<a class="sourceLine" id="cb3-5" data-line-number="5">    do3rd(i)</a>
+<a class="sourceLine" id="cb3-6" data-line-number="6">    ...</a></code></pre></div>
+</section><section id="saft-loop" class="slide level2">
+<h2>saft loop</h2>
+<blockquote>
+<p>限定次数</p>
+</blockquote>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb4-1" data-line-number="1">_loop <span class="op">=</span> <span class="dv">4</span></a>
+<a class="sourceLine" id="cb4-2" data-line-number="2"><span class="cf">for</span> i <span class="kw">in</span> data:</a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">    _loop <span class="op">-=</span> <span class="dv">1</span></a>
+<a class="sourceLine" id="cb4-4" data-line-number="4">    <span class="cf">if</span> _loop <span class="op">&lt;=</span> <span class="dv">0</span>: <span class="cf">break</span></a>
+<a class="sourceLine" id="cb4-5" data-line-number="5">    <span class="co">#do1st(i)</span></a>
+<a class="sourceLine" id="cb4-6" data-line-number="6">    do2en(i)</a>
+<a class="sourceLine" id="cb4-7" data-line-number="7">    <span class="cf">continue</span></a>
+<a class="sourceLine" id="cb4-8" data-line-number="8">    do3rd(i)</a>
+<a class="sourceLine" id="cb4-9" data-line-number="9">    ...</a></code></pre></div>
+</section><section id="return" class="slide level2">
+<h2>return</h2>
+<blockquote>
+<p>提前退出</p>
+</blockquote>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">def</span> main():</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">    <span class="co">#do1st(i)</span></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3">    do2en(i)</a>
+<a class="sourceLine" id="cb5-4" data-line-number="4">    <span class="cf">return</span> <span class="va">None</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5">    do3rd(i)</a>
+<a class="sourceLine" id="cb5-6" data-line-number="6">    ...</a></code></pre></div>
+</section><section id="缓存" class="slide level2">
+<h2>缓存</h2>
+<blockquote>
+<p>减少不必要的网络请求</p>
+</blockquote>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="cf">for</span> b_name <span class="kw">in</span> branches:</a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">    url <span class="op">=</span> <span class="st">&#39;https://gitlab.com/api/v4/..&#39;</span></a>
+<a class="sourceLine" id="cb6-3" data-line-number="3">    <span class="co">#r = requests.get(url + b_name, headers = {&quot;PRIVATE-TOKEN&quot;: pt})</span></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4">    _json <span class="op">=</span> <span class="st">&#39;</span><span class="sc">%s</span><span class="st">.josn&#39;</span><span class="op">%</span>b_name</a>
+<a class="sourceLine" id="cb6-5" data-line-number="5">    information <span class="op">=</span> json.load(<span class="bu">open</span>(_json,<span class="st">&#39;r&#39;</span>).read()) <span class="co">#r.json() </span></a>
+<a class="sourceLine" id="cb6-6" data-line-number="6">    ...</a>
+<a class="sourceLine" id="cb6-7" data-line-number="7">    <span class="cf">for</span> cid <span class="kw">in</span> information:</a>
+<a class="sourceLine" id="cb6-8" data-line-number="8">        ...</a></code></pre></div>
+</section><section id="加速探索" class="slide level2">
+<h2>加速探索</h2>
+<p>即时, 高频:</p>
+<pre><code>编写
+ ^  `-&gt; 运行
+ |      `-&gt; 观察
+ |           /
+ +-- 修正 &lt;-+</code></pre>
+</section><section id="눈_눈-1" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_sleep.png?imageView2/2/w/510" alt="Zzz…" /><figcaption>Zzz…</figcaption>
+</figure>
+</section><section id="报复性晩睡" class="slide level2">
+<h2>报复性晩睡</h2>
+<blockquote>
+<p>毫无道理…</p>
+</blockquote>
+</section></section>
+<section><section id="怼" class="title-slide slide level1"><h1>怼</h1></section><section id="right-in-heart" class="slide level2">
+<h2>Right in heart</h2>
+<blockquote>
+<p>对心而诺</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="img/190416got-ride-dragon.jpg" /></p>
+</section><section id="如何撰写商业计划书" class="slide level2">
+<h2><a href="https://book.douban.com/subject/27143772/">如何撰写商业计划书</a></h2>
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-01-05-ScreenShot%202020-01-05%2014.45.58.jpg" /></p>
+</section><section id="业务背景" class="slide level2">
+<h2>业务背景</h2>
+<blockquote>
+<p>市场</p>
+</blockquote>
+<p>对手/客户/渠道/趋势/优势/壁垒/…</p>
+</section><section id="运营团队" class="slide level2">
+<h2>运营团队</h2>
+<blockquote>
+<p>为什么是我们?</p>
+</blockquote>
+<p>组织/流程/管控/…</p>
+</section><section id="商业提案" class="slide level2">
+<h2>商业提案</h2>
+<blockquote>
+<p>如何发展?</p>
+</blockquote>
+<p>成本/预测/平衡/时间计划/退出计划/…</p>
+</section><section id="机密" class="slide level2">
+<h2>机密</h2>
+<blockquote>
+<p>核心竞争力?</p>
+</blockquote>
+<p>机会/风险/法律/时机/…</p>
+</section><section id="故事" class="slide level2">
+<h2>故事</h2>
+<blockquote>
+<p>最关键部分…</p>
+</blockquote>
+<p>开发计划不是商业预算</p>
+<ul>
+<li>有趣</li>
+<li>有用</li>
+<li>有种</li>
+</ul>
+</section><section id="눈_눈-2" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="img/autism_临场性自闭.png" alt="BC" /><figcaption>BC</figcaption>
+</figure>
+</section></section>
+<section><section id="section-1" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈-3" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/11py6ch12py2ch.html">slides.101.camp/11py6ch12py2ch</a></p>
+</section><section id="课程升格" class="slide level2">
+<h2>课程升格</h2>
+<blockquote>
+<p><a href="https://mp.weixin.qq.com/s/HDXkcqLcwcnIoTDwCm0yLQ">蟒营®/ 为什么编程思维不用学就有?</a></p>
+</blockquote>
+<ul>
+<li>成功报名一位学员,兑换专属42分钟1v1</li>
+<li>有效期42个月</li>
+<li>可转赠,可积累合并</li>
+<li>不限Python 技术内容</li>
+<li>嘦提前42小时预约</li>
+</ul>
+</section><section id="元人" class="slide level2">
+<h2>2642元/人</h2>
+<blockquote>
+<p>提高优惠:</p>
+</blockquote>
+<ul>
+<li><strong>10.10 之前</strong> -800</li>
+<li>在校 -1,000</li>
+<li>有推荐 -500</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-09-25-reg-zip.jpg" alt="第13期" /><figcaption>第13期</figcaption>
+</figure>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>201004 pub-&gt;11+12py</li>
+<li>200927 pub-&gt;11+12py</li>
+<li>200830 pub-&gt;10+11py</li>
+<li>200823 pub-&gt;10py</li>
+<li>200816 pub-&gt;10py</li>
+<li>200809 pub-&gt;9+10py</li>
+<li>200726 pub-&gt;9+10py</li>
+<li>200621 pub-&gt;8py</li>
+<li>200426 pub-&gt;6+7py</li>
+<li>200315 pub-&gt;5py</li>
+<li>191130 pub</li>
+<li>191129 re-init.</li>
+<li>190922 fix-mapping</li>
+<li>190921 pub</li>
+<li>190919 re-init.</li>
+<li>190727 pub</li>
+<li>190721 init.</li>
+<li>190427 for 1py</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_ask-dama.jpg?imageView2/2/h/420" alt="askdama@googlegroups.com" /><figcaption>askdama@googlegroups.com</figcaption>
+</figure>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-04-26-7py-slowslowing.jpeg?imageView2/2/h/420" /></p>
+</section><section id="统一id" class="slide level2">
+<h2>统一ID</h2>
+<blockquote>
+<p>微信/gitlab/Slack 统一</p>
+</blockquote>
+<p>马甲只是情趣…</p>
+</section><section id="slack" class="slide level2">
+<h2>Slack</h2>
+<ul>
+<li class="fragment">? 微信</li>
+<li class="fragment">? QQ</li>
+<li class="fragment"><a href="http://blog.zhgdg.org/2013-06/anti-qq-as-tech-communication/">为什么不应该使用QQ进行技术交流</a></li>
+</ul>
+</section><section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>什么是蟒营?</p>
+</blockquote>
+<p>不忘初心…</p>
+</section><section id="googlegroups" class="slide level2">
+<h2>GoogleGroups</h2>
+<ul>
+<li><a href="http://blog.zhgdg.org/2014-02/email-kaopulity-guider/">电邮靠谱指南</a></li>
+<li><a href="http://blog.zhgdg.org/2014-02/livin-gmail-guider/">Gmail 生活指南</a></li>
+<li><a href="http://blog.csdn.net/lanphaday/article/details/850059">程序员必知必会之Email篇</a></li>
+<li><a href="http://blog.csdn.net/lanphaday/article/details/1669326">程序员必知必会之maillist篇</a></li>
+</ul>
+</section><section id="团队节奏" class="slide level2">
+<h2>团队节奏?</h2>
+<blockquote>
+<p>什么是团队?</p>
+</blockquote>
+<p>问题在 <code>参差</code> 的行为是无法形成团队的</p>
+<pre><code>Coming together is a beginning; 
+Keeping together is progress; 
+Working together is success!</code></pre>
+<p>— <a href="https://www.brainyquote.com/quotes/quotes/h/henryford121997.html">Henry Ford</a></p>
+<h3 id="加强沟通">加强沟通</h3>
+<blockquote>
+<p>什么是沟通?</p>
+</blockquote>
+<ul>
+<li>互通有无</li>
+<li>达成共识</li>
+</ul>
+<h3 id="团队效能">团队效能</h3>
+<blockquote>
+<p>什么是效能?</p>
+</blockquote>
+<ul>
+<li>单位时间里交付工件数量</li>
+</ul>
+</section><section id="不问之醉" class="slide level2">
+<h2>不问之醉</h2>
+<blockquote>
+<p>研究, 不可能的…</p>
+</blockquote>
+<h3 id="levels">Levels</h3>
+<blockquote>
+<p>知识层级</p>
+</blockquote>
+<h4 id="unknow-unknow">Unknow Unknow</h4>
+<blockquote>
+<p>不知己不知</p>
+</blockquote>
+<h4 id="unknow-know">Unknow Know</h4>
+<blockquote>
+<p>不知己知何</p>
+</blockquote>
+<h4 id="know-knowed">Know Knowed</h4>
+<blockquote>
+<p>知己何已知</p>
+</blockquote>
+<h4 id="know-unknow">Know Unknow</h4>
+<blockquote>
+<p>知己何不知</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="http://ydlj.zoomquiet.top/ipic/2020-03-15-jiagu-ke.jpg?imageView2/2/w/360" /></p>
+<p><a href="https://mp.weixin.qq.com/s/sYTdj0r9b9WTDJBYCkae3w">拙见/ 什么是网课?</a></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

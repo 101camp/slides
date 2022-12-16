@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="OSCAR’22/开源文化">
+  <title>PEP之道</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/solarized.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">PEP之道</h1>
+  <p class="author">OSCAR’22/开源文化</p>
+  <p class="date">220916 1442</p>
+</section>
+
+<section>
+<section id="但行" class="title-slide slide level1">
+<h1>但行</h1>
+
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-08-OSCAR22logo.jpg" /></p>
+</section>
+<section id="pascal" class="slide level2">
+<h2>Pascal</h2>
+<blockquote>
+<p>大二</p>
+</blockquote>
+</section>
+<section id="c" class="slide level2">
+<h2>C</h2>
+<blockquote>
+<p>大三</p>
+</blockquote>
+</section>
+<section id="cjava" class="slide level2">
+<h2>C++JAVA</h2>
+<blockquote>
+<p>大四</p>
+</blockquote>
+<p>Think in JAVA</p>
+</section>
+<section id="actionscript" class="slide level2">
+<h2>ActionScript</h2>
+<blockquote>
+<p>1999, 常州利诚通讯</p>
+</blockquote>
+<p>Flash -&gt;</p>
+</section>
+<section id="php" class="slide level2">
+<h2>PHP</h2>
+<blockquote>
+<p>2000, 上海讯博数码科技</p>
+</blockquote>
+<p>ASP -&gt;</p>
+</section>
+<section id="nucleuscms" class="slide level2">
+<h2>NucleusCMS</h2>
+<blockquote>
+<p>2001</p>
+</blockquote>
+<p>Blogging</p>
+</section>
+<section id="zope" class="slide level2">
+<h2>Zope</h2>
+<blockquote>
+<p>2002~07</p>
+</blockquote>
+<p>CZUG</p>
+<blockquote>
+<blockquote>
+<p>Plone 1.0</p>
+</blockquote>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/2004-0930-effeBDragon.png"
+alt="2004-0930-effeBDragon" />
+<figcaption aria-hidden="true">2004-0930-effeBDragon</figcaption>
+</figure>
+</section>
+<section id="linux" class="slide level2">
+<h2>Linux</h2>
+<blockquote>
+<p>2005~ Ubuntu</p>
+</blockquote>
+<p>日用</p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg" /></p>
+</section>
+<section id="python" class="slide level2">
+<h2>Python</h2>
+<blockquote>
+<p>2003~ 啄木鸟</p>
+</blockquote>
+<ul>
+<li>mailman</li>
+<li>MoinMoin 1.4.*</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg"
+alt="GDD+guido" />
+<figcaption aria-hidden="true">GDD+guido</figcaption>
+</figure>
+</section>
+<section id="freebsd" class="slide level2">
+<h2>FreeBSD</h2>
+<blockquote>
+<p>2004 ~ SINA.com</p>
+</blockquote>
+<p>CPUG</p>
+</section>
+<section id="erlang" class="slide level2">
+<h2>Erlang</h2>
+<blockquote>
+<p>2007 ~ 金山</p>
+</blockquote>
+<ul>
+<li>ECUG</li>
+<li><a href="https://github.com/ZoomQuiet/erlbattle">erlbattle</a></li>
+<li>2010-&gt;实效云用户组</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/0711-ecug-ii-bw.jpg" alt="ECUG II" />
+<figcaption aria-hidden="true">ECUG II</figcaption>
+</figure>
+</section>
+<section id="sociallearnlab.org" class="slide level2">
+<h2>sociallearnlab.org</h2>
+<blockquote>
+<p>教育大发现 2008 ~ 2013</p>
+</blockquote>
+<p><a href="#/?">社区顾问</a></p>
+</section>
+<section id="开源卫士" class="slide level2">
+<h2><a href="http://code.ijinshan.com/">开源卫士</a></h2>
+<blockquote>
+<p>2012~13 49期讲座</p>
+</blockquote>
+<ul>
+<li>golang</li>
+<li>node.js</li>
+<li>OpenResty</li>
+<li>crx.</li>
+<li>SAE</li>
+<li>…</li>
+</ul>
+</section>
+<section id="dart" class="slide level2">
+<h2>Dart</h2>
+<blockquote>
+<p>2013 ~ GDG 珠海</p>
+</blockquote>
+<p>AngularJS ..</p>
+</section>
+<section id="scheme" class="slide level2">
+<h2>Scheme</h2>
+<blockquote>
+<p>2017</p>
+</blockquote>
+<p>LISP..Haskell</p>
+</section>
+<section id="typescript" class="slide level2">
+<h2>TypeScript</h2>
+<blockquote>
+<p>2018 … Flutter</p>
+</blockquote>
+</section>
+<section id="tfug-珠海" class="slide level2">
+<h2>TFUG 珠海</h2>
+<blockquote>
+<p>190214 ~ AI 落地</p>
+</blockquote>
+<ul>
+<li>TersnorFlow</li>
+<li>Keras</li>
+<li>FAST.ai</li>
+<li>…</li>
+</ul>
+</section>
+<section id="rust" class="slide level2">
+<h2>Rust</h2>
+<blockquote>
+<p>2019</p>
+</blockquote>
+<p>尝鲜…</p>
+</section>
+<section id="hyperledger" class="slide level2">
+<h2>Hyperledger</h2>
+<blockquote>
+<p>2021</p>
+</blockquote>
+<p>Fabric/Cello/…</p>
+</section>
+<section id="smalltalk" class="slide level2">
+<h2>Smalltalk</h2>
+<blockquote>
+
+</blockquote>
+</section>
+<section id="未来" class="slide level2">
+<h2>未来</h2>
+<blockquote>
+<p>.. 好奇什么, 就学什么</p>
+</blockquote>
+</section></section>
+<section>
+<section id="好事" class="title-slide slide level1">
+<h1>好事</h1>
+
+</section>
+<section id="开发" class="slide level2">
+<h2>开发</h2>
+<blockquote>
+<p>本分</p>
+</blockquote>
+<ul>
+<li>3D 动画</li>
+<li>职业顿悟</li>
+<li>…</li>
+</ul>
+</section>
+<section id="管理" class="slide level2">
+<h2>管理</h2>
+<blockquote>
+<p>过程改进</p>
+</blockquote>
+<p>用<strong>技术</strong>改善<strong>技术人</strong>生活品质</p>
+</section>
+<section id="写作" class="slide level2">
+<h2>写作</h2>
+<blockquote>
+<p>爱好</p>
+</blockquote>
+<p>22CC</p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/090902-lovpy.jpg" alt="2009" />
+<figcaption aria-hidden="true">2009</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/s20773481-rwipy.png?imageView2/2/h/510"
+alt="2013" />
+<figcaption aria-hidden="true">2013</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_export_now.jpg" alt="输出是更残酷的输入" />
+<figcaption aria-hidden="true">输出是更残酷的输入</figcaption>
+</figure>
+</section>
+<section id="社区" class="slide level2">
+<h2>社区</h2>
+<blockquote>
+<p>GNU 感召</p>
+</blockquote>
+<ul>
+<li class="fragment">进入</li>
+<li class="fragment">理解</li>
+<li class="fragment">服务</li>
+<li class="fragment">发起</li>
+<li class="fragment">策划</li>
+<li class="fragment">etc.</li>
+</ul>
+</section>
+<section id="社群" class="slide level2">
+<h2>社群</h2>
+<blockquote>
+<p>社区群落 ~&gt; 领域流量</p>
+</blockquote>
+<ul>
+<li>有关联</li>
+<li>场景向</li>
+<li>自运营</li>
+<li>…</li>
+</ul>
+</section>
+<section id="自怼" class="slide level2">
+<h2>自怼</h2>
+<blockquote>
+<p>DebugUself</p>
+</blockquote>
+<p>有心无心,自然聚集</p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_use-the-force.jpg" alt="the force…" />
+<figcaption aria-hidden="true">the force…</figcaption>
+</figure>
+</section>
+<section id="分享" class="slide level2">
+<h2>分享</h2>
+<blockquote>
+<p>有好东西一定给小朋友们分享</p>
+</blockquote>
+</section></section>
+<section>
+<section id="莫问" class="title-slide slide level1">
+<h1>莫问</h1>
+
+</section>
+<section id="民主" class="slide level2">
+<h2>民主</h2>
+<blockquote>
+<p>如何统一意见?</p>
+</blockquote>
+</section>
+<section id="开会" class="slide level2">
+<h2>开会?</h2>
+<blockquote>
+<p><a href="https://book.douban.com/subject/10768965/">为公益而共和
+(2012)</a></p>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://img3.doubanio.com/view/subject/l/public/s11275840.jpg" /></p>
+</section>
+<section id="罗规" class="slide level2">
+<h2>罗规</h2>
+<p><a href="https://book.douban.com/subject/2382433/">罗伯特议事规则
+(2000)</a></p>
+<blockquote>
+<p>1876 ~ 第10版</p>
+</blockquote>
+<p>Robert’s Rules of Order Newly Revised</p>
+</section>
+<section id="程序正义" class="slide level2">
+<h2>程序正义</h2>
+<blockquote>
+<p>协商流程</p>
+</blockquote>
+<p>Proposals Process</p>
+</section>
+<section id="pep" class="slide level2">
+<h2>PEP</h2>
+<blockquote>
+<p>Python 增进提案</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>P</strong>ython</li>
+<li class="fragment"><strong>E</strong>nhancement</li>
+<li class="fragment"><strong>P</strong>roposals</li>
+</ul>
+</section>
+<section id="rfc" class="slide level2">
+<h2>RFC</h2>
+<blockquote>
+<p>请求意见稿</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong><em>R</em></strong>equest</li>
+<li class="fragment"><strong><em>f</em></strong>or</li>
+<li class="fragment"><strong><em>C</em></strong>omments</li>
+<li class="fragment"><a
+href="https://www.rfc-editor.org/">RFC-editor.org</a>
+<ul>
+<li class="fragment">1969 ..<a
+href="https://www.ietf.org/rfc/rfc9309.html">RFC 9309: Robots Exclusion
+Protocol</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="同类" class="slide level2">
+<h2>同类</h2>
+<ul>
+<li class="fragment"><a href="https://wiki.php.net/rfc">PHP:
+rfc</a></li>
+<li class="fragment"><a href="https://openjdk.org/jeps/0">JEP 0: JEP
+Index</a></li>
+<li class="fragment"><a
+href="https://www.open-std.org/jtc1/sc22/wg21/docs/papers/">C++
+Standards Committee Papers</a></li>
+<li class="fragment"><a
+href="https://github.com/ghc-proposals/ghc-proposals">ghc-proposals</a></li>
+<li class="fragment"><a
+href="https://github.com/rust-lang/rfcs">rust-lang/rfcs</a></li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="pep程序" class="slide level2">
+<h2>PEP程序</h2>
+<blockquote>
+<p><a href="https://github.com/python/peps/blob/main/pep-0001.txt">PEP 1
+– PEP Purpose and Guidelines</a></p>
+</blockquote>
+<ul>
+<li>类型:
+<ul>
+<li>I - Informational PEP</li>
+<li>P - Process PEP</li>
+<li>S - Standards Track PEP</li>
+</ul></li>
+<li>状态: A|D|F|P|R|S|W</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><a href="https://peps.python.org/_images/process_flow.svg"><img
+data-src="https://ipic.zoomquiet.top/2022-09-12-zshot%202022-09-12%2021.43.59.jpg" /></a></p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-12-zshot%202022-09-12%2021.46.31.jpg" /></p>
+</section>
+<section id="pep流程" class="slide level2">
+<h2>PEP流程</h2>
+<blockquote>
+<p><a href="https://datatracker.ietf.org/doc/html/rfc2822.html">RFC
+2822</a></p>
+</blockquote>
+<ul>
+<li class="fragment">提交:<a href="https://github.com/python/peps">PEP
+repository</a></li>
+<li class="fragment">讨论:<a
+href="https://mail.python.org/mailman3/lists/python-dev.python.org/">Python-Dev</a></li>
+</ul>
+</section>
+<section id="pep经典" class="slide level2">
+<h2>PEP经典</h2>
+<ul>
+<li class="fragment">PEP 0 ~ 索引</li>
+<li class="fragment">PEP 1 ~ 定义</li>
+<li class="fragment">PEP 8 ~ 编码规范</li>
+<li class="fragment">PEP 20 ~ 蟒之禅</li>
+<li class="fragment">PEP 202 ~ 列表生成式</li>
+<li class="fragment">PEP 3115 ~ 元类</li>
+<li class="fragment">PEP 8000 ~ BDFL退休</li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="pep8" class="slide level2">
+<h2>PEP8</h2>
+<blockquote>
+<p>Guido van Rossum ..:05-Jul-2001</p>
+</blockquote>
+<ul>
+<li>PEP8</li>
+<li>pylint</li>
+<li>flake8</li>
+<li>pylama</li>
+<li>black</li>
+<li>autopep8</li>
+<li>..</li>
+<li>ruff</li>
+</ul>
+</section>
+<section id="pep之道" class="slide level2">
+<h2>PEP之道</h2>
+<blockquote>
+<p>将思考公开</p>
+</blockquote>
+</section></section>
+<section>
+<section id="前程" class="title-slide slide level1">
+<h1>前程</h1>
+
+</section>
+<section id="aristotle" class="slide level2">
+<h2>Aristotle</h2>
+<blockquote>
+<p>“For the things we have to learn before we can do them, we learn by
+doing them.”</p>
+</blockquote>
+</section>
+<section id="亚里士多德" class="slide level2">
+<h2>亚里士多德</h2>
+<blockquote>
+<p>“我们通过做来学习</p>
+<p>我们必须学习去做的…”</p>
+</blockquote>
+<p>~ 伦理学</p>
+</section>
+<section id="开源社区" class="slide level2">
+<h2>开源社区</h2>
+<blockquote>
+<p>敏捷项目式过程</p>
+</blockquote>
+<ul>
+<li>定期迭代</li>
+<li>代码共享</li>
+<li>站立会议</li>
+<li>…</li>
+</ul>
+</section>
+<section id="开源教育" class="slide level2">
+<h2>开源教育</h2>
+<blockquote>
+<p>目标应该是什么?</p>
+</blockquote>
+</section>
+<section id="热情" class="slide level2">
+<h2>热情</h2>
+<p>兴趣和内在动机才是长期坚持的动力</p>
+<ul>
+<li class="fragment">教育不是灌输, 而是<strong>点燃</strong>火熖</li>
+<li class="fragment">教育最有效的方法不是告诉答案,</li>
+<li class="fragment">而是向他们提问!</li>
+<li class="fragment"><pre><code>--- Σωκράτης (Socrates)</code></pre></li>
+</ul>
+</section>
+<section id="编程" class="slide level2">
+<h2>编程</h2>
+<blockquote>
+<p>如何是会编程?</p>
+</blockquote>
+<ul>
+<li class="fragment">能自信
+<ul>
+<li class="fragment">将问题分解为</li>
+<li class="fragment">当前能力范畴内</li>
+<li class="fragment">子问题序列</li>
+</ul></li>
+</ul>
+</section>
+<section id="pep-1" class="slide level2">
+<h2>PEP?</h2>
+<blockquote>
+<p>我们如何PEP?</p>
+</blockquote>
+<p>理解 ~ 翻译</p>
+<ul>
+<li class="fragment"><a
+href="https://github.com/chinesehuazhou/peps-cn">chinesehuazhou/peps-cn:
+对官方PEP（Python增强提案）的中文翻译</a></li>
+<li class="fragment"><a
+href="https://github.com/icexmoon/PEP-CN">icexmoon/PEP-CN: PEP Chinese
+Translation Project</a></li>
+<li class="fragment"><a
+href="https://www.python.org/dev/peps/pep-0282/">willshua/PEP:
+PEP(Python Enhancement Proposals)的中文翻译</a></li>
+<li class="fragment">…10个?</li>
+</ul>
+</section>
+<section id="pep.." class="slide level2">
+<h2>PEP..</h2>
+<blockquote>
+<p>我们如何PEP?</p>
+</blockquote>
+<ul>
+<li class="fragment">推广</li>
+<li class="fragment">撰写: I,S</li>
+<li class="fragment">复用: 其它场景中…</li>
+</ul>
+</section>
+<section id="ep" class="slide level2">
+<h2>*EP</h2>
+<blockquote>
+<p>*增进提案</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>L</strong>EP ~
+<strong>人生</strong>增进提案</li>
+</ul>
+</section></section>
+<section>
+<section id="section-1" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-08-OSCAR22words.jpg" /></p>
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a
+href="http://slides.101.camp/OSCAR22PEP.html">slides.101.camp/OSCAR22PEP</a></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_ask-dama.jpg?imageView2/2/h/420"
+alt="askdama@googlegroups.com" />
+<figcaption
+aria-hidden="true">askdama@<strong>g</strong>oogle<strong>g</strong>roups.com</figcaption>
+</figure>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>220916 speech</li>
+<li>220912 Slides done</li>
+<li>220907 re-re-init.</li>
+<li>211013 re-slides</li>
+<li>191001 重构</li>
+<li>190910 re-init.</li>
+<li>190801 init.</li>
+</ul>
+</section>
+<section id="蟒营style" class="slide level2">
+<h2>蟒营™style</h2>
+<blockquote>
+<p>框架志趣</p>
+</blockquote>
+<ul>
+<li>AKA 环境</li>
+<li>节奏任务</li>
+<li>协同互助</li>
+<li>自学自爱</li>
+</ul>
+</section>
+<section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>不忘初心…</p>
+</blockquote>
+<ul>
+<li>什么是教育?</li>
+<li>什么是编程?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/coscon19QA.gif" alt="一个自毁倾向社区的形成" />
+<figcaption aria-hidden="true">一个自毁倾向社区的形成</figcaption>
+</figure>
+<p><a
+href="https://blog.101.camp/NC/190711-NC101-self-destruction//">Blogging
+蟒营™ 博客</a></p>
+<pre><code>blog.101.camp/NC/190711-NC101-self-destruction</code></pre>
+<blockquote>
+<p>askdama@googlegroups.com</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

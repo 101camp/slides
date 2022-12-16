@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="ch0.沉浸-&gt;蟒营™">
+  <title>101camp5py</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">101camp5py</h1>
+  <p class="author">ch0.沉浸-&gt;蟒营™</p>
+  <p class="date">200301 2042</p>
+</section>
+
+<section><section id="section" class="title-slide slide level1"><h1>101</h1></section><section id="camp" class="slide level2">
+<h2>Camp</h2>
+<blockquote>
+<p>比来时好</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2019-09-08-theory101camp_v2.jpg" alt="嗯哼" /><figcaption>嗯哼</figcaption>
+</figure>
+</section><section id="intro." class="slide level2">
+<h2>intro.</h2>
+<blockquote>
+<p>uself</p>
+</blockquote>
+<ul>
+<li>你是谁?</li>
+<li>在哪儿?</li>
+<li>为什么参加蟒营?</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="img/autism_临场性自闭.png" alt="BC" /><figcaption>BC</figcaption>
+</figure>
+</section><section id="wow" class="slide level2">
+<h2>WoW</h2>
+<blockquote>
+<p>预约学员嗯哼…</p>
+</blockquote>
+</section><section id="kittypang" class="slide level2">
+<h2><span class="citation" data-cites="kittypang">@kittypang</span></h2>
+<blockquote>
+<p>老老老师姐经验</p>
+</blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/21">【FAQ】为什么成为资深复读生 (#21)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/7">[FAQ] 如何通过 SSH 无口令访问 git 仓库? (#7)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/9">[FAQ] tasks.wiki 的SHA ID在哪里找到？ (#9)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/10">[FAQ] 蟒营™课程最简 git 操作指北 (#10)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/36">[Info] 处理git冲突 (#36)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/28">[init.] 共创《Learn Python the Hard Way》学习笔记</a>…</p>
+</section><section id="juliazh" class="slide level2">
+<h2><span class="citation" data-cites="juliazh">@juliazh</span></h2>
+<blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/2">[LOG] 每日课程用时日报 (#2)</a></p>
+</blockquote>
+<p>日报坚持经验?</p>
+</section><section id="gargoyle101" class="slide level2">
+<h2><span class="citation" data-cites="gargoyle101">@gargoyle101</span></h2>
+<blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/46#note_296169616">push命令遇到的坑们 (#46)</a></p>
+</blockquote>
+<p>对抗焦虑的有效办法?</p>
+</section><section id="bc" class="slide level2">
+<h2>BC</h2>
+<blockquote>
+<p>血案(Blood Case)</p>
+</blockquote>
+</section><section id="msyixin" class="slide level2">
+<h2><span class="citation" data-cites="msyixin">@msyixin</span></h2>
+<blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/20">[FAQ]如何判断和检验仓库的公开程度？ (#20)</a></p>
+</blockquote>
+<p>克服视而不见的最小经验</p>
+<p>=&gt; .<a href="https://gitlab.com/101camp/5py/tasks/issues/11">[inti] yixin的起点</a></p>
+</section><section id="panic" class="slide level2">
+<h2>panic</h2>
+<ul>
+<li>git 中目录的迷思</li>
+<li>探索中:
+<ul>
+<li>什么最累?</li>
+<li>什么最吓人?</li>
+<li>什么最有用?</li>
+</ul></li>
+</ul>
+</section><section id="sm" class="slide level2">
+<h2>SM</h2>
+<blockquote>
+<p>Secret Mission</p>
+</blockquote>
+<p>隐藏任务…</p>
+</section><section id="heyi" class="slide level2">
+<h2><span class="citation" data-cites="heyi">@heyi</span></h2>
+<blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/6">[FAQ] orphan 分支的创建和删除 (#6)</a></p>
+</blockquote>
+<p>首触SM 体验</p>
+</section><section id="cheatsheet" class="slide level2">
+<h2>CheatSheet</h2>
+<blockquote>
+<p>作弊条</p>
+</blockquote>
+</section><section id="shankai2018" class="slide level2">
+<h2><span class="citation" data-cites="shankai2018">@shankai2018</span></h2>
+<blockquote>
+<p>大量品质教程撰写经验</p>
+</blockquote>
+<p><a href="https://gitlab.com/101camp/5py/tasks/issues/24">[FAQ]Minimalist-git-tutorial (#24)</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/29">[FAQ] How2RewritingHistory</a> / <a href="https://gitlab.com/101camp/5py/tasks/issues/33">[Summary]求助问题汇总一览(蟒营速通攻略)</a> / …</p>
+</section><section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_sleep.png?imageView2/2/w/510" alt="Zzz…" /><figcaption>Zzz…</figcaption>
+</figure>
+</section></section>
+<section><section id="怂" class="title-slide slide level1"><h1>怂</h1></section><section id="follow-u-heart" class="slide level2">
+<h2>Follow u heart</h2>
+<blockquote>
+<p>从心而向</p>
+</blockquote>
+</section><section id="节奏" class="slide level2">
+<h2>节奏</h2>
+<blockquote>
+<p>rhythm</p>
+</blockquote>
+</section><section id="习惯" class="slide level2">
+<h2>习惯</h2>
+<blockquote>
+<p>4周+</p>
+</blockquote>
+</section><section id="weekly" class="slide level2">
+<h2>weekly</h2>
+<blockquote>
+<p>任务是核心的核心</p>
+</blockquote>
+</section><section id="周日" class="slide level2">
+<h2>周日</h2>
+<blockquote>
+<p>2042 zoom.us</p>
+</blockquote>
+<ul>
+<li>WoW</li>
+<li>单口/要点/…</li>
+<li>Q&amp;A</li>
+</ul>
+</section><section id="周一" class="slide level2">
+<h2>周一</h2>
+<blockquote>
+<p>2042 周刊发布</p>
+</blockquote>
+<ul>
+<li>内部刊物</li>
+<li>活性/工量</li>
+<li>责编 -&gt; 全体</li>
+<li>撰稿 -&gt; 日常
+<ul>
+<li>例会 Issue 回复</li>
+</ul></li>
+</ul>
+</section><section id="周三" class="slide level2">
+<h2>周三</h2>
+<blockquote>
+<p>2000-&gt;2042</p>
+</blockquote>
+<p>定长答疑</p>
+</section><section id="daily" class="slide level2">
+<h2>daily</h2>
+<blockquote>
+<p>嗯哼</p>
+</blockquote>
+<ul>
+<li>固定时间
+<ul>
+<li>10+小时/周</li>
+</ul></li>
+<li>解决问题</li>
+<li>持续记录</li>
+<li>认真交流</li>
+</ul>
+</section><section id="d0" class="slide level2">
+<h2>d0</h2>
+<blockquote>
+<p>每周从星期日开始</p>
+</blockquote>
+<p>修整/新任务</p>
+</section><section id="d1" class="slide level2">
+<h2>d1</h2>
+<blockquote>
+<p>破解</p>
+</blockquote>
+<p>分析/理解/定义</p>
+</section><section id="d2" class="slide level2">
+<h2>d2</h2>
+<blockquote>
+<p>探索</p>
+</blockquote>
+<p>搜索/查阅/规划</p>
+</section><section id="d3" class="slide level2">
+<h2>d3</h2>
+<blockquote>
+<p>检验</p>
+</blockquote>
+<p>探索/实验/决策</p>
+</section><section id="d4" class="slide level2">
+<h2>d4</h2>
+<blockquote>
+<p>实现</p>
+</blockquote>
+<p>开发/测试/迭代</p>
+</section><section id="d5" class="slide level2">
+<h2>d5</h2>
+<blockquote>
+<p>作品</p>
+</blockquote>
+<p>迭代/优化/文档</p>
+</section><section id="d6" class="slide level2">
+<h2>d6</h2>
+<blockquote>
+<p>生活</p>
+</blockquote>
+<p>窜门/炫耀/休息</p>
+</section><section id="环境" class="slide level2">
+<h2>环境</h2>
+<blockquote>
+<p>gitlab -&gt; 用之, 弗学</p>
+</blockquote>
+<ul>
+<li>微信群/zoom …触发/救急</li>
+<li>Issue -&gt; 发问/起/记录/…
+<ul>
+<li>repo. -&gt; 追踪/协同/原稿/…</li>
+<li>Wiki -&gt; 交付/沉淀/复用/..</li>
+</ul></li>
+<li>Slack -&gt; 日常嗯哼/提醒</li>
+<li>ggroups -&gt; 异步嗯哼/提醒/发布/通知</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://ydlj.zoomquiet.top/ipic/2020-03-01-infocycle5py.jpg?imageView2/2/h/420" alt="信息环" /><figcaption>信息环</figcaption>
+</figure>
+</section></section>
+<section><section id="怼" class="title-slide slide level1"><h1>怼</h1></section><section id="right-in-heart" class="slide level2">
+<h2>Right in heart</h2>
+<blockquote>
+<p>对心而诺</p>
+</blockquote>
+</section><section class="slide level2">
+
+<p><img data-src="img/190416got-ride-dragon.jpg" /></p>
+</section><section id="为什么" class="slide level2">
+<h2>为什么?</h2>
+<blockquote>
+<p>蟒营™</p>
+</blockquote>
+</section><section id="自学力" class="slide level2">
+<h2>自学力</h2>
+<blockquote>
+<p>汉语</p>
+</blockquote>
+</section><section id="学校" class="slide level2">
+<h2>学校</h2>
+<blockquote>
+<p>产业工人</p>
+</blockquote>
+<ul>
+<li class="fragment">努力</li>
+<li class="fragment">服从</li>
+<li class="fragment">沉默</li>
+</ul>
+</section><section id="现实" class="slide level2">
+<h2>现实:</h2>
+<ul>
+<li class="fragment">互联网无限</li>
+<li class="fragment">业余精力有限</li>
+<li class="fragment">网络课程简单</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="img/HU-mis-learn.PNG" alt="嗯哼…" /><figcaption>嗯哼…</figcaption>
+</figure>
+</section><section id="如何学" class="slide level2">
+<h2>如何学?</h2>
+<blockquote>
+<p>什么是“学会”? 学会, 什么…</p>
+</blockquote>
+</section><section id="学习如何学" class="slide level2">
+<h2>学习如何学</h2>
+<blockquote>
+<p>self-teching</p>
+</blockquote>
+<p>编程是门手艺</p>
+</section><section id="aristotle" class="slide level2">
+<h2>Aristotle</h2>
+<blockquote>
+<p>“For the things we have to learn before we can do them, we learn by doing them.”</p>
+</blockquote>
+</section><section id="亚里士多德" class="slide level2">
+<h2>亚里士多德</h2>
+<blockquote>
+<p>“我们通过做来学习</p>
+<p>我们必须学习去做的…”</p>
+</blockquote>
+<p>~ 伦理学</p>
+</section><section id="编程" class="slide level2">
+<h2>编程</h2>
+<blockquote>
+<p>Pythonic</p>
+</blockquote>
+</section><section id="教练" class="slide level2">
+<h2>教练</h2>
+<blockquote>
+<p>助教 ~= 导游</p>
+</blockquote>
+</section><section id="最困难" class="slide level2">
+<h2>最困难?</h2>
+<ul>
+<li class="fragment">不懂</li>
+<li class="fragment">不理解</li>
+<li class="fragment">不敢</li>
+<li class="fragment">不…</li>
+</ul>
+</section><section id="可检验" class="slide level2">
+<h2>可检验</h2>
+<p>即时, 高频:</p>
+<pre><code>编写
+ ^  `-&gt; 运行
+ |      `-&gt; 观察
+ |           /
+ +-- 修正 &lt;-+</code></pre>
+</section><section class="slide level2">
+
+<p><img data-src="http://zidian.kxue.com/static/zy/xz/8AB2.gif" /></p>
+<p><a href="http://wiki.zoomquiet.io/IMHO/om-what-is-ke">什么是“课”?</a></p>
+</section><section id="什么是" class="slide level2">
+<h2>什么是:</h2>
+<blockquote>
+<p>入门?</p>
+</blockquote>
+<ul>
+<li class="fragment">师傅领进门</li>
+<li class="fragment">修行靠个人</li>
+</ul>
+</section><section id="领" class="slide level2">
+<h2>领</h2>
+<blockquote>
+<p>为什么不是教?</p>
+</blockquote>
+</section><section id="门" class="slide level2">
+<h2>门?</h2>
+<blockquote>
+<p>在哪儿?</p>
+</blockquote>
+<ul>
+<li class="fragment">身是菩提树</li>
+<li class="fragment">心如明镜台</li>
+<li class="fragment">时时勤拂拭</li>
+<li class="fragment">莫使有尘埃</li>
+</ul>
+</section><section id="惠能" class="slide level2">
+<h2>惠能</h2>
+<ul>
+<li class="fragment">菩提本无树</li>
+<li class="fragment">明镜亦非台</li>
+<li class="fragment">本来无一物</li>
+<li class="fragment">何处惹尘埃</li>
+</ul>
+</section><section id="醉点" class="slide level2">
+<h2>醉点</h2>
+<blockquote>
+<p>罪之礼称…</p>
+</blockquote>
+</section><section id="视而不见" class="slide level2">
+<h2>视而不见</h2>
+<blockquote>
+<p>最大原醉</p>
+</blockquote>
+</section><section id="最帮助" class="slide level2">
+<h2>最帮助?</h2>
+<blockquote>
+<p>点穴</p>
+</blockquote>
+<p>重新发现自己</p>
+</section><section id="可检验-1" class="slide level2">
+<h2>可检验</h2>
+<p>即时, 高频:</p>
+<pre><code>编写
+ ^  `-&gt; 运行
+ |      `-&gt; 观察
+ |           /
+ +-- 修正 &lt;-+</code></pre>
+</section><section class="slide level2">
+
+<p><img data-src="http://zidian.kxue.com/static/zy/xz/8AB2.gif" /></p>
+<p><a href="http://wiki.zoomquiet.io/IMHO/om-what-is-ke">什么是“课”?</a></p>
+</section><section id="正确打开" class="slide level2">
+<h2>正确打开</h2>
+<blockquote>
+<p>蟒营™</p>
+</blockquote>
+<ul>
+<li><a href="https://blog.101.camp/DM/191220-DM16-IMHO-bing-pang-now/">DM16: 在蟒营™练习编程就象打乒乓 — 蟒营™ 怂怼录</a></li>
+<li><a href="https://mp.weixin.qq.com/s/M8ohtFi-vFtq1XDQ0tnOYA">Guido van Rossum 谈 Python 如何使代码思考变得更容易</a></li>
+<li>…</li>
+</ul>
+</section><section id="最有用" class="slide level2">
+<h2>最有用</h2>
+<blockquote>
+<p><a href="https://github.com/DebugUself/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md">提问的智慧</a></p>
+</blockquote>
+<p>认真嗯哼的技法</p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="http://openmindclub.zoomquiet.top/res/KEEP/kcn_ask-dama.jpg?imageView2/2/h/420" alt="askdama@googlegroups.com" /><figcaption>askdama@googlegroups.com</figcaption>
+</figure>
+</section></section>
+<section><section id="section-1" class="title-slide slide level1"><h1>(￣▽￣)</h1></section><section id="눈_눈-1" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>提醒</p>
+</blockquote>
+</section><section id="统一id" class="slide level2">
+<h2>统一ID</h2>
+<blockquote>
+<p>微信/gitlab/Slack 统一</p>
+</blockquote>
+<p>马甲只是情趣…</p>
+</section><section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>什么是蟒营?</p>
+</blockquote>
+<p>不忘初心…</p>
+</section><section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a href="http://slides.101.camp/5py0ch.html">slides.101.camp/5py0ch</a></p>
+</section><section class="slide level2">
+
+<figure>
+<img data-src="https://ipic.zoomquiet.top/2019-09-08-theory101camp_v2.jpg" alt="嗯哼" /><figcaption>嗯哼</figcaption>
+</figure>
+</section><section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>200229 re-init.</li>
+<li>191130 pub</li>
+<li>191129 re-init.</li>
+<li>190922 fix-mapping</li>
+<li>190921 pub</li>
+<li>190919 re-init.</li>
+<li>190727 pub</li>
+<li>190721 init.</li>
+<li>190427 for 1py</li>
+</ul>
+</section><section class="slide level2">
+
+<p><img data-src="img/info_the-learning-pyramid.png" /></p>
+</section><section id="levels" class="slide level2">
+<h2>Levels</h2>
+<blockquote>
+<p>知识层级</p>
+</blockquote>
+<h3 id="unknow-unknow">Unknow Unknow</h3>
+<blockquote>
+<p>不知己不知</p>
+</blockquote>
+<h3 id="unknow-know">Unknow Know</h3>
+<blockquote>
+<p>不知己知何</p>
+</blockquote>
+<h3 id="know-knowed">Know Knowed</h3>
+<blockquote>
+<p>知己何已知</p>
+</blockquote>
+<h3 id="know-unknow">Know Unknow</h3>
+<blockquote>
+<p>知己何不知</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
