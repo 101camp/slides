@@ -7,17 +7,33 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
-<v t="zoomq.20220612212104.791"><vh>QPythoniCamp</vh>
-<v t="zoomq.20220612212104.792"><vh>@auto QPyCamp109.md</vh></v>
-<v t="zoomq.20220622110325.1"><vh>@auto QPyCamp108.md</vh></v>
-<v t="zoomq.20220612212104.813"><vh>@auto QPyCamp107.md</vh></v>
-<v t="zoomq.20220612212104.832"><vh>@auto QPyCamp106.md</vh></v>
-<v t="zoomq.20220612212104.850"><vh>@auto QPyCamp105.md</vh></v>
-<v t="zoomq.20220612212104.868"><vh>@auto QPyCamp104.md</vh></v>
-<v t="zoomq.20220612212104.885"><vh>@auto QPyCamp103.md</vh></v>
-<v t="zoomq.20220612212104.902"><vh>@auto QPyCamp102.md</vh></v>
-<v t="zoomq.20220612212104.919"><vh>@auto QPyCamp101.md</vh></v>
-<v t="zoomq.20220612212104.939"><vh>@auto QPyCamp10g.md</vh></v>
+<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
+<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
+<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
+<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
+<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
+<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
+<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
+<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
+<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.2"><vh>speech</vh>
+<v t="zoomq.20220907220414.1"><vh>@auto pandoc2slide.md</vh></v>
+<v t="zoomq.20221216220428.1"><vh>&gt;&gt;&gt;</vh></v>
+<v t="zoomq.20221216211009.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
+<v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
+<v t="zoomq.20220925102350.1"><vh>@auto OSCAR22PEP.md</vh></v>
+<v t="zoomq.20220612212104.3"><vh>@auto ctalk220908gdgzh.md</vh></v>
+<v t="zoomq.20220831213740.1"><vh>@auto coscon21dama.md</vh></v>
+<v t="zoomq.20220612212104.64"><vh>@auto coscon21zh.md</vh></v>
+<v t="zoomq.20220612212104.131"><vh>@auto coscup21.md</vh></v>
+<v t="zoomq.20220612212104.220"><vh>@auto iscas425.md</vh></v>
+<v t="zoomq.20220612212104.309"><vh>@auto geek2py.md</vh></v>
+<v t="zoomq.20220612212104.409"><vh>@auto oss20doc.md</vh></v>
+<v t="zoomq.20220612212104.487"><vh>@auto openi19sz.md</vh></v>
+<v t="zoomq.20220612212104.560"><vh>@auto pycon19nn.md</vh></v>
+<v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
+<v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.960"><vh>com.QUSEIT</vh>
 <v t="zoomq.20220612212104.961"><vh>DDS2022</vh>
@@ -129,22 +145,17 @@
 <v t="zoomq.20220612212104.3833"><vh>@auto QCS21w10.md</vh></v>
 <v t="zoomq.20220612212104.3864"><vh>@auto QCS21w4.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.2"><vh>speech</vh>
-<v t="zoomq.20221216211009.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
-<v t="zoomq.20220907220414.1"><vh>@auto kitty4demo.md</vh></v>
-<v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
-<v t="zoomq.20220925102350.1"><vh>@auto OSCAR22PEP.md</vh></v>
-<v t="zoomq.20220612212104.3"><vh>@auto ctalk220908gdgzh.md</vh></v>
-<v t="zoomq.20220831213740.1"><vh>@auto coscon21dama.md</vh></v>
-<v t="zoomq.20220612212104.64"><vh>@auto coscon21zh.md</vh></v>
-<v t="zoomq.20220612212104.131"><vh>@auto coscup21.md</vh></v>
-<v t="zoomq.20220612212104.220"><vh>@auto iscas425.md</vh></v>
-<v t="zoomq.20220612212104.309"><vh>@auto geek2py.md</vh></v>
-<v t="zoomq.20220612212104.409"><vh>@auto oss20doc.md</vh></v>
-<v t="zoomq.20220612212104.487"><vh>@auto openi19sz.md</vh></v>
-<v t="zoomq.20220612212104.560"><vh>@auto pycon19nn.md</vh></v>
-<v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
-<v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
+<v t="zoomq.20220612212104.791"><vh>QPythoniCamp</vh>
+<v t="zoomq.20220612212104.792"><vh>@auto QPyCamp109.md</vh></v>
+<v t="zoomq.20220622110325.1"><vh>@auto QPyCamp108.md</vh></v>
+<v t="zoomq.20220612212104.813"><vh>@auto QPyCamp107.md</vh></v>
+<v t="zoomq.20220612212104.832"><vh>@auto QPyCamp106.md</vh></v>
+<v t="zoomq.20220612212104.850"><vh>@auto QPyCamp105.md</vh></v>
+<v t="zoomq.20220612212104.868"><vh>@auto QPyCamp104.md</vh></v>
+<v t="zoomq.20220612212104.885"><vh>@auto QPyCamp103.md</vh></v>
+<v t="zoomq.20220612212104.902"><vh>@auto QPyCamp102.md</vh></v>
+<v t="zoomq.20220612212104.919"><vh>@auto QPyCamp101.md</vh></v>
+<v t="zoomq.20220612212104.939"><vh>@auto QPyCamp10g.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
 <v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
@@ -192,16 +203,6 @@
 <v t="zoomq.20220612212104.6187"><vh>🐻的注视</vh>
 <v t="zoomq.20220612212104.6188"><vh>[22CC](https://github.com/DebugUself/du4proto/issues/653)</vh></v>
 </v>
-</v>
-<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
-<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
-<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
-<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
-<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
-<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
-<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
-<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
-<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.6298"><vh>101camp15py</vh>
 <v t="zoomq.20220612212104.6299"><vh>@auto 15py3ch.md</vh></v>
@@ -1145,5 +1146,6 @@ https://git.code.tencent.com/presto/README/issues/6
 
 </t>
 <t tx="zoomq.20220612212104.961">2022 ~ intra. meeting</t>
+<t tx="zoomq.20221216220428.1"></t>
 </tnodes>
 </leo_file>
