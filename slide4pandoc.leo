@@ -20,7 +20,8 @@
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
 <v t="zoomq.20220907220414.1"><vh>@auto pandoc2slide.md</vh></v>
 <v t="zoomq.20221216220428.1"><vh>&gt;&gt;&gt;</vh></v>
-<v t="zoomq.20221216211009.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
+<v t="zoomq.20221224142948.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
+<v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
 <v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
 <v t="zoomq.20220925102350.1"><vh>@auto OSCAR22PEP.md</vh></v>
 <v t="zoomq.20220612212104.3"><vh>@auto ctalk220908gdgzh.md</vh></v>
@@ -37,7 +38,8 @@
 </v>
 <v t="zoomq.20220612212104.960"><vh>com.QUSEIT</vh>
 <v t="zoomq.20220612212104.961"><vh>DDS2022</vh>
-<v t="zoomq.20220612212104.962"><vh>@auto DDS196.md</vh></v>
+<v t="zoomq.20220612212104.962"><vh>@auto DDS197.md</vh></v>
+<v t="zoomq.20221219083514.1"><vh>@auto DDS196.md</vh></v>
 <v t="zoomq.20221211194427.1"><vh>@auto DDS195.md</vh></v>
 <v t="zoomq.20221204215820.1"><vh>@auto DDS194.md</vh></v>
 <v t="zoomq.20221128005438.1"><vh>@auto DDS193.md</vh></v>
