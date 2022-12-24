@@ -5,199 +5,56 @@
 # 但行
 
 
-## 大学
-> 课本
+## 出生
+>- 0~医院:10++
+>- 1~3幼儿园:30+
+>- 3~6托儿所:40+
 
->- Pascal
->- C
->- C++(毕业设计)
+## 学校
+>- 小学:60+
+>- 中学:50+
+>- 大学:40+
 
-## 自学
-> 就业向
+## 社会
+>- 上海:50+
+>- 北京:1500+
+>- 珠海:3000+
 
->- PhotoShop
->- 3DMAX
->- CoreDraw
->- Illustrator
->- ...
-
-## 常州
-> 利诚通讯
-
->- Flah/ActionScript
->- PHP
-
-## 上海
-> 讯博数码科技
-
->- ASP
->- Dreamwaver
->- XML/XSL/CSS/JS/...
+## 团队
+>- KS:10+
+>- uSEE:1+
+>- ~:20+
 
 ## 社区
-> blogging
+>- CPyUG:10K+
+>- GDG珠海:1K+
+>- 自怼圈:300+
 
->- NucleusCMS
->- Plone
->- Zope
->- CZUG
-
-
--------
-
-![2004-0930-effeBDragon](coscon/2004-0930-effeBDragon.png)
-
-## Python
-> 2003~ 啄木鸟
-
-- mailman
-- MoinMoin 1.4.*
-
-
--------
-
-![GDD+guido](https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg)
-
-## 北京
-> SINA.com
-
->- PHP/CVS管理器
->- FreeBSD
->- Linux
-
-## Ubuntu
-> 2005~ 
-
-日用
-
-
--------
-
-![](https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg)
-
-## CPUG
-> 2005 ~ 
-
->- BPUG
-
-## Erlang
-> 2007 ~ 金山
-
-- ECUG
-- [erlbattle](https://github.com/ZoomQuiet/erlbattle)
-- 2010->实效云用户组
-
--------
-
-![ECUG II](coscon/0711-ecug-ii-bw.jpg)
-
-## sociallearnlab.org
-> 教育大发现 2008 ~ 2013
-
-[社区顾问](#?)
-
-## [开源卫士](http://code.ijinshan.com/)
-> 2012~13 49期讲座
-
-- golang
-- node.js
-- OpenResty
-- crx.
-- SAE
-- ...
-
-## Dart
-> 2013 ~ GDG 珠海
-
-
-AngularJS ..
-
-## Scheme
-> 2017
-
-LISP..Haskell
-
-## TypeScript
-> 2018 ... Flutter
-
-## TFUG 珠海
-> 190214 ~ AI 落地
-
-- TersnorFlow
-- Keras
-- FAST.ai
-- ...
-
-## Rust
-> 2019
-
-尝鲜...
-
-## Hyperledger
-> 2021
-
-Fabric/FISCO BCOS/...
-
-## Smalltalk
-> Glamorous Toolkit
-
-## 反正
-> .. 好奇什么, 就学什么
-
->- Flet
+## 项目
+>- OBP: "可能的Python" 30+中国
+>- GDG: 1000+ 全球240+城市
+>- Leo: 626+ 全球
+>- 蟒营®: 400+ 全球
 
 # 好事
 
 
-## 开发
-> 本分
-
->- 3D 动画
->- 职业顿悟
->- ...
-
-## 管理
+## 觉悟
 > 过程改进
 
 用**技术**改善**技术人**生活品质
 
-## 写作
-> 爱好
-
-22CC
-
-------
-
-![2009](coscon/090902-lovpy.jpg)
-
-
-------
-
-![2013](coscon/s20773481-rwipy.png?imageView2/2/h/510)
-
-
-
--------
-
-![输出是更残酷的输入](coscon/kcn_export_now.jpg)
-
 ## 社区
 > GNU 感召
 
-> - 进入
-> - 理解
-> - 服务
-> - 发起
-> - 策划
-> - etc.
+> - 开发
+> - 测试
+> - 文档
+> - 运维
+> - 布道
 
-## 社群
-> 社区群落 ~> 领域流量
-
-- 有关联
-- 场景向
-- 自运营
-- ...
+## 分享
+> 有好东西一定给小朋友们分享
 
 ## 自怼
 > DebugUself
@@ -208,9 +65,6 @@ Fabric/FISCO BCOS/...
 ------
 
 ![the force...](coscon/kcn_use-the-force.jpg)
-
-## 分享
-> 有好东西一定给小朋友们分享
 
 # 莫问
 
@@ -223,16 +77,6 @@ Fabric/FISCO BCOS/...
 
 >- 1078p
 >- 打印机故事...
-
-## 社区/共同体
-> 相对四固
-
-[关 乎社群:1 什么是社区?](https://devrel.101.camp/2014-02/ac1-zq/)
-
-> - 相对固定的人
-> - 相对固定的场景
-> - 相对固定的目标
-> - 相对固定的行动
 
 ## WEB3
 > != Web1+Web2
@@ -247,33 +91,49 @@ Fabric/FISCO BCOS/...
 
 ~ 伦理学
 
-## 社区的意义
-> 共同学习/玩耍空间
+## 社区/共同体
+> 相对四固
 
-## 社区从哪儿来
-> 如果没有...
+[关 乎社群:1 什么是社区?](https://devrel.101.camp/2014-02/ac1-zq/)
 
-> - 那就建立一个
+> - 相对固定的人
+> - 相对固定的场景
+> - 相对固定的目标
+> - 相对固定的行动
 
-## 基础设施
-> 老四样
+## 分布式
+> 不限制时空
+
+>- 找到最合适的人
+>- 和最优秀的人一起工作
+
+## 合规
+> 各国法律
+
+## 一件套
+> GitHub
 
 > - 仓库
 > - Issue
 > - wiki
 > - 列表
 
-## 一件套
-> GitHub
+## SOP
+> 标准作业程序
+
+>- 如果没有...
+>- 如果不够好...
+>- ...等等,SOP 是怎么来的?
+
+## WIKI
+> 什么是 wiki ?
+
+
+>- [wiki 不是任何人都可以用的! | Zoom.Quiet Personal Static Wiki](https://wiki.zoomquiet.io/IMHO/dont-use-wiki)
+>- 同理,分布式团队并不适合所有人...
 
 # 前程
 
-
-## 然后?
-> 开始享受.. 直到
-
-> - 永远
-> - 或是无趣
 
 ## 灵魂三问
 > 社区也一样
@@ -281,41 +141,6 @@ Fabric/FISCO BCOS/...
 > - 你是谁? ~ 成员
 > - 从哪来? ~ 问题
 > - 要去哪? ~ 目标
-
-## 状态三问
-> 来自 DUKU
-
-> - 本来是什么样?
-> - 应该是什么样?
-> - 最好是什么样?
-
-## 不忘
-> 初心...始终
-
-as livin
-
-## 长期组织
-> 共有/共享/共治/共建
-
-> - 策划
-> - 组织
-> - 主持
-> - 报道
-> - 推广
-
-## 自我成长
-> 社区本质
-
-> - 可持续发展...
-> - 新人->组织者
-> - 上海GDG
-
-## 经济基础
-> 企业本质
-
->- 赢利
->- 赢利
->- 赢利
 
 ## 靠谱
 > Kaopulity
@@ -340,13 +165,62 @@ as livin
 >- 成功的总是有各种唯一的**奇迹**
 >- 失败却多数有**相同**的失败之处
 
+## 自我成长
+> 社区本质
+
+> - 可持续发展...
+> - 新人->组织者
+
+## 长期组织
+> 共有/共享/共治/共建
+
+> - 策划
+> - 组织
+> - 主持
+> - 报道
+> - 推广
+
+## 经济基础
+> 企业本质
+
+>- 赢利
+>- 赢利
+>- 赢利
+
+## 不忘
+> 初心...始终
+
+as livin
+
+## 劳动力
+> Tina Ferguson 经验:
+
+>- 找对人
+>- 立团队
+>- 定过程
+>- 12-18 个月内融入团队
+
+## 状态三问
+> 来自 DUKU
+
+> - 本来是什么样?
+> - 应该是什么样?
+> - 最好是什么样?
+
+## 团队
+> Henry Ford
+
+>- Coming together is a beginning; 
+>- Keeping together is progress; 
+>- Working together is success.
+
 # (￣▽￣)
 
 
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/a16zWEB3DAO9](http://slides.101.camp/a16zWEB3DAO9.html)
+[slides.101.camp/a16zWEB3DAO10](http://slides.101.camp/a16zWEB3DAO10.html)
 
 
 ----
@@ -356,16 +230,17 @@ as livin
 ## 是也乎
 
 
-- 221216 public
-- 221215 append
-- 221212 init.
+- 221224 public
+- 221222 append
+- 221219 init.
 
 ## 눈_눈
 > QA
 
->- 0: 是程序员嘛? 如果不是,我能理解程序员嘛?
->- 1: 从以往经历总结, WEB3 将是开发者驱动的嘛?为什么?
->- 2: 以后,准备学习编程嘛? 如果没有计划, 那么项目需要技术社区参与时,如何高效接近这个群体?
+>- 0: 招聘过成员嘛? 解聘过成员嘛? 自己更加擅长哪种?
+>- 1: 以往供职过几家企业/团队/项目? 哪个最令你满意? 为什么?
+>- 1.1: 如果给你一个团队,你管理目标是如何的?
+>- 2: 如果要创建WEB3 团队,什么样的成员是你最期待加入的? 在哪儿可以找到?又如何可以吸引进来?
 
 ## 内省
 > 不忘初心...
