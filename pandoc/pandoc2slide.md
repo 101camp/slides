@@ -34,9 +34,7 @@
 > 技不压身
 
 ## 内置模板够美
-------------------
-
-![formula-success)](http://0.zoomquiet.top/ZQCollection/infograph/100126-formula-success.png)
+> 不调CSS3
 
 # How
 
@@ -53,11 +51,12 @@
 ## 发布
 >- [plain-html · GitLab](https://gitlab.com/pages/plain-html/)
 >- [About GitHub Pages - GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites)
+>- [Introduction to Vercel | Vercel Docs](https://vercel.com/docs) ..
 
 ## TODO
 > - 自动化
 > - 可视化?
-> - 定制样式
+> - 定制样式 [Themes | reveal.js](https://revealjs.com/themes/), [themes.dzello](https://revealjs-themes.dzello.com/#/)
 > - Slack 结合
 > - ...
 
@@ -67,21 +66,16 @@
 ## 눈_눈
 > 是也乎
 
->- [PythoniCamp / slides · GitLab](https://gitlab.com/pythonicamp/slides)
 >- [101camp/slides: slides.101.camp collections all presentations from DAMA](https://github.com/101camp/slides)
+>- **https://slides.101.camp**
 
+-------
 
-------
-
-![Zzz...](http://openmindclub.zoomquiet.top/res/KEEP/kcn_sleep.png?imageView2/2/w/510)
-
-## Change
-> 在线可阅
-
-[slides.101.camp/d0d0ch](http://slides.101.camp/d0d0ch.html)
+![ask**DAMA**@**g**oo**g**le**g**roup**s**.com](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420)
 
 ## 是也乎
 
+- 230315 mv into Vercel
 - 221216 mv into GitHub
 - 190106 @auto-md Leo
 - 181230 subl make
@@ -98,4 +92,14 @@
     ^   +->运行
     |       +-> 观察
     \__________/
+
+## Change
+> 在线可阅
+
+[slides.101.camp/d0d0ch](http://slides.101.camp/d0d0ch.html)
+
+
+------
+
+![Zzz...](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_sleep.png?imageView2/2/w/510)
 

@@ -7,18 +7,8 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
-<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
-<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
-<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
-<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
-<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
-<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
-<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
-<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
-<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
-</v>
-<v t="zoomq.20220612212104.2"><vh>speech</vh>
 <v t="zoomq.20220907220414.1"><vh>@auto pandoc2slide.md</vh></v>
+<v t="zoomq.20220612212104.2"><vh>speech</vh>
 <v t="zoomq.20221216220428.1"><vh>&gt;&gt;&gt;</vh></v>
 <v t="zoomq.20221224142948.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
 <v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
@@ -36,132 +26,30 @@
 <v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
 <v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.960"><vh>com.QUSEIT</vh>
-<v t="zoomq.20220612212104.961"><vh>DDS2022</vh>
-<v t="zoomq.20220612212104.962"><vh>@auto DDS198.md</vh></v>
-<v t="zoomq.20221225190158.1"><vh>@auto DDS197.md</vh></v>
-<v t="zoomq.20221219083514.1"><vh>@auto DDS196.md</vh></v>
-<v t="zoomq.20221211194427.1"><vh>@auto DDS195.md</vh></v>
-<v t="zoomq.20221204215820.1"><vh>@auto DDS194.md</vh></v>
-<v t="zoomq.20221128005438.1"><vh>@auto DDS193.md</vh></v>
-<v t="zoomq.20221120204140.1"><vh>@auto DDS192.md</vh></v>
-<v t="zoomq.20221113224350.1"><vh>@auto DDS191.md</vh></v>
-<v t="zoomq.20221106224105.1"><vh>@auto DDS190.md</vh></v>
-<v t="zoomq.20221030195246.1"><vh>@auto DDS189.md</vh></v>
-<v t="zoomq.20221023232931.1"><vh>@auto DDS188.md</vh></v>
-<v t="zoomq.20221017082834.1"><vh>@auto DDS187.md</vh></v>
-<v t="zoomq.20220925205027.1"><vh>@auto DDS186.md</vh></v>
-<v t="zoomq.20220918194021.1"><vh>@auto DDS185.md</vh></v>
-<v t="zoomq.20220904200013.1"><vh>@auto DDS184.md</vh></v>
-<v t="zoomq.20220828203437.1"><vh>@auto DDS183.md</vh></v>
-<v t="zoomq.20220821224825.1"><vh>@auto DDS182.md</vh></v>
-<v t="zoomq.20220814211619.1"><vh>@auto DDS181.md</vh></v>
-<v t="zoomq.20220807203144.1"><vh>@auto DDS180.md</vh></v>
-<v t="zoomq.20220731202024.1"><vh>@auto DDS179.md</vh></v>
-<v t="zoomq.20220724194944.1"><vh>@auto DDS178.md</vh></v>
-<v t="zoomq.20220717213817.1"><vh>@auto DDS177.md</vh></v>
-<v t="zoomq.20220710212754.1"><vh>@auto DDS176.md</vh></v>
-<v t="zoomq.20220703222236.1"><vh>@auto DDS175.md</vh></v>
-<v t="zoomq.20220626203149.1"><vh>@auto DDS174.md</vh></v>
-<v t="zoomq.20220619210107.1"><vh>@auto DDS173.md</vh></v>
-<v t="zoomq.20220612212543.1"><vh>@auto DDS172.md</vh></v>
-<v t="zoomq.20220612212104.975"><vh>@auto DDS171.md</vh></v>
-<v t="zoomq.20220612212104.988"><vh>@auto DDS170.md</vh></v>
-<v t="zoomq.20220612212104.1000"><vh>@auto DDS169.md</vh></v>
-<v t="zoomq.20220612212104.1012"><vh>@auto DDS168.md</vh></v>
-<v t="zoomq.20220612212104.1023"><vh>@auto DDS167.md</vh></v>
-<v t="zoomq.20220612212104.1034"><vh>@auto DDS166.md</vh></v>
-<v t="zoomq.20220612212104.1066"><vh>@auto DDS165.md</vh></v>
-<v t="zoomq.20220612212104.1097"><vh>@auto DDS164.md</vh></v>
-<v t="zoomq.20220612212104.1129"><vh>@auto DDS163.md</vh></v>
-<v t="zoomq.20220612212104.1161"><vh>@auto DDS162.md</vh></v>
-<v t="zoomq.20220612212104.1193"><vh>@auto DDS161.md</vh></v>
-<v t="zoomq.20220612212104.1223"><vh>@auto DDS160.md</vh></v>
-<v t="zoomq.20220612212104.1252"><vh>@auto DDS159.md</vh></v>
-<v t="zoomq.20220612212104.1281"><vh>@auto DDS158.md</vh></v>
-<v t="zoomq.20220612212104.1310"><vh>@auto DDS157.md</vh></v>
-<v t="zoomq.20220612212104.1339"><vh>@auto DDS156.md</vh></v>
-<v t="zoomq.20220612212104.1368"><vh>@auto DDS155.md</vh></v>
+<v t="zoomq.20220612212104.791"><vh>QPicoCar</vh>
+<v t="zoomq.20220612212104.792"><vh>@auto QPicoCar_mov101.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.1397"><vh>DDS2021</vh>
-<v t="zoomq.20220612212104.1398"><vh>@auto QPD112.md</vh></v>
-<v t="zoomq.20220612212104.1445"><vh>@auto QPD111.md</vh></v>
-<v t="zoomq.20220612212104.1491"><vh>@auto QPD110.md</vh></v>
-<v t="zoomq.20220612212104.1537"><vh>@auto QPD109.md</vh></v>
-<v t="zoomq.20220612212104.1580"><vh>@auto QPD108.md</vh></v>
-<v t="zoomq.20220612212104.1622"><vh>@auto QPD107.md</vh></v>
-<v t="zoomq.20220612212104.1661"><vh>@auto QPD106.md</vh></v>
-<v t="zoomq.20220612212104.1700"><vh>@auto QPD105.md</vh></v>
-<v t="zoomq.20220612212104.1740"><vh>@auto QPD104.md</vh></v>
-<v t="zoomq.20220612212104.1772"><vh>@auto QPD103.md</vh></v>
-<v t="zoomq.20220612212104.1814"><vh>@auto QPD102.md</vh></v>
-<v t="zoomq.20220612212104.1847"><vh>@auto QPD101.md</vh></v>
-<v t="zoomq.20220612212104.1917"><vh>@auto QPD117.md</vh></v>
-<v t="zoomq.20220612212104.1969"><vh>@auto QPD116.md</vh></v>
-<v t="zoomq.20220612212104.2020"><vh>@auto QPD115.md</vh></v>
-<v t="zoomq.20220612212104.2071"><vh>@auto QPD114.md</vh></v>
-<v t="zoomq.20220612212104.2117"><vh>@auto QPD118.md</vh></v>
-<v t="zoomq.20220612212104.2171"><vh>@auto QPD113.md</vh></v>
-<v t="zoomq.20220612212104.2219"><vh>@auto DDS123.md</vh></v>
-<v t="zoomq.20220612212104.2257"><vh>@auto DDS122.md</vh></v>
-<v t="zoomq.20220612212104.2306"><vh>@auto DDS121.md</vh></v>
-<v t="zoomq.20220612212104.2355"><vh>@auto QPD120.md</vh></v>
-<v t="zoomq.20220612212104.2409"><vh>@auto QPD119.md</vh></v>
-<v t="zoomq.20220612212104.2475"><vh>@auto DDS137.md</vh></v>
-<v t="zoomq.20220612212104.2531"><vh>@auto DDS136.md</vh></v>
-<v t="zoomq.20220612212104.2572"><vh>@auto DDS135.md</vh></v>
-<v t="zoomq.20220612212104.2616"><vh>@auto DDS134.md</vh></v>
-<v t="zoomq.20220612212104.2660"><vh>@auto DDS133.md</vh></v>
-<v t="zoomq.20220612212104.2703"><vh>@auto DDS132.md</vh></v>
-<v t="zoomq.20220612212104.2746"><vh>@auto DDS131.md</vh></v>
-<v t="zoomq.20220612212104.2790"><vh>@auto DDS130.md</vh></v>
-<v t="zoomq.20220612212104.2834"><vh>@auto DDS129.md</vh></v>
-<v t="zoomq.20220612212104.2876"><vh>@auto DDS128.md</vh></v>
-<v t="zoomq.20220612212104.2917"><vh>@auto DDS127.md</vh></v>
-<v t="zoomq.20220612212104.2958"><vh>@auto DDS126.md</vh></v>
-<v t="zoomq.20220612212104.3000"><vh>@auto DDS125.md</vh></v>
-<v t="zoomq.20220612212104.3041"><vh>@auto DDS124.md</vh></v>
-<v t="zoomq.20220612212104.3081"><vh>@auto DDS154.md</vh></v>
-<v t="zoomq.20220612212104.3129"><vh>@auto DDS153.md</vh></v>
-<v t="zoomq.20220612212104.3175"><vh>@auto DDS152.md</vh></v>
-<v t="zoomq.20220612212104.3221"><vh>@auto DDS151.md</vh></v>
-<v t="zoomq.20220612212104.3267"><vh>@auto DDS150.md</vh></v>
-<v t="zoomq.20220612212104.3306"><vh>@auto DDS149.md</vh></v>
-<v t="zoomq.20220612212104.3343"><vh>@auto DDS148.md</vh></v>
-<v t="zoomq.20220612212104.3380"><vh>@auto DDS147.md</vh></v>
-<v t="zoomq.20220612212104.3450"><vh>@auto DDS145.md</vh></v>
-<v t="zoomq.20220612212104.3479"><vh>@auto DDS144.md</vh></v>
-<v t="zoomq.20220612212104.3507"><vh>@auto DDS142.md</vh></v>
-<v t="zoomq.20220612212104.3533"><vh>@auto DDS141.md</vh></v>
-<v t="zoomq.20220612212104.3574"><vh>@auto DDS140.md</vh></v>
-<v t="zoomq.20220612212104.3616"><vh>@auto DDS139.md</vh></v>
-<v t="zoomq.20220612212104.3658"><vh>@auto DDS138.md</vh></v>
+<v t="zoomq.20230315164050.1"><vh>QPythoniCamp</vh>
+<v t="zoomq.20230315164050.2"><vh>@auto QPyCamp109.md</vh></v>
+<v t="zoomq.20230315164050.23"><vh>@auto QPyCamp108.md</vh></v>
+<v t="zoomq.20230315164050.44"><vh>@auto QPyCamp107.md</vh></v>
+<v t="zoomq.20230315164050.63"><vh>@auto QPyCamp106.md</vh></v>
+<v t="zoomq.20230315164050.81"><vh>@auto QPyCamp105.md</vh></v>
+<v t="zoomq.20230315164050.99"><vh>@auto QPyCamp104.md</vh></v>
+<v t="zoomq.20230315164050.116"><vh>@auto QPyCamp103.md</vh></v>
+<v t="zoomq.20230315164050.133"><vh>@auto QPyCamp102.md</vh></v>
+<v t="zoomq.20230315164050.150"><vh>@auto QPyCamp101.md</vh></v>
+<v t="zoomq.20230315164050.170"><vh>@auto QPyCamp10g.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.3416"><vh>@auto DDS146.md</vh></v>
-<v t="zoomq.20220612212104.2461"><vh>@auto DDS4HLB.md</vh></v>
-<v t="zoomq.20220612212104.3700"><vh>@auto NFT101.md</vh></v>
-<v t="zoomq.20220612212104.2517"><vh>@auto DDS2HLB.md</vh></v>
-<v t="zoomq.20220612212104.3737"><vh>@auto DDS2BC.md</vh></v>
-<v t="zoomq.20220612212104.3771"><vh>@auto DDS4HLF.md</vh></v>
-<v t="zoomq.20220612212104.3792"><vh>@auto QCS21w19.md</vh></v>
-<v t="zoomq.20220612212104.3811"><vh>@auto QCS21w11.md</vh></v>
-<v t="zoomq.20220612212104.3833"><vh>@auto QCS21w10.md</vh></v>
-<v t="zoomq.20220612212104.3864"><vh>@auto QCS21w4.md</vh></v>
-</v>
-<v t="zoomq.20220612212104.791"><vh>QPythoniCamp</vh>
-<v t="zoomq.20220612212104.792"><vh>@auto QPyCamp109.md</vh></v>
-<v t="zoomq.20220622110325.1"><vh>@auto QPyCamp108.md</vh></v>
-<v t="zoomq.20220612212104.813"><vh>@auto QPyCamp107.md</vh></v>
-<v t="zoomq.20220612212104.832"><vh>@auto QPyCamp106.md</vh></v>
-<v t="zoomq.20220612212104.850"><vh>@auto QPyCamp105.md</vh></v>
-<v t="zoomq.20220612212104.868"><vh>@auto QPyCamp104.md</vh></v>
-<v t="zoomq.20220612212104.885"><vh>@auto QPyCamp103.md</vh></v>
-<v t="zoomq.20220612212104.902"><vh>@auto QPyCamp102.md</vh></v>
-<v t="zoomq.20220612212104.919"><vh>@auto QPyCamp101.md</vh></v>
-<v t="zoomq.20220612212104.939"><vh>@auto QPyCamp10g.md</vh></v>
-</v>
-<v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
-<v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
+<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
+<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
+<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
+<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
+<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
+<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
+<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
+<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
+<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.3919"><vh>_duw</vh>
 <v t="zoomq.20220612212104.3920"><vh>@auto duw180.md</vh></v>
@@ -327,6 +215,121 @@
 <v t="zoomq.20220612212104.12052"><vh>[#89](https://gitlab.com/101camp/2py/tasks/issues/89)</vh></v>
 <v t="zoomq.20220612212104.12053"><vh>[953730be](https://gitlab.com/101camp/2py/tasks/commit/953730be9a78e9c62230f8121de20624b8584719)</vh></v>
 </v>
+</v>
+<v t="zoomq.20220612212104.960"><vh>com.QUSEIT</vh>
+<v t="zoomq.20220612212104.961"><vh>DDS2022</vh>
+<v t="zoomq.20220612212104.962"><vh>@auto DDS198.md</vh></v>
+<v t="zoomq.20221225190158.1"><vh>@auto DDS197.md</vh></v>
+<v t="zoomq.20221219083514.1"><vh>@auto DDS196.md</vh></v>
+<v t="zoomq.20221211194427.1"><vh>@auto DDS195.md</vh></v>
+<v t="zoomq.20221204215820.1"><vh>@auto DDS194.md</vh></v>
+<v t="zoomq.20221128005438.1"><vh>@auto DDS193.md</vh></v>
+<v t="zoomq.20221120204140.1"><vh>@auto DDS192.md</vh></v>
+<v t="zoomq.20221113224350.1"><vh>@auto DDS191.md</vh></v>
+<v t="zoomq.20221106224105.1"><vh>@auto DDS190.md</vh></v>
+<v t="zoomq.20221030195246.1"><vh>@auto DDS189.md</vh></v>
+<v t="zoomq.20221023232931.1"><vh>@auto DDS188.md</vh></v>
+<v t="zoomq.20221017082834.1"><vh>@auto DDS187.md</vh></v>
+<v t="zoomq.20220925205027.1"><vh>@auto DDS186.md</vh></v>
+<v t="zoomq.20220918194021.1"><vh>@auto DDS185.md</vh></v>
+<v t="zoomq.20220904200013.1"><vh>@auto DDS184.md</vh></v>
+<v t="zoomq.20220828203437.1"><vh>@auto DDS183.md</vh></v>
+<v t="zoomq.20220821224825.1"><vh>@auto DDS182.md</vh></v>
+<v t="zoomq.20220814211619.1"><vh>@auto DDS181.md</vh></v>
+<v t="zoomq.20220807203144.1"><vh>@auto DDS180.md</vh></v>
+<v t="zoomq.20220731202024.1"><vh>@auto DDS179.md</vh></v>
+<v t="zoomq.20220724194944.1"><vh>@auto DDS178.md</vh></v>
+<v t="zoomq.20220717213817.1"><vh>@auto DDS177.md</vh></v>
+<v t="zoomq.20220710212754.1"><vh>@auto DDS176.md</vh></v>
+<v t="zoomq.20220703222236.1"><vh>@auto DDS175.md</vh></v>
+<v t="zoomq.20220626203149.1"><vh>@auto DDS174.md</vh></v>
+<v t="zoomq.20220619210107.1"><vh>@auto DDS173.md</vh></v>
+<v t="zoomq.20220612212543.1"><vh>@auto DDS172.md</vh></v>
+<v t="zoomq.20220612212104.975"><vh>@auto DDS171.md</vh></v>
+<v t="zoomq.20220612212104.988"><vh>@auto DDS170.md</vh></v>
+<v t="zoomq.20220612212104.1000"><vh>@auto DDS169.md</vh></v>
+<v t="zoomq.20220612212104.1012"><vh>@auto DDS168.md</vh></v>
+<v t="zoomq.20220612212104.1023"><vh>@auto DDS167.md</vh></v>
+<v t="zoomq.20220612212104.1034"><vh>@auto DDS166.md</vh></v>
+<v t="zoomq.20220612212104.1066"><vh>@auto DDS165.md</vh></v>
+<v t="zoomq.20220612212104.1097"><vh>@auto DDS164.md</vh></v>
+<v t="zoomq.20220612212104.1129"><vh>@auto DDS163.md</vh></v>
+<v t="zoomq.20220612212104.1161"><vh>@auto DDS162.md</vh></v>
+<v t="zoomq.20220612212104.1193"><vh>@auto DDS161.md</vh></v>
+<v t="zoomq.20220612212104.1223"><vh>@auto DDS160.md</vh></v>
+<v t="zoomq.20220612212104.1252"><vh>@auto DDS159.md</vh></v>
+<v t="zoomq.20220612212104.1281"><vh>@auto DDS158.md</vh></v>
+<v t="zoomq.20220612212104.1310"><vh>@auto DDS157.md</vh></v>
+<v t="zoomq.20220612212104.1339"><vh>@auto DDS156.md</vh></v>
+<v t="zoomq.20220612212104.1368"><vh>@auto DDS155.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.1397"><vh>DDS2021</vh>
+<v t="zoomq.20220612212104.1398"><vh>@auto QPD112.md</vh></v>
+<v t="zoomq.20220612212104.1445"><vh>@auto QPD111.md</vh></v>
+<v t="zoomq.20220612212104.1491"><vh>@auto QPD110.md</vh></v>
+<v t="zoomq.20220612212104.1537"><vh>@auto QPD109.md</vh></v>
+<v t="zoomq.20220612212104.1580"><vh>@auto QPD108.md</vh></v>
+<v t="zoomq.20220612212104.1622"><vh>@auto QPD107.md</vh></v>
+<v t="zoomq.20220612212104.1661"><vh>@auto QPD106.md</vh></v>
+<v t="zoomq.20220612212104.1700"><vh>@auto QPD105.md</vh></v>
+<v t="zoomq.20220612212104.1740"><vh>@auto QPD104.md</vh></v>
+<v t="zoomq.20220612212104.1772"><vh>@auto QPD103.md</vh></v>
+<v t="zoomq.20220612212104.1814"><vh>@auto QPD102.md</vh></v>
+<v t="zoomq.20220612212104.1847"><vh>@auto QPD101.md</vh></v>
+<v t="zoomq.20220612212104.1917"><vh>@auto QPD117.md</vh></v>
+<v t="zoomq.20220612212104.1969"><vh>@auto QPD116.md</vh></v>
+<v t="zoomq.20220612212104.2020"><vh>@auto QPD115.md</vh></v>
+<v t="zoomq.20220612212104.2071"><vh>@auto QPD114.md</vh></v>
+<v t="zoomq.20220612212104.2117"><vh>@auto QPD118.md</vh></v>
+<v t="zoomq.20220612212104.2171"><vh>@auto QPD113.md</vh></v>
+<v t="zoomq.20220612212104.2219"><vh>@auto DDS123.md</vh></v>
+<v t="zoomq.20220612212104.2257"><vh>@auto DDS122.md</vh></v>
+<v t="zoomq.20220612212104.2306"><vh>@auto DDS121.md</vh></v>
+<v t="zoomq.20220612212104.2355"><vh>@auto QPD120.md</vh></v>
+<v t="zoomq.20220612212104.2409"><vh>@auto QPD119.md</vh></v>
+<v t="zoomq.20220612212104.2475"><vh>@auto DDS137.md</vh></v>
+<v t="zoomq.20220612212104.2531"><vh>@auto DDS136.md</vh></v>
+<v t="zoomq.20220612212104.2572"><vh>@auto DDS135.md</vh></v>
+<v t="zoomq.20220612212104.2616"><vh>@auto DDS134.md</vh></v>
+<v t="zoomq.20220612212104.2660"><vh>@auto DDS133.md</vh></v>
+<v t="zoomq.20220612212104.2703"><vh>@auto DDS132.md</vh></v>
+<v t="zoomq.20220612212104.2746"><vh>@auto DDS131.md</vh></v>
+<v t="zoomq.20220612212104.2790"><vh>@auto DDS130.md</vh></v>
+<v t="zoomq.20220612212104.2834"><vh>@auto DDS129.md</vh></v>
+<v t="zoomq.20220612212104.2876"><vh>@auto DDS128.md</vh></v>
+<v t="zoomq.20220612212104.2917"><vh>@auto DDS127.md</vh></v>
+<v t="zoomq.20220612212104.2958"><vh>@auto DDS126.md</vh></v>
+<v t="zoomq.20220612212104.3000"><vh>@auto DDS125.md</vh></v>
+<v t="zoomq.20220612212104.3041"><vh>@auto DDS124.md</vh></v>
+<v t="zoomq.20220612212104.3081"><vh>@auto DDS154.md</vh></v>
+<v t="zoomq.20220612212104.3129"><vh>@auto DDS153.md</vh></v>
+<v t="zoomq.20220612212104.3175"><vh>@auto DDS152.md</vh></v>
+<v t="zoomq.20220612212104.3221"><vh>@auto DDS151.md</vh></v>
+<v t="zoomq.20220612212104.3267"><vh>@auto DDS150.md</vh></v>
+<v t="zoomq.20220612212104.3306"><vh>@auto DDS149.md</vh></v>
+<v t="zoomq.20220612212104.3343"><vh>@auto DDS148.md</vh></v>
+<v t="zoomq.20220612212104.3380"><vh>@auto DDS147.md</vh></v>
+<v t="zoomq.20220612212104.3450"><vh>@auto DDS145.md</vh></v>
+<v t="zoomq.20220612212104.3479"><vh>@auto DDS144.md</vh></v>
+<v t="zoomq.20220612212104.3507"><vh>@auto DDS142.md</vh></v>
+<v t="zoomq.20220612212104.3533"><vh>@auto DDS141.md</vh></v>
+<v t="zoomq.20220612212104.3574"><vh>@auto DDS140.md</vh></v>
+<v t="zoomq.20220612212104.3616"><vh>@auto DDS139.md</vh></v>
+<v t="zoomq.20220612212104.3658"><vh>@auto DDS138.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.3416"><vh>@auto DDS146.md</vh></v>
+<v t="zoomq.20220612212104.2461"><vh>@auto DDS4HLB.md</vh></v>
+<v t="zoomq.20220612212104.3700"><vh>@auto NFT101.md</vh></v>
+<v t="zoomq.20220612212104.2517"><vh>@auto DDS2HLB.md</vh></v>
+<v t="zoomq.20220612212104.3737"><vh>@auto DDS2BC.md</vh></v>
+<v t="zoomq.20220612212104.3771"><vh>@auto DDS4HLF.md</vh></v>
+<v t="zoomq.20220612212104.3792"><vh>@auto QCS21w19.md</vh></v>
+<v t="zoomq.20220612212104.3811"><vh>@auto QCS21w11.md</vh></v>
+<v t="zoomq.20220612212104.3833"><vh>@auto QCS21w10.md</vh></v>
+<v t="zoomq.20220612212104.3864"><vh>@auto QCS21w4.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
+<v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
 </v>
 </v>
 <v t="zoomq.20181201101950.1"><vh>Recovered Nodes</vh>
@@ -1150,5 +1153,35 @@ https://git.code.tencent.com/presto/README/issues/6
 </t>
 <t tx="zoomq.20220612212104.961">2022 ~ intra. meeting</t>
 <t tx="zoomq.20221216220428.1"></t>
+<t tx="zoomq.20230315164050.1">@path pandoc
+
+![可变参数](https://ipic.zoomquiet.top/2022-06-22-%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E7%90%86%E8%A7%A3.jpeg)
+
+
+# -*- coding: utf-8 -*-
+从 random 导入 uniform
+我的数字 = 整数(uniform(2,99))
+没猜中 = 真
+当 没猜中:
+    你猜 = 整数(输入('猜个1~99的数字? --&gt; '))
+    如果 你猜 &lt; 我的数字: 打印  "...(~_~)小了"
+    假使 你猜 &gt; 我的数字: 打印  "......大了(^_-"
+    否则:
+        打印  "猜对了\(^o^)/下次再来玩!"
+        中断
+
+
+# -*- coding: utf-8 -*-
+from random import uniform
+myNumber = int(uniform(2,99))
+noGuess = 1
+while noGuess:
+    urNumber = int(raw_input('猜个1~99的数字? --&gt; '))
+    if urNumber &lt; myNumber: print "...(~_~)小了"
+    elif urNumber &gt; myNumber: print "......大了(^_-"
+    else:
+        print "猜对了\(^o^)/下次再来玩!"
+        break
+</t>
 </tnodes>
 </leo_file>
