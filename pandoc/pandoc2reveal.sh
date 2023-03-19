@@ -34,9 +34,9 @@ echo "exp. reveal.js slides -> $SLIDES"
 
 echo pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
 
-#pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
+pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=simple
-pandoc $MD -o $SLIDES -t revealjs -s -V theme=serif
+#pandoc $MD -o $SLIDES -t revealjs -s -V theme=serif
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=white
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=league
 

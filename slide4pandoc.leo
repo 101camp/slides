@@ -7,9 +7,9 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
-<v t="zoomq.20220907220414.1"><vh>@auto pandoc2slide.md</vh></v>
+<v t="zoomq.20230319230102.1"><vh>@auto pandoc2slide.md</vh></v>
+<v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
-<v t="zoomq.20221216220428.1"><vh>&gt;&gt;&gt;</vh></v>
 <v t="zoomq.20221224142948.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
 <v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
 <v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
@@ -50,6 +50,9 @@
 <v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
 <v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
 <v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
+<v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.3919"><vh>_duw</vh>
 <v t="zoomq.20220612212104.3920"><vh>@auto duw180.md</vh></v>
@@ -327,9 +330,6 @@
 <v t="zoomq.20220612212104.3811"><vh>@auto QCS21w11.md</vh></v>
 <v t="zoomq.20220612212104.3833"><vh>@auto QCS21w10.md</vh></v>
 <v t="zoomq.20220612212104.3864"><vh>@auto QCS21w4.md</vh></v>
-</v>
-<v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
-<v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
 </v>
 </v>
 <v t="zoomq.20181201101950.1"><vh>Recovered Nodes</vh>
@@ -1152,7 +1152,6 @@ https://git.code.tencent.com/presto/README/issues/6
 
 </t>
 <t tx="zoomq.20220612212104.961">2022 ~ intra. meeting</t>
-<t tx="zoomq.20221216220428.1"></t>
 <t tx="zoomq.20230315164050.1">@path pandoc
 
 ![可变参数](https://ipic.zoomquiet.top/2022-06-22-%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E7%90%86%E8%A7%A3.jpeg)
