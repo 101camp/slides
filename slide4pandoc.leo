@@ -9,8 +9,11 @@
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
 <v t="zoomq.20230319230102.1"><vh>@auto pandoc2slide.md</vh></v>
 <v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
+<v t="zoomq.20230320012627.1"><vh>Chaos42</vh>
+<v t="zoomq.20221224142948.1"><vh>@auto c42gpt2how.md</vh></v>
+</v>
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
-<v t="zoomq.20221224142948.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
+<v t="zoomq.20230320012618.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
 <v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
 <v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
 <v t="zoomq.20220925102350.1"><vh>@auto OSCAR22PEP.md</vh></v>
@@ -1181,6 +1184,8 @@ while noGuess:
     else:
         print "猜对了\(^o^)/下次再来玩!"
         break
+</t>
+<t tx="zoomq.20230320012627.1">@path pandoc
 </t>
 </tnodes>
 </leo_file>
