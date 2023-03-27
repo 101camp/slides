@@ -160,7 +160,7 @@
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/c42gpt2how](http://slides.101.camp/c42gpt2how.html)
+[slides.101.camp/c42gpt2how](https://slides.101.camp/c42gpt2how.html)
 
 ## 是也乎
 
