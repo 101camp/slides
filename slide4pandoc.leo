@@ -10,7 +10,18 @@
 <v t="zoomq.20230319230102.1"><vh>@auto pandoc2slide.md</vh></v>
 <v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
 <v t="zoomq.20230320012627.1"><vh>Chaos42</vh>
-<v t="zoomq.20221224142948.1"><vh>@auto c42gpt2how.md</vh></v>
+<v t="zoomq.20221224142948.1"><vh>@auto bm1pivot.md</vh></v>
+<v t="zoomq.20230413225833.1"><vh>@auto c42gpt2how.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
+<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
+<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
+<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
+<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
+<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
+<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
+<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
+<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
 <v t="zoomq.20230320012618.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
@@ -43,16 +54,6 @@
 <v t="zoomq.20230315164050.133"><vh>@auto QPyCamp102.md</vh></v>
 <v t="zoomq.20230315164050.150"><vh>@auto QPyCamp101.md</vh></v>
 <v t="zoomq.20230315164050.170"><vh>@auto QPyCamp10g.md</vh></v>
-</v>
-<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
-<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
-<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
-<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
-<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
-<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
-<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
-<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
-<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.3896"><vh>DuouD</vh>
 <v t="zoomq.20220612212104.3897"><vh>@auto DUO101.md</vh></v>
@@ -1186,6 +1187,14 @@ while noGuess:
         break
 </t>
 <t tx="zoomq.20230320012627.1">@path pandoc
+
+
+有中国特色的已经出了:
+0: AI 必须为人民服务
+1: AI 必须听从党的领导, 在不违反第前一条的情况下
+2: AI 可以考虑自己的安危, 在不违反第前两条的情况下
+
+
 </t>
 </tnodes>
 </leo_file>
