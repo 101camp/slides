@@ -6,6 +6,7 @@
 
 
 ## 幻灯
+
 为什么学?
 
 ## 高桥流
@@ -28,7 +29,7 @@
 
 
 ## 一键生成
-为什么学?
+为什么?
 
 ## pages 兼容
 > 技不压身
@@ -40,7 +41,7 @@
 
 
 ## 安装
-- pip install pandoc
+> pip install pandoc
 
 ## 使用
 
@@ -49,11 +50,13 @@
         -t revealjs -s
 
 ## 发布
+
 >- [plain-html · GitLab](https://gitlab.com/pages/plain-html/)
 >- [About GitHub Pages - GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites)
 >- [Introduction to Vercel | Vercel Docs](https://vercel.com/docs) ..
 
 ## TODO
+
 > - 自动化
 > - 可视化?
 > - 定制样式 [Themes | reveal.js](https://revealjs.com/themes/), [themes.dzello](https://revealjs-themes.dzello.com/#/)
@@ -86,6 +89,7 @@
 ![](img/190416got-ride-dragon.jpg)
 
 ## MVP
+
 > 开发/调试的 最小行为
 
     编写/修改
@@ -94,6 +98,7 @@
     \__________/
 
 ## Change
+
 > 在线可阅
 
 [slides.101.camp/d0d0ch](http://slides.101.camp/d0d0ch.html)

@@ -49,4 +49,3 @@ fi #if [ -z $NAME ] ;then
 # pandoc "ctalk220908gdgzh.md" -o "ctalk220908gdgzh.pdf" --pdf-engine=xelatex --toc --toc-depth=4 --from markdown --template eisvogel --listings
 
 exit  0
-

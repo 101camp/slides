@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="进一步传统化…">
+  <title>Pivot2</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/serif.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Pivot2</h1>
+  <p class="author">进一步传统化…</p>
+  <p class="date">BM.bbt.ltd</p>
+</section>
+
+<section>
+<section id="pivot1" class="title-slide slide level1">
+<h1>Pivot1</h1>
+
+</section>
+<section id="云原生" class="slide level2">
+<h2>云原生</h2>
+<blockquote>
+<p>省銭</p>
+</blockquote>
+</section>
+<section id="fc" class="slide level2">
+<h2>FC?</h2>
+<p>-&gt; OTS</p>
+</section></section>
+<section>
+<section id="问题" class="title-slide slide level1">
+<h1>问题</h1>
+
+</section>
+<section id="ots" class="slide level2">
+<h2>OTS</h2>
+<blockquote>
+<p>表格数据服务</p>
+</blockquote>
+<ul>
+<li>无法绕开 pkey 查询数据</li>
+<li>周边生态以时序数据为先</li>
+</ul>
+</section></section>
+<section>
+<section id="pivot2" class="title-slide slide level1">
+<h1>Pivot2</h1>
+
+</section>
+<section id="灵魂三问" class="slide level2">
+<h2>灵魂三问</h2>
+<blockquote>
+<p>普适所有问题…</p>
+</blockquote>
+<ul>
+<li class="fragment">你是谁?</li>
+<li class="fragment">从哪来?</li>
+<li class="fragment">要去哪?</li>
+</ul>
+</section>
+<section id="目标" class="slide level2">
+<h2>目标?</h2>
+<blockquote>
+<p>MVP</p>
+</blockquote>
+<p>尽快</p>
+</section>
+<section id="架构" class="slide level2">
+<h2>架构</h2>
+<blockquote>
+<p>持续过程</p>
+</blockquote>
+<p>优先选择:</p>
+<blockquote>
+<p>最无聊的方案</p>
+</blockquote>
+</section>
+<section id="无聊" class="slide level2">
+<h2>无聊</h2>
+<blockquote>
+<p>真正的含义</p>
+</blockquote>
+<ul>
+<li class="fragment">没有问题</li>
+<li class="fragment">没有未知</li>
+<li class="fragment">没有…</li>
+</ul>
+</section>
+<section id="pivot" class="slide level2">
+<h2>Pivot</h2>
+<blockquote>
+<p>转向 RMDB</p>
+</blockquote>
+<ul>
+<li class="fragment">ECS</li>
+<li class="fragment">FastAPI</li>
+<li class="fragment">RDS:PostgreSQL</li>
+</ul>
+</section>
+<section id="现代py工程" class="slide level2">
+<h2>现代Py工程</h2>
+<blockquote>
+<p>早有套路</p>
+</blockquote>
+<p><a
+href="https://cookiecutter-hypermodern-python.readthedocs.io/en/2022.6.3.post1/">Hypermodern
+Python Cookiecutter</a></p>
+<p>2017~2022</p>
+</section>
+<section id="当前" class="slide level2">
+<h2>当前</h2>
+<blockquote>
+<p>BM v23.5.1</p>
+</blockquote>
+<ul>
+<li>env.
+<ul>
+<li>Python 3.11</li>
+</ul></li>
+<li>驱动
+<ul>
+<li>OSS</li>
+<li>SLS</li>
+<li>asyncpg(asyncio)</li>
+</ul></li>
+</ul>
+</section>
+<section id="组件" class="slide level2">
+<h2>组件</h2>
+<blockquote>
+<p>BM v23.5.1</p>
+</blockquote>
+<ul>
+<li>框架
+<ul>
+<li>fastapi</li>
+<li>aiofiles ~ 异步文件</li>
+<li>openpyxl ~ .xlsx</li>
+<li>sqlalchemy ~ ORM
+<ul>
+<li>alembic ~ migration</li>
+</ul></li>
+<li>pydantic ~ 数据检验</li>
+<li>uuid-utils</li>
+</ul></li>
+</ul>
+</section>
+<section id="运营" class="slide level2">
+<h2>运营</h2>
+<blockquote>
+<p>BM v23.5.1</p>
+</blockquote>
+<ul>
+<li>运营
+<ul>
+<li>uvicorn,hypercorn,gunicorn</li>
+<li>invoke</li>
+<li>VSCode:
+<ul>
+<li>Thunder Client</li>
+<li>Ruff</li>
+<li>…</li>
+</ul></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a
+href="https://slides.101.camp/bm2pivot.html">slides.101.camp/bm2pivot</a></p>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>230512 intra. shre</li>
+<li>230511 init.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420"
+alt="askDAMA@googlegroups.com" />
+<figcaption
+aria-hidden="true">ask<strong>DAMA</strong>@<strong>g</strong>oo<strong>g</strong>le<strong>g</strong>roup<strong>s</strong>.com</figcaption>
+</figure>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

@@ -7,11 +7,17 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
-<v t="zoomq.20230319230102.1"><vh>@auto pandoc2slide.md</vh></v>
+<v t="zoomq.20230511210425.1"><vh>tools</vh>
+<v t="zoomq.20230319230102.1"><vh>pandoc2slide.md</vh></v>
 <v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
-<v t="zoomq.20230320012627.1"><vh>Chaos42</vh>
-<v t="zoomq.20221224142948.1"><vh>@auto bm1pivot.md</vh></v>
-<v t="zoomq.20230413225833.1"><vh>@auto c42gpt2how.md</vh></v>
+<v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
+</v>
+<v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
+<v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>
+<v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
+</v>
+<v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
+<v t="zoomq.20230511212243.46"><vh>@auto c42gpt2how.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
 <v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
@@ -40,10 +46,8 @@
 <v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
 <v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.791"><vh>QPicoCar</vh>
-<v t="zoomq.20220612212104.792"><vh>@auto QPicoCar_mov101.md</vh></v>
-</v>
 <v t="zoomq.20230315164050.1"><vh>QPythoniCamp</vh>
+<v t="zoomq.20220612212104.792"><vh>@auto QPicoCar_mov101.md</vh></v>
 <v t="zoomq.20230315164050.2"><vh>@auto QPyCamp109.md</vh></v>
 <v t="zoomq.20230315164050.23"><vh>@auto QPyCamp108.md</vh></v>
 <v t="zoomq.20230315164050.44"><vh>@auto QPyCamp107.md</vh></v>
@@ -426,7 +430,7 @@ Diff...
     return None
 </t>
 <t tx="zoomq.20191028155320.1"></t>
-<t tx="zoomq.20220612212104.1">@path ~/Sites/101.camp/_running/slides/
+<t tx="zoomq.20220612212104.1">@path /opt/data/Sites/101.camp/_running/slides
 
 
 Redirecting www.domain.com to domain.com with Cloudflare
@@ -775,36 +779,6 @@ zoom.us
 <t tx="zoomq.20220612212104.7787"></t>
 <t tx="zoomq.20220612212104.7788">@path pandoc
 
-</t>
-<t tx="zoomq.20220612212104.791">@path pandoc
-
-![可变参数](https://ipic.zoomquiet.top/2022-06-22-%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0%E7%90%86%E8%A7%A3.jpeg)
-
-
-# -*- coding: utf-8 -*-
-从 random 导入 uniform
-我的数字 = 整数(uniform(2,99))
-没猜中 = 真
-当 没猜中:
-    你猜 = 整数(输入('猜个1~99的数字? --&gt; '))
-    如果 你猜 &lt; 我的数字: 打印  "...(~_~)小了"
-    假使 你猜 &gt; 我的数字: 打印  "......大了(^_-"
-    否则:
-        打印  "猜对了\(^o^)/下次再来玩!"
-        中断
-
-
-# -*- coding: utf-8 -*-
-from random import uniform
-myNumber = int(uniform(2,99))
-noGuess = 1
-while noGuess:
-    urNumber = int(raw_input('猜个1~99的数字? --&gt; '))
-    if urNumber &lt; myNumber: print "...(~_~)小了"
-    elif urNumber &gt; myNumber: print "......大了(^_-"
-    else:
-        print "猜对了\(^o^)/下次再来玩!"
-        break
 </t>
 <t tx="zoomq.20220612212104.7928">@path pandoc
 
@@ -1186,7 +1160,19 @@ while noGuess:
         print "猜对了\(^o^)/下次再来玩!"
         break
 </t>
+<t tx="zoomq.20230319230102.1"></t>
 <t tx="zoomq.20230320012627.1">@path pandoc
+
+
+有中国特色的已经出了:
+0: AI 必须为人民服务
+1: AI 必须听从党的领导, 在不违反第前一条的情况下
+2: AI 可以考虑自己的安危, 在不违反第前两条的情况下
+
+
+</t>
+<t tx="zoomq.20230511210425.1">@path pandoc</t>
+<t tx="zoomq.20230511212243.1">@path pandoc
 
 
 有中国特色的已经出了:
