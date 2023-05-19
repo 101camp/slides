@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="软技能调试略解">
+  <title>Pythonic</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/serif.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Pythonic</h1>
+  <p class="author">软技能调试略解</p>
+  <p class="date">230521图灵八点半</p>
+</section>
+
+<section>
+<section id="但行" class="title-slide slide level1">
+<h1>但行</h1>
+
+</section>
+<section id="初始化" class="slide level2">
+<h2>初始化</h2>
+<ul>
+<li class="fragment">0~医院:10++</li>
+<li class="fragment">1~3幼儿园:30+</li>
+<li class="fragment">3~6托儿所:40+</li>
+</ul>
+</section>
+<section id="格式化" class="slide level2">
+<h2>格式化</h2>
+<ul>
+<li class="fragment">小学:60+</li>
+<li class="fragment">中学:50+</li>
+<li class="fragment">大学:40+</li>
+</ul>
+</section>
+<section id="团队" class="slide level2">
+<h2>团队</h2>
+<ul>
+<li class="fragment">SINA:1+</li>
+<li class="fragment">KS:10+</li>
+<li class="fragment">蟒营®:10+</li>
+<li class="fragment">BBT: 1+</li>
+</ul>
+</section>
+<section id="社区" class="slide level2">
+<h2>社区</h2>
+<ul>
+<li class="fragment">CPyUG:10K+</li>
+<li class="fragment">GDG珠海:4K+</li>
+<li class="fragment">TFUG珠海:1K+</li>
+<li class="fragment">自怼圈:300+</li>
+</ul>
+</section>
+<section id="项目" class="slide level2">
+<h2>项目</h2>
+<ul>
+<li class="fragment">OBP: “可爱的Python” 30+中国</li>
+<li class="fragment">GDG: 1000+ 全球240+城市</li>
+<li class="fragment">Leo: 626+ 全球</li>
+<li class="fragment">蟒营®: 400+ 全球</li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="总结" class="slide level2">
+<h2>总结</h2>
+<ul>
+<li class="fragment">岁数 42+</li>
+<li class="fragment">工作 23+</li>
+<li class="fragment">出版 3+</li>
+<li class="fragment">蟒龄 20+</li>
+<li class="fragment">…</li>
+</ul>
+</section></section>
+<section>
+<section id="好事" class="title-slide slide level1">
+<h1>好事</h1>
+
+</section>
+<section id="社区-1" class="slide level2">
+<h2>社区</h2>
+<blockquote>
+<p>GNU 感召</p>
+</blockquote>
+<p>自由软件原教旨主义</p>
+</section>
+<section id="觉悟" class="slide level2">
+<h2>觉悟</h2>
+<blockquote>
+<p>过程改进</p>
+</blockquote>
+<p>用<strong>技术</strong>改善<strong>技术人</strong>生活品质</p>
+</section>
+<section id="分享" class="slide level2">
+<h2>分享</h2>
+<blockquote>
+<p>有好东西一定给小朋友们分享</p>
+</blockquote>
+</section>
+<section id="自怼" class="slide level2">
+<h2>自怼</h2>
+<blockquote>
+<p>DebugUself</p>
+</blockquote>
+<p>从心而怼,正对本心</p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2023-05-19-debuguself_ascii_art_log.jpg!/fh/510" /></p>
+</section></section>
+<section>
+<section id="莫问" class="title-slide slide level1">
+<h1>莫问</h1>
+
+</section>
+<section id="社区共同体" class="slide level2">
+<h2>社区/共同体</h2>
+<blockquote>
+<p>相对四固</p>
+</blockquote>
+<p><a href="https://devrel.101.camp/2014-02/ac1-zq/">关 乎社群:1
+什么是社区?</a></p>
+<ul>
+<li class="fragment">相对固定的人</li>
+<li class="fragment">相对固定的场景</li>
+<li class="fragment">相对固定的目标</li>
+<li class="fragment">相对固定的行动</li>
+</ul>
+</section>
+<section id="如何进入" class="slide level2">
+<h2>如何进入?</h2>
+<blockquote>
+<p>无门之门…</p>
+</blockquote>
+</section>
+<section id="aristotle" class="slide level2">
+<h2>Aristotle</h2>
+<blockquote>
+<p>“For the things we have to learn before we can do them, we learn by
+doing them.”</p>
+</blockquote>
+</section>
+<section id="亚里士多德" class="slide level2">
+<h2>亚里士多德</h2>
+<blockquote>
+<p>“我们通过做来学习</p>
+<p>我们必须学习去做的…”</p>
+</blockquote>
+<p>~ 伦理学</p>
+</section>
+<section id="pythonic" class="slide level2">
+<h2>Pythonic</h2>
+<pre><code>The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren&#39;t special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you&#39;re Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it&#39;s a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let&#39;s do more of those!</code></pre>
+</section>
+<section id="技能" class="slide level2">
+<h2>技能</h2>
+<blockquote>
+<p>软硬之别</p>
+</blockquote>
+<ul>
+<li class="fragment">硬: <strong>立即</strong>可以换取报酬</li>
+<li class="fragment">软: 无法<strong>立即</strong>换取报酬</li>
+</ul>
+</section></section>
+<section>
+<section id="前程" class="title-slide slide level1">
+<h1>前程</h1>
+
+</section>
+<section id="灵魂三问" class="slide level2">
+<h2>灵魂三问</h2>
+<blockquote>
+<p>人生必须的….</p>
+</blockquote>
+<ul>
+<li class="fragment">你是谁? ~ 自知之明</li>
+<li class="fragment">从哪来? ~ 世事通达</li>
+<li class="fragment">要去哪? ~ 从心所欲</li>
+</ul>
+</section>
+<section id="靠谱" class="slide level2">
+<h2>靠谱</h2>
+<blockquote>
+<p>Kaopulity</p>
+</blockquote>
+</section>
+<section id="kaopulity" class="slide level2">
+<h2>Kaopulity</h2>
+<ul>
+<li class="fragment"><strong>K</strong>eep</li>
+<li class="fragment"><strong>a</strong>ll</li>
+<li class="fragment"><strong>o</strong>f</li>
+<li class="fragment"><strong>p</strong>rocesses</li>
+<li class="fragment"><strong>u</strong>sabi<strong>lity</strong></li>
+</ul>
+</section>
+<section id="不可能三角" class="slide level2">
+<h2>不可能三角</h2>
+<blockquote>
+<p>既要,又要,还要…</p>
+</blockquote>
+<ul>
+<li class="fragment">目标</li>
+<li class="fragment">能力</li>
+<li class="fragment">资源</li>
+</ul>
+</section>
+<section id="所以" class="slide level2">
+<h2>所以</h2>
+<blockquote>
+<p>案例有用嘛?</p>
+</blockquote>
+<ul>
+<li class="fragment">成功的总是有各种唯一的<strong>奇迹</strong></li>
+<li class="fragment">失败却多数有<strong>相同</strong>的失败之处</li>
+</ul>
+</section>
+<section id="怂" class="slide level2">
+<h2>怂</h2>
+<blockquote>
+<p>Flow U Heart</p>
+</blockquote>
+<ul>
+<li class="fragment">认清现实</li>
+<li class="fragment">持久妥协</li>
+</ul>
+</section>
+<section id="洞查三问" class="slide level2">
+<h2>洞查三问</h2>
+<blockquote>
+<p>来自 DUKU</p>
+</blockquote>
+<ul>
+<li class="fragment">本来是什么样?</li>
+<li class="fragment">应该是什么样?</li>
+<li class="fragment">最好是什么样?</li>
+</ul>
+</section>
+<section id="debug" class="slide level2">
+<h2>deBug</h2>
+<blockquote>
+<p>调试核心技法</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>de</strong>fine</li>
+<li class="fragment"><strong>B</strong>ug</li>
+</ul>
+</section>
+<section id="anti35ism" class="slide level2">
+<h2>anti35ism</h2>
+<blockquote>
+<p>反抗35岁主义</p>
+</blockquote>
+<ul>
+<li class="fragment">原本, 40一枝花</li>
+<li class="fragment">应该, 刚刚开始</li>
+<li class="fragment">最好, 重新开始</li>
+</ul>
+</section>
+<section id="软技能" class="slide level2">
+<h2>软技能</h2>
+<blockquote>
+<p>打破周期…</p>
+</blockquote>
+<ul>
+<li class="fragment">长期积累</li>
+<li class="fragment">复利效应</li>
+<li class="fragment">习惯成自然</li>
+</ul>
+</section>
+<section id="sharing" class="slide level2">
+<h2>sharing</h2>
+<blockquote>
+<p>利他</p>
+</blockquote>
+<ul>
+<li class="fragment">嫑坚持</li>
+<li class="fragment">嫑坚持</li>
+<li class="fragment">嫑坚持</li>
+</ul>
+<p>同时, 有效讨好自己</p>
+</section>
+<section id="小确幸" class="slide level2">
+<h2>小确幸</h2>
+<blockquote>
+<p>习惯的养成</p>
+</blockquote>
+<ul>
+<li class="fragment">每次3分钟</li>
+<li class="fragment">每天一次</li>
+<li class="fragment">每周一次</li>
+<li class="fragment">…蟒周刊</li>
+</ul>
+</section>
+<section id="hacker" class="slide level2">
+<h2>Hacker</h2>
+<blockquote>
+<p>如何成为黑客</p>
+</blockquote>
+<ul>
+<li class="fragment">开发</li>
+<li class="fragment">测试</li>
+<li class="fragment">文档</li>
+<li class="fragment">运维</li>
+<li class="fragment">布道</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_use-the-force.jpg" alt="the force…" />
+<figcaption aria-hidden="true">the force…</figcaption>
+</figure>
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a
+href="http://slides.101.camp/521Pythonic.html">slides.101.camp/521Pythonic</a></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420"
+alt="askDAMA@googlegroups.com" />
+<figcaption
+aria-hidden="true">ask<strong>DAMA</strong>@<strong>g</strong>oo<strong>g</strong>le<strong>g</strong>roup<strong>s</strong>.com</figcaption>
+</figure>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>230519 发布</li>
+<li>230518 重构</li>
+<li>230512 确认</li>
+<li>741111 init.</li>
+</ul>
+</section>
+<section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>QA</p>
+</blockquote>
+<ul>
+<li class="fragment">0: 最初的梦想是什么?</li>
+<li class="fragment">1: 现在最想拥有的是什么?</li>
+<li class="fragment">2: 如果要规划未来10年后最值得拥有的应该是什么?</li>
+</ul>
+</section>
+<section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>不忘初心…</p>
+</blockquote>
+<ul>
+<li>什么是教育?</li>
+<li>什么是编程?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/coscon19QA.gif" alt="一个自毁倾向社区的形成" />
+<figcaption aria-hidden="true">一个自毁倾向社区的形成</figcaption>
+</figure>
+<p><a
+href="https://blog.101.camp/NC/190711-NC101-self-destruction//">Blogging
+蟒营™ 博客</a></p>
+<pre><code>blog.101.camp/NC/190711-NC101-self-destruction</code></pre>
+<blockquote>
+<p>askdama@googlegroups.com</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

@@ -30,7 +30,8 @@
 <v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
-<v t="zoomq.20230320012618.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
+<v t="zoomq.20230320012618.1"><vh>@auto 521Pythonic.md</vh></v>
+<v t="zoomq.20230519192134.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
 <v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
 <v t="zoomq.20221209221640.1"><vh>@auto COSCON22camp101.md</vh></v>
 <v t="zoomq.20220925102350.1"><vh>@auto OSCAR22PEP.md</vh></v>
