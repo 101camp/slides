@@ -1,6 +1,6 @@
 % Pythonic
 % 软技能调试略解
-% 230521图灵八点半
+% 2305??图灵八点半
 
 # 但行
 
@@ -18,20 +18,20 @@
 ## 团队
 >- SINA:1+
 >- KS:10+
->- 蟒营®:10+
->- BBT: 1+
+>- 蟒营®:5+
+>- X项目: 1+
 
 ## 社区
 >- CPyUG:10K+
 >- GDG珠海:4K+
 >- TFUG珠海:1K+
->- 自怼圈:300+
+>- 自怼圈:500+
 
 ## 项目
 >- OBP: "可爱的Python" 30+中国
 >- GDG: 1000+ 全球240+城市
->- Leo: 626+ 全球
->- 蟒营®: 400+ 全球
+>- Leo: 1626+ 全球
+>- 蟒营®: 500+ 全球
 >- ...
 
 ## 总结
@@ -151,6 +151,7 @@ Namespaces are one honking great idea -- let's do more of those!
 >- 目标
 >- 能力
 >- 资源
+>- 反正俺没作到...
 
 ## 所以
 > 案例有用嘛? 
@@ -182,7 +183,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 >- 原本, 40一枝花
 >- 应该, 刚刚开始
->- 最好, 重新开始
+>- 正好, 重新开始
 
 ## 软技能
 > 打破周期...
@@ -223,6 +224,33 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ![the force...](coscon/kcn_use-the-force.jpg)
 
+## 一直"失败" 
+> 人生海海
+
+>- 五零四
+>- SINA
+>- 金山
+>- 创业
+
+## 42+
+> 清点人生
+
+>- 有趣
+>- 有人
+>- 得趣
+
+## Pythonic
+> MVP 姿态
+
+>- 先开始
+>- 再深入
+>- 不要停
+
+## PKM
+![KM](http://org.up.zoomquiet.top/omc/res/mmap/KMap-0.8.png)
+
+> 人生倍增器
+
 # (￣▽￣)
 
 
@@ -239,6 +267,7 @@ Namespaces are one honking great idea -- let's do more of those!
 ## 是也乎
 
 
+- 230525 ++失败论
 - 230519 发布
 - 230518 重构
 - 230512 确认
