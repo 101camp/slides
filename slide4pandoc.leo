@@ -17,7 +17,8 @@
 <v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230511212243.46"><vh>@auto c42gpt2how.md</vh></v>
+<v t="zoomq.20230511212243.46"><vh>@auto c42d-22cc.md</vh></v>
+<v t="zoomq.20230528102757.1"><vh>@auto c42gpt2how.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
 <v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
