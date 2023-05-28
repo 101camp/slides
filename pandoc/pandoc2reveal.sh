@@ -36,9 +36,9 @@ echo pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
 
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=simple
-pandoc $MD -o $SLIDES -t revealjs -s -V theme=serif
+#pandoc $MD -o $SLIDES -t revealjs -s -V theme=serif
 #pandoc $MD -o $SLIDES -t revealjs -s -V theme=white
-#pandoc $MD -o $SLIDES -t revealjs -s -V theme=league
+pandoc $MD -o $SLIDES -t revealjs -s -V theme=league
 
 #echo "###::end@" `date +"%Y/%m/%d %H:%M:%S"` >> $LOGD
 #echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"  >> $LOGD

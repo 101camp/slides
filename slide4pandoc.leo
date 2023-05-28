@@ -12,12 +12,9 @@
 <v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
-<v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
-<v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>
-<v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
-</v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230511212243.46"><vh>@auto c42d-22cc.md</vh></v>
+<v t="zoomq.20230511212243.46"><vh>@auto c42d-odd1life.md</vh></v>
+<v t="zoomq.20230528113303.1"><vh>@auto c42d-22cc.md</vh></v>
 <v t="zoomq.20230528102757.1"><vh>@auto c42gpt2how.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
@@ -47,6 +44,10 @@
 <v t="zoomq.20220612212104.560"><vh>@auto pycon19nn.md</vh></v>
 <v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
 <v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
+</v>
+<v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
+<v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>
+<v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
 </v>
 <v t="zoomq.20230315164050.1"><vh>QPythoniCamp</vh>
 <v t="zoomq.20220612212104.792"><vh>@auto QPicoCar_mov101.md</vh></v>
