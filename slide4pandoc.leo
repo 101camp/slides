@@ -13,7 +13,8 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230511212243.46"><vh>@auto c42d-odd1life.md</vh></v>
+<v t="zoomq.20230511212243.46"><vh>@auto c42d-kingdem.md</vh></v>
+<v t="zoomq.20230528161626.1"><vh>@auto c42d-odd1life.md</vh></v>
 <v t="zoomq.20230528113303.1"><vh>@auto c42d-22cc.md</vh></v>
 <v t="zoomq.20230528102757.1"><vh>@auto c42gpt2how.md</vh></v>
 </v>
