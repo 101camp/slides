@@ -247,7 +247,7 @@ Namespaces are one honking great idea -- let's do more of those!
 >- 不要停
 
 ## PKM
-![KM](http://org.up.zoomquiet.top/omc/res/mmap/KMap-0.8.png)
+![](http://org.up.zoomquiet.top/omc/res/mmap/KMap-0.8.png)
 
 > 人生倍增器
 
