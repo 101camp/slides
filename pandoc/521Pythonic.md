@@ -224,7 +224,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ![the force...](coscon/kcn_use-the-force.jpg)
 
-## 一直"失败" 
+## 一直"失败"
 > 人生海海
 
 >- 五零四
@@ -236,7 +236,7 @@ Namespaces are one honking great idea -- let's do more of those!
 > 清点人生
 
 >- 有趣
->- 有人
+>- 有得
 >- 得趣
 
 ## Pythonic
@@ -267,18 +267,12 @@ Namespaces are one honking great idea -- let's do more of those!
 ## 是也乎
 
 
+- 230530 图灵首聊
 - 230525 ++失败论
 - 230519 发布
 - 230518 重构
 - 230512 确认
 - 741111 init.
-
-## 눈_눈
-> QA
-
->- 0: 最初的梦想是什么?
->- 1: 现在最想拥有的是什么?
->- 2: 如果要规划未来10年后最值得拥有的应该是什么?
 
 ## 内省
 > 不忘初心...
@@ -296,4 +290,11 @@ Namespaces are one honking great idea -- let's do more of those!
     blog.101.camp/NC/190711-NC101-self-destruction
     
 > askdama@googlegroups.com
+
+## 눈_눈
+> QA
+
+>- 0: 最初的梦想是什么?
+>- 1: 现在最想拥有的是什么?
+>- 2: 如果要规划未来10年后最值得拥有的应该是什么?
 
