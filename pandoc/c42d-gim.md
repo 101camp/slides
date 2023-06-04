@@ -134,7 +134,7 @@
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/c42d-ssDragons](https://slides.101.camp/c42d-ssDragons.html)
+[slides.101.camp/c42d-gim](https://slides.101.camp/c42d-gim.html)
 
 
 
