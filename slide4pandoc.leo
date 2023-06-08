@@ -13,7 +13,9 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230602111408.1"><vh>@auto c42d-gim.md</vh></v>
+<v t="zoomq.20230602111408.1"><vh>@auto r4b2-p2c8flour101.md</vh></v>
+<v t="zoomq.20230607222048.1"><vh>@auto c42d-floss-meat.md</vh></v>
+<v t="zoomq.20230606205742.1"><vh>@auto c42d-gim.md</vh></v>
 <v t="zoomq.20230604151842.1"><vh>@auto c42d-ssDragons.md</vh></v>
 <v t="zoomq.20230511212243.46"><vh>@auto c42d-kingdem.md</vh></v>
 <v t="zoomq.20230528113303.1"><vh>@auto c42d-22cc.md</vh></v>
