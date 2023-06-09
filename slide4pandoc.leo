@@ -13,6 +13,7 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
+<v t="zoomq.20230608225121.1"><vh>@auto c42d-kaka.md</vh></v>
 <v t="zoomq.20230602111408.1"><vh>@auto r4b2-p2c8flour101.md</vh></v>
 <v t="zoomq.20230607222048.1"><vh>@auto c42d-floss-meat.md</vh></v>
 <v t="zoomq.20230606205742.1"><vh>@auto c42d-gim.md</vh></v>
