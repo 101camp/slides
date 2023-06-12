@@ -13,7 +13,6 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230608225121.1"><vh>@auto c42d-kaka.md</vh></v>
 <v t="zoomq.20230602111408.1"><vh>@auto r4b2-p2c8flour101.md</vh></v>
 <v t="zoomq.20230607222048.1"><vh>@auto c42d-floss-meat.md</vh></v>
 <v t="zoomq.20230606205742.1"><vh>@auto c42d-gim.md</vh></v>
@@ -23,17 +22,8 @@
 <v t="zoomq.20230528161626.1"><vh>@auto c42d-odd1life.md</vh></v>
 <v t="zoomq.20230528102757.1"><vh>@auto c42gpt2how.md</vh></v>
 </v>
-<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
-<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
-<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
-<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
-<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
-<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
-<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
-<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
-<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
-</v>
 <v t="zoomq.20220612212104.2"><vh>speech</vh>
+<v t="zoomq.20230609220205.1"><vh>@auto GIAC23PKMtools.md</vh></v>
 <v t="zoomq.20230320012618.1"><vh>@auto 521Pythonic.md</vh></v>
 <v t="zoomq.20230519192134.1"><vh>@auto a16zWEB3DAO10.md</vh></v>
 <v t="zoomq.20221224143533.1"><vh>@auto a16zWEB3DAO9.md</vh></v>
@@ -50,6 +40,16 @@
 <v t="zoomq.20220612212104.560"><vh>@auto pycon19nn.md</vh></v>
 <v t="zoomq.20220612212104.635"><vh>@auto coscon19sh.md</vh></v>
 <v t="zoomq.20220612212104.704"><vh>@auto atl2china.md</vh></v>
+</v>
+<v t="zoomq.20220612212104.6189"><vh>_d0d.py</vh>
+<v t="zoomq.20220612212104.6190"><vh>@auto d0d0ch.md</vh></v>
+<v t="zoomq.20220612212104.6204"><vh>@auto d0d1ch.md</vh></v>
+<v t="zoomq.20220612212104.6218"><vh>@auto d0d2ch.md</vh></v>
+<v t="zoomq.20220612212104.6231"><vh>@auto d0d3ch.md</vh></v>
+<v t="zoomq.20220612212104.6245"><vh>@auto d0d4ch.md</vh></v>
+<v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
+<v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
+<v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
 </v>
 <v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
 <v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>

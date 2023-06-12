@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Pythonic式构建故事">
+  <title>PKM工具箱</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/sky.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">PKM工具箱</h1>
+  <p class="author">Pythonic式构建故事</p>
+  <p class="date">第10届GIAC</p>
+</section>
+
+<section>
+<section id="但行" class="title-slide slide level1">
+<h1>但行</h1>
+
+</section>
+<section id="giac23" class="slide level2">
+<h2>GIAC23</h2>
+<blockquote>
+<p>10届 全球互联网架构大会</p>
+</blockquote>
+</section>
+<section id="大妈" class="slide level2">
+<h2>大妈</h2>
+<ul>
+<li class="fragment">岁数 42+</li>
+<li class="fragment">工作 23+</li>
+<li class="fragment">出版 3+</li>
+<li class="fragment">蟒龄 20+</li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="学习" class="slide level2">
+<h2>学习</h2>
+<blockquote>
+<p>IT 行业底色</p>
+</blockquote>
+</section>
+<section id="大学" class="slide level2">
+<h2>大学</h2>
+<blockquote>
+<p>课本</p>
+</blockquote>
+<ul>
+<li class="fragment">Pascal</li>
+<li class="fragment">C</li>
+<li class="fragment">C++(毕业设计)</li>
+</ul>
+</section>
+<section id="自学" class="slide level2">
+<h2>自学</h2>
+<blockquote>
+<p>就业向</p>
+</blockquote>
+<ul>
+<li class="fragment">PhotoShop</li>
+<li class="fragment">3DMAX</li>
+<li class="fragment">CoreDraw</li>
+<li class="fragment">Illustrator</li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="常州" class="slide level2">
+<h2>常州</h2>
+<blockquote>
+<p>利诚通讯</p>
+</blockquote>
+<ul>
+<li class="fragment">Flah/ActionScript</li>
+<li class="fragment">PHP</li>
+</ul>
+</section>
+<section id="上海" class="slide level2">
+<h2>上海</h2>
+<blockquote>
+<p>讯博数码科技</p>
+</blockquote>
+<ul>
+<li class="fragment">ASP</li>
+<li class="fragment">Dreamwaver</li>
+<li class="fragment">XML/XSL/CSS/JS/…</li>
+</ul>
+</section>
+<section id="社区" class="slide level2">
+<h2>社区</h2>
+<blockquote>
+<p>blogging</p>
+</blockquote>
+<ul>
+<li class="fragment">NucleusCMS</li>
+<li class="fragment">Plone</li>
+<li class="fragment">Zope</li>
+<li class="fragment">CZUG</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/2004-0930-effeBDragon.png"
+alt="2004-0930-effeBDragon" />
+<figcaption aria-hidden="true">2004-0930-effeBDragon</figcaption>
+</figure>
+</section>
+<section id="python" class="slide level2">
+<h2>Python</h2>
+<blockquote>
+<p>2003~ 啄木鸟</p>
+</blockquote>
+<ul>
+<li>mailman</li>
+<li>MoinMoin 1.4.*</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg"
+alt="GDD+guido" />
+<figcaption aria-hidden="true">GDD+guido</figcaption>
+</figure>
+</section>
+<section id="北京" class="slide level2">
+<h2>北京</h2>
+<blockquote>
+<p>SINA.com</p>
+</blockquote>
+<ul>
+<li class="fragment">PHP/CVS管理器</li>
+<li class="fragment">FreeBSD</li>
+<li class="fragment">Linux</li>
+</ul>
+</section>
+<section id="ubuntu" class="slide level2">
+<h2>Ubuntu</h2>
+<blockquote>
+<p>2005~</p>
+</blockquote>
+<p>日用</p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg" /></p>
+</section>
+<section id="cpug" class="slide level2">
+<h2>CPUG</h2>
+<blockquote>
+<p>2005 ~</p>
+</blockquote>
+<ul>
+<li class="fragment">BPUG</li>
+</ul>
+</section>
+<section id="erlang" class="slide level2">
+<h2>Erlang</h2>
+<blockquote>
+<p>2007 ~ 金山</p>
+</blockquote>
+<ul>
+<li>ECUG</li>
+<li><a href="https://github.com/ZoomQuiet/erlbattle">erlbattle</a></li>
+<li>2010-&gt;实效云用户组</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/0711-ecug-ii-bw.jpg" alt="ECUG II" />
+<figcaption aria-hidden="true">ECUG II</figcaption>
+</figure>
+</section>
+<section id="sociallearnlab.org" class="slide level2">
+<h2>sociallearnlab.org</h2>
+<blockquote>
+<p>教育大发现 2008 ~ 2013</p>
+</blockquote>
+<p><a href="#/?">社区顾问</a></p>
+</section>
+<section id="开源卫士" class="slide level2">
+<h2><a href="http://code.ijinshan.com/">开源卫士</a></h2>
+<blockquote>
+<p>2012~13 49期讲座</p>
+</blockquote>
+<ul>
+<li>golang</li>
+<li>node.js</li>
+<li>OpenResty</li>
+<li>crx.</li>
+<li>SAE</li>
+<li>…</li>
+</ul>
+</section>
+<section id="dart" class="slide level2">
+<h2>Dart</h2>
+<blockquote>
+<p>2013 ~ GDG 珠海</p>
+</blockquote>
+<p>AngularJS ..</p>
+</section>
+<section id="scheme" class="slide level2">
+<h2>Scheme</h2>
+<blockquote>
+<p>2017</p>
+</blockquote>
+<p>LISP..Haskell</p>
+</section>
+<section id="typescript" class="slide level2">
+<h2>TypeScript</h2>
+<blockquote>
+<p>2018 … Flutter</p>
+</blockquote>
+</section>
+<section id="tfug-珠海" class="slide level2">
+<h2>TFUG 珠海</h2>
+<blockquote>
+<p>190214 ~ AI 落地</p>
+</blockquote>
+<ul>
+<li>TersnorFlow</li>
+<li>Keras</li>
+<li>FAST.ai</li>
+<li>…</li>
+</ul>
+</section>
+<section id="rust" class="slide level2">
+<h2>Rust</h2>
+<blockquote>
+<p>2019</p>
+</blockquote>
+<p>尝鲜…</p>
+</section>
+<section id="hyperledger" class="slide level2">
+<h2>Hyperledger</h2>
+<blockquote>
+<p>2021</p>
+</blockquote>
+<p>Fabric/Cello/…</p>
+</section>
+<section id="未来" class="slide level2">
+<h2>未来</h2>
+<blockquote>
+<p>.. 好奇什么, 就学什么</p>
+</blockquote>
+</section>
+<section id="smalltalk" class="slide level2">
+<h2>Smalltalk</h2>
+<blockquote>
+<p>Glamorous Toolkit</p>
+</blockquote>
+</section></section>
+<section>
+<section id="好事" class="title-slide slide level1">
+<h1>好事</h1>
+
+</section>
+<section id="开发" class="slide level2">
+<h2>开发</h2>
+<blockquote>
+<p>本分</p>
+</blockquote>
+<ul>
+<li>3D 动画</li>
+<li>职业顿悟</li>
+<li>…</li>
+</ul>
+</section>
+<section id="管理" class="slide level2">
+<h2>管理</h2>
+<blockquote>
+<p>过程改进</p>
+</blockquote>
+<p>用<strong>技术</strong>改善<strong>技术人</strong>生活品质</p>
+</section>
+<section id="写作" class="slide level2">
+<h2>写作</h2>
+<blockquote>
+<p>爱好</p>
+</blockquote>
+<ul>
+<li class="fragment">22CC</li>
+<li class="fragment">34年前的 SiFi 小说</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/090902-lovpy.jpg" alt="2009" />
+<figcaption aria-hidden="true">2009</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/s20773481-rwipy.png?imageView2/2/h/510"
+alt="2013" />
+<figcaption aria-hidden="true">2013</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_export_now.jpg" alt="输出是更残酷的输入" />
+<figcaption aria-hidden="true">输出是更残酷的输入</figcaption>
+</figure>
+</section>
+<section id="社区-1" class="slide level2">
+<h2>社区</h2>
+<blockquote>
+<p>GNU 感召</p>
+</blockquote>
+<ul>
+<li class="fragment">进入</li>
+<li class="fragment">理解</li>
+<li class="fragment">服务</li>
+<li class="fragment">发起</li>
+<li class="fragment">策划</li>
+<li class="fragment">etc.</li>
+</ul>
+</section>
+<section id="社群" class="slide level2">
+<h2>社群</h2>
+<blockquote>
+<p>社区群落 ~&gt; 领域流量</p>
+</blockquote>
+<ul>
+<li>有关联</li>
+<li>场景向</li>
+<li>自运营</li>
+<li>…</li>
+</ul>
+</section>
+<section id="自怼" class="slide level2">
+<h2>自怼</h2>
+<blockquote>
+<p>DebugUself</p>
+</blockquote>
+<p>有心无心,自然聚集</p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/kcn_use-the-force.jpg" alt="the force…" />
+<figcaption aria-hidden="true">the force…</figcaption>
+</figure>
+</section>
+<section id="分享" class="slide level2">
+<h2>分享</h2>
+<blockquote>
+<p>有好东西一定给小朋友们分享</p>
+</blockquote>
+</section></section>
+<section>
+<section id="莫问" class="title-slide slide level1">
+<h1>莫问</h1>
+
+</section>
+<section id="km" class="slide level2">
+<h2>KM</h2>
+<blockquote>
+<p>知识管理</p>
+</blockquote>
+<ul>
+<li class="fragment">什么是知识?</li>
+</ul>
+</section>
+<section id="知识" class="slide level2">
+<h2>知识</h2>
+<blockquote>
+<p>私人断言</p>
+</blockquote>
+<ul>
+<li class="fragment">知识是: <strong>经验</strong></li>
+<li class="fragment">在组织内 <strong>流通</strong></li>
+<li class="fragment"><strong>速率</strong></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-25-1024px-Knowledge_spiral.svg.png" /></p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-25-kmtranfer2.gif" /></p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://ipic.zoomquiet.top/2022-09-25-kmzl2.jpg" /></p>
+</section>
+<section id="理论" class="slide level2">
+<h2>理论</h2>
+<blockquote>
+<p>主要流派</p>
+</blockquote>
+<ul>
+<li class="fragment">行为学派</li>
+<li class="fragment">技术学派</li>
+<li class="fragment">经济学派</li>
+<li class="fragment">战略学派</li>
+</ul>
+</section>
+<section id="ekm" class="slide level2">
+<h2>EKM</h2>
+<blockquote>
+<p>2009</p>
+</blockquote>
+<p><a
+href="http://s5.zoomquiet.top/090401-KsKM/t2t.html">金山知识管理(KsKM)思考</a></p>
+</section>
+<section id="社区vs企业" class="slide level2">
+<h2>社区vs企业</h2>
+<blockquote>
+<p>学习行为差异</p>
+</blockquote>
+<ul>
+<li class="fragment">场景: 固定vs零散</li>
+<li class="fragment">成员: 固定vs破碎</li>
+<li class="fragment">目标: 固定vs游移</li>
+<li class="fragment">行动: 固定vs临时</li>
+</ul>
+</section>
+<section id="个体体验" class="slide level2">
+<h2>个体体验</h2>
+<blockquote>
+<p>KPI 不同</p>
+</blockquote>
+<ul>
+<li class="fragment">动力不同</li>
+<li class="fragment">反馈不同</li>
+<li class="fragment">…</li>
+<li class="fragment">感受不同</li>
+</ul>
+</section>
+<section id="融合" class="slide level2">
+<h2>融合?</h2>
+<blockquote>
+<p>相互增补</p>
+</blockquote>
+<ul>
+<li class="fragment">难</li>
+<li class="fragment">可能性-&gt;</li>
+<li class="fragment"><strong>Innersource</strong></li>
+</ul>
+</section></section>
+<section>
+<section id="前路" class="title-slide slide level1">
+<h1>前路</h1>
+
+</section>
+<section id="pkm" class="slide level2">
+<h2>PKM</h2>
+<blockquote>
+<p>个人知识管理</p>
+</blockquote>
+<ul>
+<li class="fragment">个人和组织的边界?</li>
+<li class="fragment">知识可管理实体是?</li>
+<li class="fragment">到底要管理什么?</li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section id="aristotle" class="slide level2">
+<h2>Aristotle</h2>
+<blockquote>
+<p>“For the things we have to learn before we can do them, we learn by
+doing them.”</p>
+</blockquote>
+</section>
+<section id="亚里士多德" class="slide level2">
+<h2>亚里士多德</h2>
+<blockquote>
+<p>“我们通过做来学习</p>
+<p>我们必须学习去做的…”</p>
+</blockquote>
+<p>~ 伦理学</p>
+</section>
+<section id="ipo" class="slide level2">
+<h2>IPO</h2>
+<blockquote>
+<p>关键界面</p>
+</blockquote>
+<ul>
+<li class="fragment"><strong>I</strong>nput</li>
+<li class="fragment"><strong>P</strong>rocess</li>
+<li class="fragment"><strong>O</strong>utput</li>
+</ul>
+</section>
+<section id="工具栈" class="slide level2">
+<h2>工具栈</h2>
+<blockquote>
+<p>公开分享</p>
+</blockquote>
+<ul>
+<li>2010 上海, 盛大研究院</li>
+<li>2013 广州, CMCM</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="http://s5.zoomquiet.top/131113-MyTools/i/map/zqtools_mapping.jpg" /></p>
+</section>
+<section id="知识仓库" class="slide level2">
+<h2>知识仓库</h2>
+<blockquote>
+<p>私人知识仓库</p>
+</blockquote>
+<ul>
+<li class="fragment">日记</li>
+<li class="fragment">剪报</li>
+<li class="fragment">word/text</li>
+<li class="fragment">wiki</li>
+<li class="fragment"><a
+href="https://zoomquiet.io/collection.html">scrapbook</a></li>
+<li class="fragment">…</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="http://s5.zoomquiet.top/131113-MyTools/i/levelradar_demo.png" /></p>
+</section>
+<section class="slide level2">
+
+<p><img
+data-src="https://img9.doubanio.com/view/subject/l/public/s1093496.jpg" /></p>
+</section>
+<section id="问题所在" class="slide level2">
+<h2>问题所在</h2>
+<blockquote>
+<p>大志向</p>
+</blockquote>
+<ul>
+<li class="fragment">如果没有伟大目标</li>
+<li class="fragment">总是在浪费时间…</li>
+<li class="fragment">可惜…</li>
+</ul>
+</section>
+<section id="广撒网" class="slide level2">
+<h2>广撒网</h2>
+<blockquote>
+<p>先收集再应用</p>
+</blockquote>
+<p>问题在软件的生命周期…</p>
+</section>
+<section id="scrapbook" class="slide level2">
+<h2>ScrapBook</h2>
+<blockquote>
+<p>FireFox 拓展</p>
+</blockquote>
+<ul>
+<li class="fragment">06开始, Ubuntu</li>
+<li class="fragment">25+G,10万网页</li>
+<li class="fragment">17年v56.0 之后不支持 XUL</li>
+<li class="fragment">WaterFox…</li>
+</ul>
+</section>
+<section id="纸笔" class="slide level2">
+<h2>纸+笔</h2>
+<blockquote>
+<p>永远不过时</p>
+</blockquote>
+<p><img
+data-src="http://s5.zoomquiet.top/131113-MyTools/i/handarw-mindmap.gif" /></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="https://ipic.zoomquiet.top/2023-06-12-zshot%202023-06-12%2023.34.12.jpg!/fh/420"
+alt="如何有效整理信息" />
+<figcaption aria-hidden="true">如何有效整理信息</figcaption>
+</figure>
+</section>
+<section id="情報は1冊のノートにまとめなさい" class="slide level2">
+<h2>情報は1冊のノートにまとめなさい</h2>
+<blockquote>
+<p>一元记录法</p>
+</blockquote>
+<ul>
+<li class="fragment">配套 Excel 索引</li>
+</ul>
+</section>
+<section id="notion们" class="slide level2">
+<h2>Notion们</h2>
+<blockquote>
+<p>双链笔记系统</p>
+</blockquote>
+<ul>
+<li class="fragment">logseq</li>
+<li class="fragment">tiddlywiki</li>
+<li class="fragment">ROAM,OBSIDIAN,WORKFLOWY…</li>
+</ul>
+</section>
+<section id="笔记" class="slide level2">
+<h2>笔记?</h2>
+<blockquote>
+<p>Zettelkasten/卢曼卡片</p>
+</blockquote>
+<ul>
+<li class="fragment">为何记录?</li>
+<li class="fragment">记录什么?</li>
+<li class="fragment">如何记录?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="http://org.up.zoomquiet.top/omc/res/mmap/KMap-0.8.png"
+alt="人生倍增器" />
+<figcaption aria-hidden="true">人生倍增器</figcaption>
+</figure>
+</section>
+<section id="sharing" class="slide level2">
+<h2>sharing</h2>
+<blockquote>
+<p>利他</p>
+</blockquote>
+<ul>
+<li class="fragment">嫑坚持</li>
+<li class="fragment">嫑坚持</li>
+<li class="fragment">嫑坚持</li>
+</ul>
+<p>同时, 有效讨好自己</p>
+</section>
+<section id="bpl" class="slide level2">
+<h2>BPL</h2>
+<blockquote>
+<p>基于项目的学习</p>
+</blockquote>
+</section>
+<section id="ps" class="slide level2">
+<h2>PS:</h2>
+<blockquote>
+<p>嫑争论,嫑争论,嫑争论</p>
+</blockquote>
+<ul>
+<li class="fragment">道不同</li>
+<li class="fragment">不相<strong>予</strong>谋</li>
+</ul>
+</section></section>
+<section>
+<section id="section" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="giac23-1" class="slide level2">
+<h2>GIAC23</h2>
+<blockquote>
+<p>10届 全球互联网架构大会</p>
+</blockquote>
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a
+href="http://slides.101.camp/GIAC23PKMtools.html">slides.101.camp/GIAC23PKMtools</a></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420"
+alt="Chaos42DAMA@googlegroups.com" />
+<figcaption
+aria-hidden="true">Chaos<strong>42</strong>DAMA@<strong>g</strong>oo<strong>g</strong>le<strong>g</strong>roup<strong>s</strong>.com</figcaption>
+</figure>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>220612 re-factory</li>
+<li>220609 append</li>
+<li>230520 init.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="https://ipic.zoomquiet.top/2022-09-25-theory101camp_v4.jpg"
+alt="断言v4" />
+<figcaption aria-hidden="true">断言v4</figcaption>
+</figure>
+</section>
+<section id="camp" class="slide level2">
+<h2>Camp</h2>
+<blockquote>
+<p>比来时好</p>
+</blockquote>
+<ul>
+<li class="fragment">蟒营价值发源自<strong>真诚</strong>探索</li>
+<li
+class="fragment"><strong>治</strong>疗视而不见笔记<strong>最</strong>有效</li>
+<li
+class="fragment">不懂<strong>就</strong>问是课程核心<strong>行动</strong></li>
+<li class="fragment">编程实力积累必须<strong>要</strong>编程</li>
+</ul>
+</section>
+<section id="内省" class="slide level2">
+<h2>内省</h2>
+<blockquote>
+<p>不忘初心…</p>
+</blockquote>
+<ul>
+<li>什么是教育?</li>
+<li>什么是编程?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="coscon/coscon19QA.gif" alt="一个自毁倾向社区的形成" />
+<figcaption aria-hidden="true">一个自毁倾向社区的形成</figcaption>
+</figure>
+<p><a
+href="https://blog.101.camp/NC/190711-NC101-self-destruction/">Blogging
+蟒营™ 博客</a></p>
+<pre><code>blog.101.camp/NC/190711-NC101-self-destruction</code></pre>
+<blockquote>
+<p>askdama@googlegroups.com</p>
+</blockquote>
+</section>
+<section id="蟒营" class="slide level2">
+<h2>蟒营®</h2>
+<blockquote>
+<p>沿革</p>
+</blockquote>
+<ul>
+<li class="fragment">2008 PythoniCamp 金山大学</li>
+<li class="fragment">2015 蟒营™课程</li>
+<li class="fragment">2017 DebugUself/自怼圈</li>
+<li class="fragment">2018 蟒营®网络课程开源框架</li>
+</ul>
+</section>
+<section id="눈_눈" class="slide level2">
+<h2>눈_눈</h2>
+<blockquote>
+<p>是也乎</p>
+</blockquote>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
