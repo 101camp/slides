@@ -368,8 +368,8 @@ Fabric/Cello/...
 
 >- 06开始, Ubuntu
 >- 25+G,10万网页
->- 17年v56.0 之后不支持 XUL
->- WaterFox...
+>- [17年v56.0 之后不支持 XUL](https://du.101.camp/2017-11/ff-no-upgrade/)
+>- [WaterFox](https://blog.zoomquiet.io/221213-scrapbook-revert.html)...
 
 ## 纸+笔
 > 永远不过时
@@ -386,12 +386,15 @@ Fabric/Cello/...
 
 >- 配套 Excel 索引
 
-## Notion们
-> 双链笔记系统
 
->- logseq
->- tiddlywiki
->- ROAM,OBSIDIAN,WORKFLOWY...
+-------
+
+![记录和粘贴任何内容](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.03.37.jpg!/fh/420)
+
+
+-------
+
+![存储在笔记本中的信息用于知识生产](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.03.53.jpg!/fh/420)
 
 ## 笔记?
 > Zettelkasten/卢曼卡片
@@ -399,6 +402,14 @@ Fabric/Cello/...
 >- 为何记录?
 >- 记录什么?
 >- 如何记录?
+
+## Notion们
+> 双链笔记系统
+
+>- logseq
+>- tiddlywiki
+>- ROAM,OBSIDIAN,WORKFLOWY...
+
 
 -------
 
@@ -410,17 +421,123 @@ Fabric/Cello/...
 >- 嫑坚持
 >- 嫑坚持
 >- 嫑坚持
-
-同时, 有效讨好自己
+>    + 有效讨好自己
 
 ## BPL
 > 基于项目的学习
+
+>- 作中学, 学里作
+>- 可运行本身也是项目品质检验
+>- 拥有问题场景本身也是实力...
+
+## QA
+> 互联网中提问的正确姿势
+
+>- 先自行给出一个错误的解答
+>- 全能网友将热烈给出所有答案
+>- 检验自己学习成果最佳形式
+>    + 输出教程
+
+## 工具
+> 什么是工具?
+
+>- 前人领域效能习惯的
+>- 凝聚态
+>    + 所以, 用不起来双方问题
+>    + 自己, 还没到那个问题阶段
+>    + 工具, 不支持定制当前习惯
+
+## 工具箱
+> 私人经验
+
+>- 越少越好
+>- 使用越频繁越好
+>- 最好可定制
+>- 不行, 别强求
+
+## 压箱底
+> 10+年一直使用
+
+>- 跨平台/屏幕
+>- 开源/免费
+>- 数据可迁移可导出
+>- ...
+
+
+-------
+
+![2400+](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.29.37.jpg)
+
+
+
+-------
+
+![BXM](http://s5.zoomquiet.top/131113-MyTools/i/snap/bxm-3.gif)
+
+## rIME
+> [RIME | 中州韻輸入法引擎](https://rime.im/download)
+
+>- [鼠鬚管/Squirrel](https://github.com/ZoomQuiet/ZqBXM/tree/master/Rime-Squirrel)
+>- [bxmr - crates.io: Rust Package Registry](https://crates.io/crates/bxmr)
+>- 字母形态联想, 可定制码表, 全平台支持...
+
+
+-------
+
+![Leo](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.40.19.jpg)
+
+## Leo
+> 文学化编辑器
+
+>- [Literate programming - 1984](https://en.wikipedia.org/wiki/Literate_programming)
+>- ![Donald Knuth](https://ipic.zoomquiet.top/2023-06-13-Literate_Programming_book_cover.jpg)
+
+## Edward.K.Ream
+> [令德华](https://www.leoeditor.com/ekr.html)
+
+>- 1974 开始工作
+>- 1996 独立完成 Leo 核心功能
+>- 2001 从 C->C++->Py 发布
+>- 06～20 从 2.4.1 开始Tk 
+>- 13~ mac
+>- Qt ... websocket ...
+
+## Literate?
+
+```
+源代码只是构成程序的一小部分！
+程序的真正主体是对它的算法、结构、目的和用法的描述
+	——实现它的源代码并不是主要的
+```
+
+
+-------
+
+![](https://ipic.zoomquiet.top/2023-06-13-abt_leo_5-subcode.png!/fh/640)
+
+## 工具?
+> 工具和人的关系
+
+>- 人构建工具..固化效能习惯
+>- 工具训练人..加载习惯效能
+>- ...所以, 谨慎
 
 ## PS:
 > 嫑争论,嫑争论,嫑争论
 
 >- 道不同
 >- 不相**予**谋
+
+## PPS:
+> 每位学习者
+
+>- 都值得拥有自己的域名
+>- CyberSpace 中私人王国
+
+
+-------
+
+![[ZoomQuiet.io](https://zoomquiet.io/)](https://ipic.zoomquiet.top/2023-06-13-zoomquiet.io.png!/fh/610)
 
 # (￣▽￣)
 
