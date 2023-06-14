@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="一种有趣又高效的演讲构建工具">
+  <title>高桥流</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/solarized.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">高桥流</h1>
+  <p class="author">一种有趣又高效的演讲构建工具</p>
+  <p class="date"><a href="https://www.youtube.com/@Chaos42DAMA"><span
+class="citation"
+data-cites="Chaos42DAMA">@Chaos42DAMA</span></a>/自怼圈</p>
+</section>
+
+<section id="特点" class="title-slide slide level1">
+<h1>特点</h1>
+
+</section>
+
+<section id="字大" class="title-slide slide level1">
+<h1>字大</h1>
+
+</section>
+
+<section id="幻灯多" class="title-slide slide level1">
+<h1>幻灯多</h1>
+
+</section>
+
+<section id="字少" class="title-slide slide level1">
+<h1>字少</h1>
+
+</section>
+
+<section id="快" class="title-slide slide level1">
+<h1>快</h1>
+
+</section>
+
+<section id="很快" class="title-slide slide level1">
+<h1>很快</h1>
+
+</section>
+
+<section id="非常快" class="title-slide slide level1">
+<h1>非常快</h1>
+
+</section>
+
+<section id="听" class="title-slide slide level1">
+<h1>听</h1>
+
+</section>
+
+<section>
+<section id="好处" class="title-slide slide level1">
+<h1>好处</h1>
+
+</section>
+<section id="演讲架构" class="slide level2">
+<h2>演讲架构</h2>
+<blockquote>
+<p>一次流畅的演讲, 关键问题:</p>
+</blockquote>
+<ul>
+<li class="fragment">什么线索</li>
+<li class="fragment">如何展开?</li>
+<li class="fragment">如何收尾?</li>
+</ul>
+</section>
+<section id="高桥流" class="slide level2">
+<h2>高桥流</h2>
+<blockquote>
+<p>强迫我们反复演习</p>
+</blockquote>
+<ul>
+<li class="fragment">大字,多幻灯</li>
+<li class="fragment">前后强逻辑依赖</li>
+<li class="fragment">每张对应讲述很少</li>
+<li class="fragment">可以单元化</li>
+</ul>
+</section>
+<section id="进一步的" class="slide level2">
+<h2>进一步的</h2>
+<blockquote>
+<p>强行腹稿</p>
+</blockquote>
+<ul>
+<li class="fragment">每次试讲</li>
+<li class="fragment">都必须穿过所有幻灯</li>
+<li class="fragment">反复体会</li>
+</ul>
+</section>
+<section id="以及" class="slide level2">
+<h2>以及</h2>
+<blockquote>
+<p>天然加密</p>
+</blockquote>
+<ul>
+<li class="fragment">光看幻灯</li>
+<li class="fragment">很难想象具体什么内容</li>
+</ul>
+</section>
+<section id="还有" class="slide level2">
+<h2>还有</h2>
+<blockquote>
+<p>后排也看得清</p>
+</blockquote>
+</section>
+<section id="关键" class="slide level2">
+<h2>关键</h2>
+<blockquote>
+<p>演讲</p>
+</blockquote>
+<ul>
+<li class="fragment">注意力集中在你</li>
+<li class="fragment">而不是幻灯</li>
+</ul>
+</section></section>
+<section>
+<section id="由来" class="title-slide slide level1">
+<h1>由来</h1>
+
+</section>
+<section id="section" class="slide level2">
+<h2>2001</h2>
+<blockquote>
+<p><a
+href="http://www.rubycolor.org/takahashi/takahashi/img0.html">高橋メソッド</a></p>
+</blockquote>
+<ul>
+<li class="fragment">日本 Ruby 社区会长: 高橋征義</li>
+<li class="fragment">没有 PPT 也没有绘图工具</li>
+<li class="fragment">纯文字决战</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2">
+<h2>2004</h2>
+<blockquote>
+<p>再次使用</p>
+</blockquote>
+<ul>
+<li class="fragment">EVA 风格
+<ul>
+<li
+class="fragment">以飛快的節奏將斗大的極太明朝字體化為文字、圖案、精神三位一體，</li>
+<li
+class="fragment">藉此增加講者與聽眾間的同調率，遂行精神污染之目的</li>
+</ul></li>
+<li class="fragment">走红</li>
+</ul>
+</section>
+<section id="对比" class="slide level2">
+<h2>对比</h2>
+<blockquote>
+<p><a
+href="http://0.zoomquiet.top/ZQCollection/pdf/111105_%E7%95%B6%E4%BB%A3%E6%B5%81%E8%A1%8C%E7%B0%A1%E5%A0%B1.pdf">當代流行簡報</a></p>
+</blockquote>
+<ul>
+<li class="fragment">2010, 台湾私立南山高中</li>
+<li class="fragment">Bill: 传统图表+文字</li>
+<li class="fragment">1984~ Jobs: one more thing</li>
+<li class="fragment">2002~ Lessig: TED</li>
+<li class="fragment">2004~ 高橋流</li>
+</ul>
+</section>
+<section id="选择" class="slide level2">
+<h2>选择</h2>
+<blockquote>
+<p>没有最好</p>
+</blockquote>
+<ul>
+<li class="fragment">只有最适合</li>
+</ul>
+</section></section>
+<section>
+<section id="制作" class="title-slide slide level1">
+<h1>制作</h1>
+
+</section>
+<section id="s5" class="slide level2">
+<h2>S5</h2>
+<blockquote>
+<p>05~12</p>
+</blockquote>
+<ul>
+<li class="fragment"><a href="https://meyerweb.com/eric/tools/s5/">S5: A
+Simple Standards-Based Slide Show System</a></li>
+<li class="fragment">手工 HTML</li>
+<li class="fragment">定制 CSS</li>
+</ul>
+</section>
+<section id="rst2s5" class="slide level2">
+<h2>rst2S5</h2>
+<blockquote>
+<p>12 ~ 17</p>
+</blockquote>
+<ul>
+<li class="fragment"><a href="https://meyerweb.com/eric/tools/s5/">S5: A
+Simple Standards-Based Slide Show System</a></li>
+<li class="fragment"><a
+href="https://manpages.ubuntu.com/manpages/bionic/man1/rst2s5.1.html">rst2s5
+- convert reST documents to S5 slides</a></li>
+<li class="fragment">定制 CSS</li>
+</ul>
+</section>
+<section id="pandoc" class="slide level2">
+<h2>pandoc</h2>
+<blockquote>
+<p>2018 ~</p>
+</blockquote>
+<ul>
+<li class="fragment"><a href="https://pandoc.org/">Pandoc -
+index</a></li>
+<li class="fragment"><a href="https://revealjs.com/#/2/1">The HTML
+presentation framework | reveal.js</a></li>
+<li class="fragment">二维 H5 幻灯</li>
+</ul>
+</section>
+<section id="配套" class="slide level2">
+<h2>配套</h2>
+<blockquote>
+<p>Leo</p>
+</blockquote>
+<ul>
+<li class="fragment">文学化编辑器</li>
+<li class="fragment">任意颗粒度调整</li>
+</ul>
+</section>
+<section id="app" class="slide level2">
+<h2>–app</h2>
+<blockquote>
+<p>浏览器应用模式</p>
+</blockquote>
+<ul>
+<li class="fragment">–new-window</li>
+<li class="fragment">–app=</li>
+<li class="fragment">无地址栏应用样窗口</li>
+</ul>
+</section>
+<section id="发布" class="slide level2">
+<h2>发布?</h2>
+<blockquote>
+<p>GitHub-pags</p>
+</blockquote>
+<ul>
+<li class="fragment">以及其它静态网站发布平台</li>
+</ul>
+</section></section>
+<section id="happy" class="title-slide slide level1">
+<h1>Happy</h1>
+
+</section>
+
+<section id="slides" class="title-slide slide level1">
+<h1>Slides</h1>
+
+</section>
+
+<section id="not-ppt" class="title-slide slide level1">
+<h1>NOT PPT</h1>
+
+</section>
+
+<section>
+<section id="section-2" class="title-slide slide level1">
+<h1>(￣▽￣)</h1>
+
+</section>
+<section id="幻灯" class="slide level2">
+<h2>幻灯</h2>
+<blockquote>
+<p>NOT PPT</p>
+</blockquote>
+<p><a
+href="https://slides.101.camp/c42d-slide-takahashi.html">slides.101.camp/c42d-slide-takahashi</a></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img
+data-src="http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420"
+alt="Chaos42DAMA@googlegroups.com" />
+<figcaption
+aria-hidden="true">Chaos<strong>42</strong>DAMA@<strong>g</strong>oo<strong>g</strong>le<strong>g</strong>roup<strong>s</strong>.com</figcaption>
+</figure>
+</section>
+<section id="是也乎" class="slide level2">
+<h2>是也乎</h2>
+<ul>
+<li>230614 init.</li>
+</ul>
+</section>
+<section id="refer." class="slide level2">
+<h2>refer.</h2>
+<blockquote>
+<p>相关参考:</p>
+</blockquote>
+<ul>
+<li><a
+href="https://www.ituring.com.cn/article/73238">幻灯片“高大上”进行曲-
+图灵社区</a></li>
+<li><a
+href="https://liuf.net/blog/2009/10/takahashi-method-and-tech-speach/">高橋メソッド与技术演讲
+– 人到中年</a>
+<ul>
+<li><a
+href="https://jedi.org/blog/archives/005429.html#entry">高橋メソッド</a></li>
+<li><a href="https://jedi.org/blog/archives/005856.html">Takahashi.xul
+再更新 | Jedi’s BLOG</a></li>
+<li><a
+href="https://jedi.org/blog/archives/005878.html">高橋法手冊（附偷拍流出照片）
+| Jedi’s BLOG</a></li>
+</ul></li>
+<li><a
+href="https://greyli.com/make-a-fun-slide/#respond">做个有趣的幻灯片 |
+李辉</a>
+<ul>
+<li><a
+href="https://www.youtube.com/watch?v=8ni1MN4MYVI">一分三十四秒，了解高橋流簡報法
+- YouTube</a></li>
+</ul></li>
+<li><a
+href="http://s5.zoomquiet.top/131113-MyTools/index.html">我的工具箱</a>
+<ul>
+<li><a href="http://s5.zoomquiet.top/071014-py2erl/index.html">think
+abt. Py 2 Erl</a></li>
+</ul></li>
+<li>…</li>
+</ul>
+</section>
+<section id="欢迎订阅" class="slide level2">
+<h2>欢迎订阅</h2>
+<blockquote>
+<p><a href="https://www.youtube.com/@Chaos42DAMA">大妈的多重宇宙</a></p>
+</blockquote>
+<p><a href="https://www.youtube.com/@Chaos42DAMA"><span class="citation"
+data-cites="Chaos42DAMA">@Chaos42DAMA</span></a></p>
+<ul>
+<li class="fragment">谈天说地从<strong>书</strong>开始</li>
+<li class="fragment">人生调试<strong>怂怼</strong>不休</li>
+<li class="fragment">随兴<strong>科幻</strong>走笔吐槽</li>
+<li class="fragment">分享<strong>五年</strong>也不过期</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

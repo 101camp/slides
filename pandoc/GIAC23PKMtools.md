@@ -379,7 +379,7 @@ Fabric/Cello/...
 
 -------
 
-![如何有效整理信息](https://ipic.zoomquiet.top/2023-06-12-zshot%202023-06-12%2023.34.12.jpg!/fh/420)
+![](https://ipic.zoomquiet.top/2023-06-12-zshot%202023-06-12%2023.34.12.jpg!/fh/610)
 
 ## 情報は1冊のノートにまとめなさい
 > 一元记录法
@@ -391,6 +391,10 @@ Fabric/Cello/...
 
 ![记录和粘贴任何内容](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.03.37.jpg!/fh/420)
 
+
+-------
+
+![使用前和使用后的比较](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2014.13.50.jpg!/fh/420)
 
 -------
 
