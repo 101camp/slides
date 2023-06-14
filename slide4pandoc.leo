@@ -12,7 +12,6 @@
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
 <v t="zoomq.20230614162243.1"><vh>@auto c42d-slide-takahashi.md</vh></v>
-<v t="zoomq.20230602111408.1"><vh>@auto r4b2-p2c8flour101.md</vh></v>
 <v t="zoomq.20230607222048.1"><vh>@auto c42d-floss-meat.md</vh></v>
 <v t="zoomq.20230606205742.1"><vh>@auto c42d-gim.md</vh></v>
 <v t="zoomq.20230604151842.1"><vh>@auto c42d-ssDragons.md</vh></v>
@@ -49,10 +48,6 @@
 <v t="zoomq.20220612212104.6259"><vh>@auto d0d5ch.md</vh></v>
 <v t="zoomq.20220612212104.6273"><vh>@auto d0d6ch.md</vh></v>
 <v t="zoomq.20220612212104.6287"><vh>@auto d0d7ch.md</vh></v>
-</v>
-<v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
-<v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>
-<v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
 </v>
 <v t="zoomq.20230315164050.1"><vh>QPythoniCamp</vh>
 <v t="zoomq.20220612212104.792"><vh>@auto QPicoCar_mov101.md</vh></v>
@@ -113,6 +108,11 @@
 <v t="zoomq.20220612212104.6187"><vh>🐻的注视</vh>
 <v t="zoomq.20220612212104.6188"><vh>[22CC](https://github.com/DebugUself/du4proto/issues/653)</vh></v>
 </v>
+</v>
+<v t="zoomq.20230320012627.1"><vh>Bway.ltd</vh>
+<v t="zoomq.20230602111408.1"><vh>@auto r4b2-p2c8flour101.md</vh></v>
+<v t="zoomq.20221224142948.1"><vh>@auto bm2pivot.md</vh></v>
+<v t="zoomq.20230511193818.1"><vh>@auto bm1pivot.md</vh></v>
 </v>
 <v t="zoomq.20220612212104.6298"><vh>101camp15py</vh>
 <v t="zoomq.20220612212104.6299"><vh>@auto 15py3ch.md</vh></v>

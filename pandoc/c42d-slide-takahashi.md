@@ -5,13 +5,13 @@
 # 特点
 
 
-# 字大
+# 大字
 
 
 # 幻灯多
 
 
-# 字少
+# 少
 
 
 # 快
@@ -79,10 +79,12 @@
 ## 2004
 > 再次使用
 
->- EVA 风格
->    + 以飛快的節奏將斗大的極太明朝字體化為文字、圖案、精神三位一體，
->    + 藉此增加講者與聽眾間的同調率，遂行精神污染之目的
->- 走红
+```
+以飛快的節奏將斗大的極太明朝字體化為文字、圖案、精神三位一體，
+    藉此增加講者與聽眾間的同調率，
+        遂行精神污染之目的
+```
+>- EVA-style 走红
 
 ## 对比
 > [當代流行簡報](http://0.zoomquiet.top/ZQCollection/pdf/111105_%E7%95%B6%E4%BB%A3%E6%B5%81%E8%A1%8C%E7%B0%A1%E5%A0%B1.pdf)
@@ -105,24 +107,24 @@
 > 05~12
 
 >- [S5: A Simple Standards-Based Slide Show System](https://meyerweb.com/eric/tools/s5/)
->- 手工 HTML
->- 定制 CSS
+>    - 手工 HTML
+>    - 定制 CSS
 
 ## rst2S5
 > 12 ~ 17
 
 
 >- [S5: A Simple Standards-Based Slide Show System](https://meyerweb.com/eric/tools/s5/)
->- [rst2s5 - convert reST documents to S5 slides](https://manpages.ubuntu.com/manpages/bionic/man1/rst2s5.1.html)
->- 定制 CSS
+>    - [rst2s5 - convert reST documents to S5 slides](https://manpages.ubuntu.com/manpages/bionic/man1/rst2s5.1.html)
+>    - 定制 CSS
 
 ## pandoc
 > 2018 ~ 
 
 
 >- [Pandoc - index](https://pandoc.org/)
->- [The HTML presentation framework | reveal.js](https://revealjs.com/#/2/1)
->- 二维 H5 幻灯
+>    - [The HTML presentation framework | reveal.js](https://revealjs.com/#/2/1)
+>    - 二维 H5 幻灯
 
 ## 配套
 > Leo
@@ -135,7 +137,7 @@
 
 >- --new-window 
 >- --app=
->- 无地址栏应用样窗口
+>    - 无地址栏应用样窗口
 
 ## 发布?
 > GitHub-pags
