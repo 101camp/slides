@@ -8,8 +8,6 @@
 <vnodes>
 <v t="zoomq.20220612212104.1"><vh>slides/</vh>
 <v t="zoomq.20230511210425.1"><vh>tools</vh>
-<v t="zoomq.20230319230102.1"><vh>pandoc2slide.md</vh></v>
-<v t="zoomq.20230319230858.1"><vh>@auto pandoc2reveal.sh</vh></v>
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
@@ -1170,7 +1168,6 @@ while noGuess:
         print "猜对了\(^o^)/下次再来玩!"
         break
 </t>
-<t tx="zoomq.20230319230102.1"></t>
 <t tx="zoomq.20230320012627.1">@path pandoc
 
 

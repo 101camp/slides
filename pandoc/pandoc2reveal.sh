@@ -13,6 +13,7 @@ if [ -z $NAME ] ;then
     echo 'ALERT::'
     echo '  LOST "[源文稿名]"'
     exit  0
+
 else
 
 THEME=$2
@@ -35,8 +36,6 @@ if [ -z $THEME ] ;then
     THEME=1
     fi
 
-#    Themes | reveal.js
-# https://revealjs.com/themes/
 styles=(
     [1]='solarized' 
     [2]='black' 
@@ -52,21 +51,20 @@ styles=(
     [12]='blood'
     )
 THEME=${styles[$THEME]}
-
-echo base $NAME
+#echo base $NAME
 MD=$1.md
 SLIDES=$AIMP/$1.html
 echo "got draft <-- $MD"
+#echo "exp. reveal.js slides -> $SLIDES"
 echo "base theme: $THEME"
 #=========================================================== path defines
-
+#PY=$( which python)
 #=========================================================== action defines
-
 echo pandoc $MD -o $SLIDES -t revealjs -s -V theme=$THEME
 pandoc $MD -o $SLIDES -t revealjs -s -V theme=$THEME
-
+#pandoc $MD -o $SLIDES -t revealjs -s -V theme=solarized
 #=========================================================== action DONE
 
-
+fi #else
 
 exit  0
