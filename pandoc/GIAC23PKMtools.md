@@ -556,7 +556,7 @@ Fabric/Cello/...
 
 -------
 
-![Chaos**42**DAMA@**g**oo**g**le**g**roup**s**.com](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420)
+![ask**DAMA**@**g**oo**g**le**g**roup**s**.com](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420)
 
 ## 是也乎
 
@@ -565,9 +565,8 @@ Fabric/Cello/...
 - 220609 append
 - 230520 init.
 
-------
-
-![断言v4](https://ipic.zoomquiet.top/2022-09-25-theory101camp_v4.jpg)
+## Q&A
+> ask**DAMA**@**g**oo**g**le**g**roup**s**.com
 
 ## Camp
 > 比来时好
@@ -577,6 +576,12 @@ Fabric/Cello/...
 >- **治**疗视而不见笔记**最**有效
 >- 不懂**就**问是课程核心**行动**
 >- 编程实力积累必须**要**编程
+
+
+
+------
+
+![断言v4](https://ipic.zoomquiet.top/2022-09-25-theory101camp_v4.jpg)
 
 ## 内省
 > 不忘初心...
