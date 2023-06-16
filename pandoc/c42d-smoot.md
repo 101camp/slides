@@ -1,5 +1,5 @@
-% SMOOT?
-% 一次神奇的玩笑
+% SMOOT
+% 玩笑因认真而传世
 % [@Chaos42DAMA](https://www.youtube.com/@Chaos42DAMA)/奇怪的冷知识叕增加了
 
 # 长度单位
@@ -69,6 +69,22 @@
 
 ![](https://ipic.zoomquiet.top/2023-06-16-zshot%202023-06-16%2015.16.42.jpg!/fh/620)
 
+## 人生
+> 三不朽
+
+>- 立功
+>- 立言
+>- 立德
+>- Youtube...?
+
+## [大妈的多重宇宙](https://www.youtube.com/@Chaos42DAMA)
+> [@Chaos42DAMA](https://www.youtube.com/@Chaos42DAMA)
+
+- 谈天说地从**书**开始
+- 人生调试**怂怼**不休
+- **科幻**写作随兴走笔
+- 分享**五年**也不过期
+
 # 触动
 
 
@@ -108,13 +124,11 @@
 
 - 230616 init.
 
-## 欢迎订阅
-> [大妈的多重宇宙](https://www.youtube.com/@Chaos42DAMA)
+## [大妈的多重宇宙](https://www.youtube.com/@Chaos42DAMA)
+> [@Chaos42DAMA](https://www.youtube.com/@Chaos42DAMA)
 
-[@Chaos42DAMA](https://www.youtube.com/@Chaos42DAMA)
-
->- 谈天说地从**书**开始
->- 人生调试**怂怼**不休
->- **科幻**写作随兴走笔
->- 分享**五年**也不过期
+- 谈天说地从**书**开始
+- 人生调试**怂怼**不休
+- **科幻**写作随兴走笔
+- 分享**五年**也不过期
 
