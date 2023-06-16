@@ -11,6 +11,8 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
+<v t="zoomq.20230615195832.1"><vh>@auto c42d-smoot.md</vh></v>
+<v t="zoomq.20230616145017.1"><vh>@auto c42d-fool2skyline.md</vh></v>
 <v t="zoomq.20230614162243.1"><vh>@auto c42d-slide-takahashi.md</vh></v>
 <v t="zoomq.20230607222048.1"><vh>@auto c42d-floss-meat.md</vh></v>
 <v t="zoomq.20230606205742.1"><vh>@auto c42d-gim.md</vh></v>
