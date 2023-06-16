@@ -17,7 +17,7 @@
 > 劍橋-波士頓
 
 >- 哈佛大橋
->- 364.3 Smoots 
+>- 364.3 SMOOT 
 >- (加減1隻耳朵)
 
 
@@ -33,12 +33,12 @@
 >- 67.0000 in
 
 ## 校准
-> 2015 371.3 Smoots 
+> 2015 371.3 SMOOT 
 
 >- (加減1隻耳朵)
 >- 57岁时...
 >- 2016 年愚人节
->    + 校准 smoot 至 65.7500 英寸（1.67005 米）
+>    + 校准 SMOOT 至 65.7500 英寸（1.67005 米）
 >    + 耳朵重新校准为 2.48031 英寸（62.999874 毫米）
 >- [Smoot reflects on his measurement feat as 50th anniversary nears \| MIT News ](https://news.mit.edu/2008/smoot-tt0924)
 
