@@ -35,13 +35,16 @@
 >- 自己?
 >- 黑镜圣诞特辑.白色圣诞
 
+## 概念
+> 1991 《Mirror Worlds》
+
 -------
 
 
 ![2010 NASA](https://ipic.zoomquiet.top/2023-06-18-Digital_Twin_Concept_of_Grieves_and_Vickers.png)
 
-## 概念
-> 1991 《Mirror Worlds》
+## 孪生
+
 
 >- Digital twin
 >    - DTP 数字孪生原型, 物理对象或过程及其物理环境
@@ -55,7 +58,8 @@
 ## 发展
 > 数字地球
 
->- Homogenization 同质化工厂
+>- ISDE 国际数字地球学会
+>- 1999 BJ ~ 两年一届大会
 
 ## 应用
 > GPT 前...
