@@ -5,6 +5,13 @@
 # 值得
 
 
+## 综信徒
+> 自由软件原教旨主义者
+
+>- FSM中国分坛兰州**拉面**分团资深成员
+
+
+
 -------
 
 ![](https://ipic.zoomquiet.top/2023-06-20-Touched_by_His_Noodly_Appendage_HD.jpg)
@@ -20,11 +27,6 @@
 ![](https://ipic.zoomquiet.top/2023-06-20-zve2870cpyba1.webp!/fh/620)
 
 
--------
-
-
-![](https://ipic.zoomquiet.top/2023-06-20-21e71d83-c596-4ed1-b687-20b77b6b0d8f-Flying-Spaghetti-Monster-619x413.png)
-
 
 -------
 
@@ -33,14 +35,13 @@
 
 -------
 
-![狗牌](https://ipic.zoomquiet.top/2023-06-20-Dog_Tag_Atheist_FSM.jpg)
+![狗牌](https://ipic.zoomquiet.top/2023-06-20-Dog_Tag_Atheist_FSM.jpg!/fh/620)
 
 ## 发源
 FSM/Flying Spaghetti Monster 
 
 >- Bobby Henderson(1980-) 
->    + (Mayfly)
->- 2005年1月, 24岁公开信 -> 堪州教委
+>    - 05年1月, 24岁公开信 -> 堪州教委
 >    - 俄勒冈州立大学,智能设计论:演化论
 >    - ->科学课程等同的学分
 >- ++飞行面条怪物信仰(Pastafarian**ism**)
@@ -52,7 +53,7 @@ FSM/Flying Spaghetti Monster
 ![艺术图](https://ipic.zoomquiet.top/2023-06-20-zshot%202023-06-20%2009.59.22.jpg)
 
 ## 传播
->- 05年5月 堪州教委
+>- ..05年5月 堪州教委 没回复
 >- 网络公开
 >    + 2006, 60,000封电子邮件
 >    + 95% 认同
@@ -80,8 +81,15 @@ FSM/Flying Spaghetti Monster
 ## 国家
 >- 16年，被荷兰和丹麦政府各自认可成为正式的宗教
 >- 17年，「台灣人文煮意麵團」内政部许可立案通过
->- 19年, 海南省委巡视->要求排查海南医学院“飞天拉面神教”信教人员
+>- 19年, 海南省委巡视->海南医学院
+>    + 要求排查“飞天拉面神教”信教人员
 >- ...
+
+
+-------
+
+
+![RAmen](https://ipic.zoomquiet.top/2023-06-20-Fsm-tan1.webp)
 
 # 宗教
 
@@ -93,17 +101,11 @@ FSM/Flying Spaghetti Monster
 >    + 05年12月,维拉德出版社,八万美元:《飞拉福音》，又译《飞面神经》
 >    + 05年9月, Solipsy [《盗德经》](https://github.com/ZoomQuiet)
 >- 教仪
->    + RAmen, 逾面节, 
+>    + 逾面节, 滤锅, 9.19国际海盗模仿日
 >- 教团
 
-
--------
-
-
-![RAmen](https://ipic.zoomquiet.top/2023-06-20-Fsm-tan1.webp)
-
 ## 教条
-> Henderson
+> 先知:Henderson
 
 “飞天面条神教唯一的教条就是拒绝教条”
 
@@ -117,8 +119,8 @@ FSM/Flying Spaghetti Monster
 > GNU is Not Unix
 
 >- 1989 GPL 
->- copyleft 许可证
->    + 1976 Bill Gates: CopyRight
+>- Copy**Left** 许可证
+>    + 1976 Bill Gates: Copy**Right**
 >    + 知识产权
 
 ## 归谬
