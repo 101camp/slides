@@ -31,7 +31,7 @@
 ## 老去
 > 必然
 
-- 边界? 65-85..105
+- 边界? 65-80..105
 - 工作? 价值?
 - 自认...
 
@@ -85,12 +85,8 @@
 
 ## 参考:
 
-- [地球上最伟大的一次演出 (2021)](https://book.douban.com/subject/35503447/#)
-- [Live Aid - Wikipedia](https://en.wikipedia.org/wiki/Live_Aid#External_links)
-- [Live 8 - Wikipedia](https://en.wikipedia.org/wiki/Live_8#Uncensored_broadcasts)
-- [Bob Geldof - Wikipedia](https://en.wikipedia.org/wiki/Bob_Geldof#External_links)
-- [嘎嘎小姐 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Lady_Gaga)
-- [Together at Home - Wikipedia --- 一起在家 - 维基百科](https://en.wikipedia.org/wiki/Together_at_Home)
+- 世界卫生组织(WHO)[World health statistics 2014](https://apps.who.int/iris/bitstream/handle/10665/112738/9789240692671_eng.pdf)
+- 国际教科文组织(UNESCO)1982年《老龄化问题国际行动计划》
 - ...
 
 ## 是也乎
