@@ -11,7 +11,8 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
-<v t="zoomq.20230615195832.1"><vh>@auto c42d-liveaid.md</vh></v>
+<v t="zoomq.20230615195832.1"><vh>@auto c42d-oldeath.md</vh></v>
+<v t="zoomq.20230622142203.1"><vh>@auto c42d-liveaid.md</vh></v>
 <v t="zoomq.20230621144251.1"><vh>@auto c42d-fsm4gnu.md</vh></v>
 <v t="zoomq.20230620092202.1"><vh>@auto c42d-mayfly.md</vh></v>
 <v t="zoomq.20230619201734.1"><vh>@auto c42d-dself.md</vh></v>
