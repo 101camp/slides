@@ -176,7 +176,7 @@ Fabric/Cello/...
 > 爱好
 
 >- 22CC
->- 34年前的 SiFi 小说
+>- 34年前的 Sci-Fi 小说
 
 ------
 
@@ -236,8 +236,8 @@ Fabric/Cello/...
 > 私人断言
 
 >- 知识是: **经验**
->- 在组织内 **流通** 
->- **速率**
+>    - 在组织内 **流通** 
+>        - 的**速率**
 
 
 ----
@@ -247,12 +247,12 @@ Fabric/Cello/...
 
 ----
 
-![](https://ipic.zoomquiet.top/2022-09-25-kmtranfer2.gif)
+![](https://ipic.zoomquiet.top/2022-09-25-kmtranfer2.gif!/fh/520)
 
 
 ----
 
-![](https://ipic.zoomquiet.top/2022-09-25-kmzl2.jpg)
+![](https://ipic.zoomquiet.top/2022-09-25-kmzl2.jpg!/fh/520)
 
 ## 理论
 > 主要流派
@@ -281,7 +281,7 @@ Fabric/Cello/...
 >- 动力不同
 >- 反馈不同
 >- ...
->- 感受不同
+>- 不同感受
 
 ## 融合?
 > 相互增补
@@ -494,7 +494,7 @@ Fabric/Cello/...
 > 文学化编辑器
 
 >- [Literate programming - 1984](https://en.wikipedia.org/wiki/Literate_programming)
->- ![Donald Knuth](https://ipic.zoomquiet.top/2023-06-13-Literate_Programming_book_cover.jpg)
+>    - ![Donald Knuth](https://ipic.zoomquiet.top/2023-06-13-Literate_Programming_book_cover.jpg!/fh/320)
 
 ## Edward.K.Ream
 > [令德华](https://www.leoeditor.com/ekr.html)
@@ -503,15 +503,15 @@ Fabric/Cello/...
 >- 1996 独立完成 Leo 核心功能
 >- 2001 从 C->C++->Py 发布
 >- 06～20 从 2.4.1 开始Tk 
->- 13~ mac
->- Qt ... websocket ...
+>- 13~ macOS 
+>    - Qt ... websocket ...
 
 ## Literate?
 
 ```
 源代码只是构成程序的一小部分！
 程序的真正主体是对它的算法、结构、目的和用法的描述
-	——实现它的源代码并不是主要的
+    ——实现它的源代码并不是主要的
 ```
 
 
@@ -537,11 +537,19 @@ Fabric/Cello/...
 
 >- 都值得拥有自己的域名
 >- CyberSpace 中私人王国
+>- 持续输出...
+>    - 直到突破
 
 
 -------
 
 ![[ZoomQuiet.io](https://zoomquiet.io/)](https://ipic.zoomquiet.top/2023-06-13-zoomquiet.io.png!/fh/610)
+
+## PPPS:
+>- 忘记的必是不重要的
+>- 不知道就是不必要的
+>- 放弃的是真不上心的
+>- 事实往往不是这样的
 
 # (￣▽￣)
 
@@ -561,6 +569,7 @@ Fabric/Cello/...
 ## 是也乎
 
 
+- 220629 继续调整
 - 220612 re-factory
 - 220609 append
 - 230520 init.
