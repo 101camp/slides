@@ -11,7 +11,65 @@
 - ...
 
 
-选定 pandoc
+## pandoc2reveal.sh
+
+> gen.
+```
+
+cd path/2/slides/pandoc
+./pandoc2reveal.sh AIGCxZh-life3 7
+
+```
+> show:
+```
+$ br4app AIGCxZh-life3.html
+```
+
+> base ~/.bashrc:
+```
+# ...
+
+function cr4app() {
+    HTML=$1
+if [ -z $HTML ] ;then
+    echo 'USAGE::'
+    echo '$ cr4app [目标幻灯.html]'
+    echo '注意: 不必包含路径'
+    #exit  0
+
+else
+    locf="file:///opt/data/Sites/101.camp/_running/slides/docs/$HTML"
+    chrome2app="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+    echo "will open as app:"
+    echo "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+    # 调用
+    sh -c "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+fi #else
+}
+
+function br4app() {
+    HTML=$1
+if [ -z $HTML ] ;then
+    echo 'USAGE::'
+    echo '$ br4app [目标幻灯.html]'
+    echo '注意: 不必包含路径'
+    #exit  0
+
+else
+    locf="file:///opt/data/Sites/101.camp/_running/slides/docs/$HTML"
+    chrome2app="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+
+    echo "will open as app:"
+    echo "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+    # 调用
+    sh -c "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+fi #else
+}
+
+```
+
+
 
 ## pandoc
 
@@ -44,6 +102,7 @@
 
 # change
 
+- 231211 ++how to usage
 - 190922 ++ppt export
 - 190106 import .leo
 - 181221 init.

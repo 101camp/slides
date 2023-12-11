@@ -11,6 +11,7 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
+<v t="zoomq.20231211205711.1"><vh>@auto AIGCxZh-life3.md</vh></v>
 <v t="zoomq.20230615195832.1"><vh>@auto c42d-oldeath.md</vh></v>
 <v t="zoomq.20230622142203.1"><vh>@auto c42d-liveaid.md</vh></v>
 <v t="zoomq.20230621144251.1"><vh>@auto c42d-fsm4gnu.md</vh></v>
@@ -1186,7 +1187,60 @@ while noGuess:
 
 
 </t>
-<t tx="zoomq.20230511210425.1">@path pandoc</t>
+<t tx="zoomq.20230511210425.1">@path pandoc
+
+
+&gt; gen.
+
+cd path/2/slides/pandoc
+./pandoc2reveal.sh AIGCxZh-life3 7
+
+&gt; show:
+$ br4app AIGCxZh-life3.html
+
+&gt; base ~/.bashrc:
+
+function cr4app() {
+    HTML=$1
+if [ -z $HTML ] ;then
+    echo 'USAGE::'
+    echo '$ cr4app [目标幻灯.html]'
+    echo '注意: 不必包含路径'
+    #exit  0
+
+else
+    locf="file:///opt/data/Sites/101.camp/_running/slides/docs/$HTML"
+    chrome2app="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+    echo "will open as app:"
+    echo "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+    # 调用
+    sh -c "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+fi #else
+}
+
+function br4app() {
+    HTML=$1
+if [ -z $HTML ] ;then
+    echo 'USAGE::'
+    echo '$ br4app [目标幻灯.html]'
+    echo '注意: 不必包含路径'
+    #exit  0
+
+else
+    locf="file:///opt/data/Sites/101.camp/_running/slides/docs/$HTML"
+    chrome2app="/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+
+    echo "will open as app:"
+    echo "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+    # 调用
+    sh -c "$printf \"$chrome2app\" --new-window --app=\"$locf\" "
+fi #else
+}
+
+
+
+</t>
 <t tx="zoomq.20230511212243.1">@path pandoc
 
 
