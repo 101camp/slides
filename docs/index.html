@@ -16,10 +16,15 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/solarized.css" id="theme">
@@ -73,7 +78,7 @@
 </section>
 <section id="一键生成" class="slide level2">
 <h2>一键生成</h2>
-<p>为什么学?</p>
+<p>为什么?</p>
 </section>
 <section id="pages-兼容" class="slide level2">
 <h2>pages 兼容</h2>
@@ -94,15 +99,35 @@
 </section>
 <section id="安装" class="slide level2">
 <h2>安装</h2>
-<ul>
-<li>pip install pandoc</li>
-</ul>
+<blockquote>
+<p>pip install pandoc</p>
+</blockquote>
 </section>
 <section id="使用" class="slide level2">
 <h2>使用</h2>
 <pre><code>pandoc pandoc2slide.md \
     -o pandoc2slide.html \
     -t revealjs -s</code></pre>
+</section>
+<section id="工具化" class="slide level2">
+<h2>工具化:</h2>
+<blockquote>
+<p>自制小脚本</p>
+</blockquote>
+<ul>
+<li class="fragment">编译 md -&gt; html
+<ul>
+<li class="fragment">./pandoc2reveal.sh AIGCxZh-life3 7</li>
+<li class="fragment"><a
+href="https://gist.github.com/ZoomQuiet/cba81f15ecd6c39d7ffae37272e1ad8f">配套幻灯编译脚本</a></li>
+</ul></li>
+<li class="fragment">调用浏览器 app 模式本地演示
+<ul>
+<li class="fragment">cr4app AIGCxZh-life3.html</li>
+<li class="fragment"><a
+href="https://gist.github.com/ZoomQuiet/008989ec91e65a3ba70fed32b88f5623">配置本地演示脚本</a></li>
+</ul></li>
+</ul>
 </section>
 <section id="发布" class="slide level2">
 <h2>发布</h2>
@@ -158,6 +183,7 @@ aria-hidden="true">ask<strong>DAMA</strong>@<strong>g</strong>oo<strong>g</stron
 <section id="是也乎" class="slide level2">
 <h2>是也乎</h2>
 <ul>
+<li>231212 append usage</li>
 <li>230315 mv into Vercel</li>
 <li>221216 mv into GitHub</li>
 <li>190106 <span class="citation" data-cites="auto-md">@auto-md</span>
