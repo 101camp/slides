@@ -54,10 +54,10 @@
 
 
 >- 编译 md -> html
->    + ./pandoc2reveal.sh AIGCxZh-life3 7
+>    + $ ./pandoc2reveal.sh AIGCxZh-life3 7
 >    + [配套幻灯编译脚本](https://gist.github.com/ZoomQuiet/cba81f15ecd6c39d7ffae37272e1ad8f)
 >- 调用浏览器 app 模式本地演示
->    + cr4app AIGCxZh-life3.html
+>    + $ cr4app AIGCxZh-life3.html
 >    + [配置本地演示脚本](https://gist.github.com/ZoomQuiet/008989ec91e65a3ba70fed32b88f5623)
 
 ## 发布
