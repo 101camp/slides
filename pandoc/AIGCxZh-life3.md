@@ -586,6 +586,12 @@ Musk 赞助 1000万$
 
 ![2017](https://ipic.zoomquiet.top/2023-12-12-l3-2017-meeting.jpg!/fh/640)
 
+## 达利奥曰:
+> [看待事物的不同方式](https://www.linkedin.com/pulse/how-people-seeing-things-differently-ray-dalio-55lgc/)
+
+>- 以自我为中心
+>- 以他人和整体利益为中心
+
 ## AIGCxChina
 > AIGC中国联盟
 
