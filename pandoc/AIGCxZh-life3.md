@@ -5,14 +5,14 @@
 # 但行
 
 
-## GIAC23
-> 10届 全球互联网架构大会
+## AIGCx珠海
+
 
 ## 大妈
 >- 岁数 42+
 >- 工作 23+
 >- 出版 3+
->- 蟒龄 20+
+>- 蟒龄 21+
 >- ...
 
 ## 学习
@@ -69,7 +69,7 @@
 
 -------
 
-![GDD+guido](https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg)
+![GDD+guido](https://ipic.zoomquiet.top/2021-10-13-070531GDD-guido-dama.jpg!/fh/420)
 
 ## 北京
 > SINA.com
@@ -86,12 +86,14 @@
 
 -------
 
-![](https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg)
+![Ubuntu 5.04 (Hoary Hedgehog)](https://ipic.zoomquiet.top/2021-10-13-ScreenShot%202021-10-13%2019.37.38.jpg!/fh/520)
 
 ## CPUG
 > 2005 ~ 
 
->- BPUG
+- BPUG
+- ...
+- python-cn@googlegroups
 
 ## Erlang
 > 2007 ~ 金山
@@ -227,317 +229,377 @@ Fabric/Cello/...
 # 莫问
 
 
-## KM
-> 知识管理
+## 正确地关心人类命运
+> 普通人
 
->- 什么是知识?
+>- 如何理解 AI?
+>- 如何理解 AI 和人的关系?
+>- 如何良构 AI 和人类的未来?
 
-## 知识
-> 私人断言
+-------
 
->- 知识是: **经验**
->    - 在组织内 **流通** 
->        - 的**速率**
-
-
-----
-
-![](https://ipic.zoomquiet.top/2022-09-25-1024px-Knowledge_spiral.svg.png)
-
-
-----
-
-![](https://ipic.zoomquiet.top/2022-09-25-kmtranfer2.gif!/fh/520)
-
-
-----
-
-![](https://ipic.zoomquiet.top/2022-09-25-kmzl2.jpg!/fh/520)
-
-## 理论
-> 主要流派
-
->- 行为学派
->- 技术学派
->- 经济学派
->- 战略学派
-
-## EKM
-> 2009
-
-[金山知识管理\(KsKM\)思考](http://s5.zoomquiet.top/090401-KsKM/t2t.html)
-
-## 社区vs企业
-> 学习行为差异
-
->- 场景: 固定vs零散
->- 成员: 固定vs破碎
->- 目标: 固定vs游移
->- 行动: 固定vs临时
-
-## 个体体验
-> KPI 不同
-
->- 动力不同
->- 反馈不同
->- ...
->- 不同感受
-
-## 融合?
-> 相互增补
-
->- 难
->- 可能性->
->- **Innersource**
-
-# 前路
-
-
-## PKM
-> 个人知识管理
-
->- 个人和组织的边界?
->- 知识可管理实体是?
->- 到底要管理什么?
->- ...
-
-## Aristotle
-> “For the things we have to learn before we can do them, we learn by doing them.”
-
-## 亚里士多德
->“我们通过做来学习
-> 
-> 我们必须学习去做的…”
-
-~ 伦理学
-
-## IPO
-> 关键边界
-
->- **I**nput
->- **P**rocess
->- **O**utput
-
-## 工具栈
-> 公开分享
-
-- 2010 上海, 盛大研究院
-- 2013 广州, CMCM
+![9787553672786](https://ipic.zoomquiet.top/2023-12-11-zshot%202023-12-11%2022.33.39.jpg!/fh/520)
 
 
 -------
 
-![](http://s5.zoomquiet.top/131113-MyTools/i/map/zqtools_mapping.jpg)
+![Max Tegmark](https://ipic.zoomquiet.top/2023-12-12-l3-FLI_Profile-MaxTegmark.jpg!/fh/520)
 
-## 知识仓库
-> 私人知识仓库
+## 迈克斯·泰格马克
+> FLI 联合创始人,董事
 
->- 日记
->- 剪报
->- word/text
->- wiki
->- [scrapbook](https://zoomquiet.io/collection.html)
+>- Future of Life Institute **生命未来**研究所
+>- 瑞典裔美国物理学家、宇宙学家和机器学习研究员
+>- 麻省理工学院教授和基础问题研究所的科学主任
+>- 200 多篇技术论文的作者，从认知系统物理学到精确宇宙学和现实的终极本质..
+>- 有效利他主义运动的支持者
+
+## TED
+> Scientist, author  科学家、作家
+
+>- 2015《我们的数学宇宙：我对现实终极本质的探索》
+>- 2017《生命 3.0：人工智能时代，人类的进化与重生》
+>- 2018[如何获得人工智能的支持，而不是被人工智能压垮 | TED演讲](https://www.ted.com/talks/max_tegmark_how_to_get_empowered_not_overpowered_by_ai)
+>- ...
+>- 2023[如何控制人工智能 | TED演讲](https://www.ted.com/talks/max_tegmark_how_to_keep_ai_under_control)
+
+## C1:故事开始了
+> Omega
+
+>- Prometheus
+>- 普罗米修斯
+>- AGI 
+>- ...统治地球
+
+## 生命3.0
+
+>- 生命1.0（生物阶段）：靠进化获得硬件和软件
+>- 生命2.0（文化阶段）：靠进化获得硬件，但大部分软件是由自己设计的
+>- 生命3.0（科技阶段）：自己设计硬件和软件
+
+
+-------
+
+![强AI三派](https://ipic.zoomquiet.top/2023-12-12-l3-future-3-class.jpg!/fh/520)
+
+## AI三派
+> 面对 AI
+
+>- Digital Utopians:数字乌托邦主义者 ~ 佩奇
+>- Techno-Skeptics:技术怀疑主义者 ~ 吴恩达
+>- 人工智能有益运动支持者
+>    + Members of The Beneficial-AI Movement
+>    + ~ 图灵
+
+## 术语
+> 关键厘定
+
+>- 智能 Intelligence ~ 完成复杂目标的能力
+>- 人工智能 AI ~ 非生物智能
+>- 专用智能 Narrow Intelligence
+>- 通用智能 General Intelligence
+>- 通用人工智能 AGI ~ 可完成任何认知任务
+
+## 术语+
+
+>- 人类水平人工智能 Human-level AI
+>- 强人工智能 Strong AI 
+>- 超级智能 **S**uper**I**ntelligence
+>- 文明 **C**ivilization ~ 一组相互影响的智能生命形式
+>- 意识 Consciousness 主观体验
+>- 伦理 Ethics ~ 制约应当如何行为的原则
+
+## 术语++
+
+>- 智能爆炸 Intelligence Explosion
+>- 奇点 Singularity ~ 弗诺·文奇,"银河界区三部曲"
+>- 赛博格 Cyborg ~ 人和机器的混合体
+>- 赛博朋克 Cyberpunk ~ "高科技,低生活"
 >- ...
 
+## C2:智能何来?
 
 
 -------
 
-![](http://s5.zoomquiet.top/131113-MyTools/i/levelradar_demo.png)
+![人类能力地形](https://ipic.zoomquiet.top/2023-12-12-l3-sealevel-ai.jpg)
+
+
+-------
+
+![AGI](https://ipic.zoomquiet.top/2023-12-12-l3-sealevel-agi.jpg)
+
+
+-------
+
+![与非门](https://ipic.zoomquiet.top/2023-12-12-l3-NAND.jpg)
+
+
+-------
+
+![构建一切](https://ipic.zoomquiet.top/2023-12-12-l3-NAND-buildall.jpg)
+
+## 学习?
+>- 什么是记忆?
+>- 什么是学习?
+>- 持续改变自身组织结构的物质系统...
+
+## C3:大突破
+
+>- DeepMind 为首...
+>- 太空探索
+>- 智能制造...以及挑战|事故
+>- 能源..医疗..通讯..
+>- 法律
+>- 军事...
+
+## 就业
+> 人类全体失业?
+
+>- 这份工作是否...
+>    + 需要和人交互?
+>    + 涉及创造性, 必须由你提出解决方案?
+>    + 需要你在不可预料的环境中工作?
+>- 1900 的两匹马?
+
+## C4:智能爆炸
+> AI 如何统治世界?
+
+>- 1: 构建 AGI
+>- 2: AGI 构建 SI
+>- 3: 使用/任由SI统治世界
+
+## C5:AI世代
+> 各种可能
+
+>- 自由主义乌托邦: 有产权,所有智能和平共处
+>- 善意的独裁者: AI 老大哥
+>- 平等主义乌托邦: 无产权,所有智能和平共处
+>- 看门人: 禁止另外一个 SI
+>- 守护神: 隐藏起来的 SI
+>- 被奴役的神: 由人完全控制 SI
+>- 征服者: 人类是病变
+>- 后裔: 允许人类优雅的退出历史
+
+## 各种可能+
+> 各种可能
+
+>- 动物园管理员: 人类被看护着
+>- 1984: 严格禁止 AI,"新卢德分子"/neouddites
+>- 逆转: 退回 阿米什人 社会,《基地》
+>- 自我毁灭: WWIII
+
+## 你
+> 想要什么样的未来?
+
+## C6:10亿年后
+> 文明的边界
+
+>- 前苏,宇宙学家卡尔达肖夫基: 宇宙文明级别:
+>    + 1级: 行星文明, 当前 0.7
+>    + 2级: 恒星文明, 戴森球,1960年<-1937年《造星者》
+>    + 3级: 星系文明
+>- 后续拓展:
+>    + 4级: 宇宙文明, 本宇宙 80%+能源
+>    + 5级: 多重宇宙文明
+>    + 6级: 神级文明, 构造宇宙
 
 
 
 -------
 
-![](https://img9.doubanio.com/view/subject/l/public/s1093496.jpg)
-
-## 问题所在
-> 大志向
-
->- 如果没有伟大目标
->- 总是在浪费时间...
->- 可惜...
-
-## 广撒网
-> 先收集再应用
-
-问题在软件的生命周期...
-
-## ScrapBook
-> FireFox 拓展
-
->- 06开始, Ubuntu
->- 25+G,10万网页
->- [17年v56.0 之后不支持 XUL](https://du.101.camp/2017-11/ff-no-upgrade/)
->- [WaterFox](https://blog.zoomquiet.io/221213-scrapbook-revert.html)...
-
-## 纸+笔
-> 永远不过时
-
-
-![](http://s5.zoomquiet.top/131113-MyTools/i/handarw-mindmap.gif)
-
--------
-
-![](https://ipic.zoomquiet.top/2023-06-12-zshot%202023-06-12%2023.34.12.jpg!/fh/610)
-
-## 情報は1冊のノートにまとめなさい
-> 一元记录法
-
->- 配套 Excel 索引
+![1977,O'Neill圆柱](https://ipic.zoomquiet.top/2023-12-12-l3-ONeill-cyc.jpg!/fh/520)
 
 
 -------
 
-![记录和粘贴任何内容](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.03.37.jpg!/fh/420)
+![圆柱内部](https://ipic.zoomquiet.top/2023-12-12-l3-ONeill-cyc-inside.jpg!/fh/520)
 
 
 -------
 
-![使用前和使用后的比较](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2014.13.50.jpg!/fh/420)
-
--------
-
-![存储在笔记本中的信息用于知识生产](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.03.53.jpg!/fh/420)
-
-## 笔记?
-> Zettelkasten/卢曼卡片
-
->- 为何记录?
->- 记录什么?
->- 如何记录?
-
-## Notion们
-> 双链笔记系统
-
->- logseq
->- tiddlywiki
->- ROAM,OBSIDIAN,WORKFLOWY...
+![](https://ipic.zoomquiet.top/2023-12-12-l3-power-levels.jpg!/fh/520)
 
 
 -------
 
-![人生倍增器](http://org.up.zoomquiet.top/omc/res/mmap/KMap-0.8.png)
+![](https://ipic.zoomquiet.top/2023-12-12-l3-power-blackhole.jpg)
 
-## IPO
-> 知识的...
+## 高边疆
+> 1977《高边疆：太空中的人类殖民地》
 
->- 吸收
->- 留存
->- 应用
+>- 通过殖民宇宙来获得资源
+>- 我们能走多远?
+>- 我们能走多快?
+>- 我们能活多久?
 
-## sharing
-> 利他
 
->- 嫑坚持
->- 嫑坚持
->- 嫑坚持
->    + 有效讨好自己
+-------
 
-## BPL
-> 基于项目的学习
+![](https://ipic.zoomquiet.top/2023-12-12-l3-cosmos-end.jpg)
 
->- 作中学, 学里作
->- 可运行本身也是项目品质检验
->- 拥有**问题场景**, 本身也是实力...
 
-## QA
-> 互联网中提问的正确姿势
+-------
 
->- 先自行给出一个错误的解答
->- 全能网友将热烈给出所有答案
->- 检验自己学习成果最佳形式
->    + 输出教程
+![](https://ipic.zoomquiet.top/2023-12-12-l3-cosmos-relation.jpg!/fh/640)
 
-## 工具
-> 什么是工具?
+## 大筛选
+> Great Filter
 
->- 前人领域效能习惯的
->- 凝聚态
->    + 所以, 用不起来双方问题
->    + 自己, 还没到那个问题阶段
->    + 工具, 不支持定制兼容当前
+费米悖论 Fermi Paradox
 
-## 工具箱
-> 私人经验
+>- 138亿年之后
+>- 人类会如何灭绝?
 
->- 越少越好
->- 使用越频繁越好
->- 最好可定制
->- 不行, 别强求
+## C7:目标
+> 最棘手的问题
 
-## 压箱底
-> 10+年一直使用
+>- 宇宙的目标:
+>    + 趋向生命
+>    + 趋向热寂
+>- 工程|原子 的目标?
+>    + 1阶: 熵增
+>    + 2阶: 生命子目标
+>    + 3阶: 生物重新排列, 物质子目标
 
->- 跨平台/屏幕
->- 开源/免费
->- 数据可迁移可导出
+## 目标一致
+> 三大根本难题
+
+>- 让 AI **学习**我们的目标
+>- 让 AI **接受**我们的目标
+>- 让 AI **保持**我们的目标
+
+~> 友好的人工智能
+
+## 愿望
+> 通常版本
+
+>- 精怪, 可以实现任意愿望
+>- ...第三个愿意总是惊人的相似:
+>- 收回前两个愿望吧
+
+
+-------
+
+![](https://ipic.zoomquiet.top/2023-12-12-l3-ai-aims.jpg!/fh/640)
+
+## 多数人
+> 主要观点:
+
+>- 功利主义 ... 最小化痛苦
+>- 多样化 ... 最大化体验
+>- 自主性 ... 自由追求
+>- 遗产 ... 多数人的幸福观
+
+## code2.0
+> 协议, 新法律
+
+>- 机器人三定律
+>    + 定律1：机器人不得伤害人类个体，或者目睹人类个体将遭受危险而袖手不管
+>    + 定律2：机器人必须服从人给予它的命令，当该命令与第一定律冲突时例外
+>    + 定律3：机器人在不违反第一、第二定律的情况下，要尽可能保护自己
+
+## 未来生命定律
+
+>- 第一定律：一个有意识的实体有思考、学习、交流、拥有财产、不被伤害或不被毁灭的自由
+>- 第二定律：在不违反第一定律的情况下，一个有意识的实体有权做任何事
+
+## 人性中的善良天使
+> 2011, Steven Pinker: The Better Angels of Our Nature
+
+>- 友好的人工智能
+>    + 终极目标不变:
+>        + 对人类**友好**
+>- 如何才能赋予超级智能这一目标?
+
+## C8:意识
+> Consciousness
+
+意识＝主观体验（subjective experience）
+
+>- 如果你感觉“这就是现在的我”
+
+
+
+-------
+
+![](https://ipic.zoomquiet.top/2023-12-12-l3-big3q-mind.jpg)
+
+## 信息
+> 意识即信息
+
+>- 意识的物理学基础
+>    + 记忆
+>    + 计算
+>    + 学习
+>    + 体验
+>- 能构造: "意识质"sentronium
+
+## 意义
+> "人类例外主义" human exceptionalism
+
+>- 智人 Homo Sapiens
+>- 意人 Homo Sentiens
+
+## 所以
+> 太多关键问题没有充分讨论
+
+-------
+
+![2014](https://ipic.zoomquiet.top/2023-12-12-l3-fli-setup.jpg)
+
+## FLI
+> 2014 成立
+
+Musk 赞助 1000万$
+
+>- 目标:
+>    + 引导变革性技术造福生命并远离极端大规模风险
+>- 工作领域:
+>    + 政策
+>    + 资助
+>    + 教育
+>    + 活动
+>    + ...
+
+## 成果:
+[阿西洛马人工智能原则](https://futureoflife.org/open-letter/ai-principles-chinese/)
+
+>- 研究问题 1..5
+>- 伦理价值 6..18
+>- 长期问题 19..23
+
+# 前程
+
+
+## 开始提问
+>- 对未来,你的看法?
+>- 对AI,你的看法?
+>- 身为一个人类的意义是什么?
 >- ...
 
+-------
+
+![2015](https://ipic.zoomquiet.top/2023-12-12-l3-2015-meeting.jpg)
 
 -------
 
-![2400+](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.29.37.jpg)
+![2017](https://ipic.zoomquiet.top/2023-12-12-l3-2017-meeting.jpg!/fh/640)
 
+## AIGCxChina
+> AIGC中国联盟
 
-
--------
-
-![BXM](http://s5.zoomquiet.top/131113-MyTools/i/snap/bxm-3.gif)
-
-## rIME
-> [RIME | 中州韻輸入法引擎](https://rime.im/download)
-
->- [鼠鬚管/Squirrel](https://github.com/ZoomQuiet/ZqBXM/tree/master/Rime-Squirrel)
->- [bxmr - crates.io: Rust Package Registry](https://crates.io/crates/bxmr)
->- 字母形态联想, 可定制码表, 全平台支持...
-
-
--------
-
-![Leo](https://ipic.zoomquiet.top/2023-06-13-zshot%202023-06-13%2010.40.19.jpg)
-
-## Leo
-> 文学化编辑器
-
->- [Literate programming - 1984](https://en.wikipedia.org/wiki/Literate_programming)
->    - ![Donald Knuth](https://ipic.zoomquiet.top/2023-06-13-Literate_Programming_book_cover.jpg!/fh/320)
-
-## Edward.K.Ream
-> [令德华](https://www.leoeditor.com/ekr.html)
-
->- 1974 开始工作
->- 1996 独立完成 Leo 核心功能
->- 2001 从 C->C++->Py 发布
->- 06～20 从 2.4.1 开始Tk 
->- 13~ macOS 
->    - Qt ... websocket ...
-
-## Literate?
-
-```
-源代码只是构成程序的一小部分！
-程序的真正主体是对它的算法、结构、目的和用法的描述
-    ——实现它的源代码并不是主要的
-```
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-06-13-abt_leo_5-subcode.png!/fh/640)
-
-## 工具?
-> 工具和人的关系
-
->- 人构建工具..固化效能习惯
->- 工具训练人..加载习惯效能
->- ...所以, 谨慎
+>- GC: 生成内容
+>- G:
+>    + **G**enerative 生成式
+>    + **G**rowing 生长式
+>- **C**ivilization 文明
+>- 中国AI**共生文明**联盟
 
 ## PS:
-> 嫑争论,嫑争论,嫑争论
+[探讨信息化社会中中国传统思想的作用](https://blog.zoomquiet.io/issue-chinese-for-internet.html)
 
->- 道不同
->- 不相**予**谋
+- 1998 科学哲学
 
 ## PPS:
 > 每位学习者
@@ -562,25 +624,23 @@ Fabric/Cello/...
 # (￣▽￣)
 
 
-## GIAC23
-> 10届 全球互联网架构大会
-
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/GIAC23PKMtools](http://slides.101.camp/GIAC23PKMtools.html)
-
--------
-
-![ask**DAMA**@**g**oo**g**le**g**roup**s**.com](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420)
+[slides.101.camp/AIGCxZh-life3](http://slides.101.camp/AIGCxZh-life3.html)
 
 ## 是也乎
 
 
-- 220629 继续调整
-- 220612 re-factory
-- 220609 append
-- 230520 init.
+- 221212 pub.
+- 221211 re-factory
+- 221210 append
+- 231130 init.
+
+
+-------
+
+![ask**DAMA**@**g**oo**g**le**g**roup**s**.com](http://org.up.zoomquiet.top/omc/res/KEEP/kcn_ask-dama.jpg!/fh/420)
 
 ## Q&A
 > ask**DAMA**@**g**oo**g**le**g**roup**s**.com
