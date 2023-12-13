@@ -408,22 +408,38 @@ Fabric/Cello/...
 
 -------
 
-![1977,O'Neill圆柱](https://ipic.zoomquiet.top/2023-12-12-l3-ONeill-cyc.jpg!/fh/520)
+
+![1977,O'Neill圆柱](https://ipic.zoomquiet.top/2023-12-13-Spacecolony1.jpg!/fh/620)
 
 
 -------
 
-![圆柱内部](https://ipic.zoomquiet.top/2023-12-12-l3-ONeill-cyc-inside.jpg!/fh/520)
+
+![圆柱内部](https://ipic.zoomquiet.top/2023-12-13-zshot%202023-12-13%2018.58.38.jpg!/fh/640)
 
 
 -------
 
-![](https://ipic.zoomquiet.top/2023-12-12-l3-power-levels.jpg!/fh/520)
+![](https://ipic.zoomquiet.top/2023-12-13-space_colony___o_neill_cylinder_by_chiletrek_dbyglcc-fullview.jpg!/fh/640)
+
+## 能源
+> 一切的基础...
 
 
 -------
 
-![](https://ipic.zoomquiet.top/2023-12-12-l3-power-blackhole.jpg)
+![](https://ipic.zoomquiet.top/2023-12-12-l3-power-levels.jpg!/fh/640)
+
+
+-------
+
+![29%](https://ipic.zoomquiet.top/2023-12-12-l3-power-blackhole.jpg)
+
+
+
+-------
+
+![90%](https://ipic.zoomquiet.top/2023-12-13-zshot%202023-12-13%2019.08.30.jpg!/fh/610)
 
 ## 高边疆
 > 1977《高边疆：太空中的人类殖民地》
@@ -591,6 +607,19 @@ Musk 赞助 1000万$
 
 >- 以自我为中心
 >- 以他人和整体利益为中心
+
+## 架构
+> 什么是"Architecture"
+
+>- 所有人认为重要的事
+>- 系统中难以改变的事
+>- ...
+
+## 伟大成果
+> 只能来自伟大的人
+
+>- 如何变得伟大?
+>- 如何让人们轻松地做正确的事情?
 
 ## AIGCxChina
 > AIGC中国联盟
