@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
-<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<!-- Created by Leo: https://leo-editor.github.io/leo-editor/leo_toc.html -->
+<leo_file xmlns:leo="https://leo-editor.github.io/leo-editor/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2"/>
 <globals/>
 <preferences/>
@@ -11,6 +11,7 @@
 <v t="zoomq.20230511211522.1"><vh>@auto pandoc2slide.md</vh></v>
 </v>
 <v t="zoomq.20230511212243.1"><vh>Chaos42</vh>
+<v t="zoomq.20240521193237.1"><vh>@auto hedy4cd120.md</vh></v>
 <v t="zoomq.20231211205711.1"><vh>@auto AIGCxZh-life3.md</vh></v>
 <v t="zoomq.20230615195832.1"><vh>@auto c42d-oldeath.md</vh></v>
 <v t="zoomq.20230622142203.1"><vh>@auto c42d-liveaid.md</vh></v>
