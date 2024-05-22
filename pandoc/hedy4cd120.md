@@ -1,20 +1,75 @@
 % Hedy 综介
 % 为什么需要一个中间学习
-% 电子科技大学|Hedy中国
+% 电子科技大学+Hedy中国
 
-# 但行
+# 课程规划
 
-## AIGCx珠海
+## AM0
+> 综介
+
+>- 大妈
+>- 编程教育问题
+>- Hedy 故事
+
+## AM1
+> 渐进式教学
+
+>- 编程范式差异
+>- 编程心理学
+>- 费曼学习法?
+
+## AM2
+> Hedy 平台
+
+>- 学生
+>- 教师
+>- 社区
+
+## AM3
+> 边用边学
+
+>- 注册
+>- 教师手册
+>- 组建班级,添加学生
+
+## PM0
+> 初级阶段
+
+- 熟悉界面
+- 熟悉形式
+- 体验突破
+
+## PM1
+> 中级阶段
+
+- 观察循环
+- 理解循环
+- 使用循环
+
+## PM2
+> 高级阶段
+
+- 函数使用
+- 调试运用
+- 进入 Python
+
+## PM3
+> 小结
+
+- 什么是Hedy
+- Hedy 解决什么问题
+- 如何基于 Hedy 组织编程的教学
+
+# 我是谁
 
 ## 大妈
->- 岁数 42+
->- 工作 23+
->- 出版 3+
->- 蟒龄 21+
->- ...
+> [Zoom.Quiet](https://github.com/ZoomQuiet)
 
-## 学习
-> IT 行业底色
+>- 岁数 42+
+>- 工作 24+
+>- 出版 3+
+>- 蟒龄 22+
+>- ...
 
 ## 大学
 > 课本
@@ -107,7 +162,7 @@
 ## sociallearnlab.org
 > 教育大发现 2008 ~ 2013
 
-[社区顾问](#?)
+[社区顾问](https://github.com/ZoomQuiet/sociallearnlab/blob/master/wiki/ZqSayCommunityCreat.wiki)
 
 ## [开源卫士](http://code.ijinshan.com/)
 > 2012~13 49期讲座
@@ -131,7 +186,9 @@ AngularJS ..
 LISP..Haskell
 
 ## TypeScript
-> 2018 ... Flutter
+> 2018 ... 
+
+Flutter
 
 ## TFUG 珠海
 > 190214 ~ AI 落地
@@ -157,503 +214,102 @@ Fabric/Cello/...
 ## Smalltalk
 > Glamorous Toolkit
 
-# 好事
+# 编程教育?
 
-## 开发
-> 本分
+## 提问:
+>- 编程经验?
+>- 编程值得学习嘛?
+>- 学生们有谈及编程?
+>- 编程如何教最好?
 
-- 3D 动画
-- 职业顿悟
-- ...
+## 蟒营®
+> 无意间触发..
 
-## 管理
-> 过程改进
+>- 08: 金山大学
+>- ~13: 珠海大学联合
+>- 16~: 签约开发网络课程
+>- 18~22: 独立运营
 
-用**技术**改善**技术人**生活品质
+## 101.camp
+> PythoniCamp
 
-## 写作
-> 爱好
+[蟒营®101.camp 开源网络课程框架](https://doc.101.camp/)
 
->- 22CC
->- 34年前的 Sci-Fi 小说
+## 感受
+> 不容易...
 
-------
+>- 14期
+>- 500+
+>- <4%
 
-![2009](coscon/090902-lovpy.jpg)
+## 教育?
+> 什么是学习?
 
-
-------
-
-![2013](coscon/s20773481-rwipy.png?imageView2/2/h/510)
-
-
-
--------
-
-![输出是更残酷的输入](coscon/kcn_export_now.jpg)
-
-## 社区
-> GNU 感召
-
-> - 进入
-> - 理解
-> - 服务
-> - 发起
-> - 策划
-> - etc.
-
-## 社群
-> 社区群落 ~> 领域流量
-
-- 有关联
-- 场景向
-- 自运营
-- ...
-
-## 自怼
-> DebugUself
-
-有心无心,自然聚集
-
+>- 学习如何学习
+>- "学习学"
 
 ------
 
-![the force...](coscon/kcn_use-the-force.jpg)
+![学](img/meta-101camp.050-xue.png)
 
-## 分享
-> 有好东西一定给小朋友们分享
+------
 
-# 莫问
+![学习行为](img/HU-mis-learn.PNG)
 
-## 正确地关心人类命运
-> 普通人
+------
 
->- 如何理解 AI?
->- 如何理解 AI 和人的关系?
->- 如何良构 AI 和人类的未来?
+![龙妈](img/190416got-ride-dragon.jpg)
 
--------
+## 教育?
+> 精确的陪伴...
 
-![9787553672786](https://ipic.zoomquiet.top/2023-12-11-zshot%202023-12-11%2022.33.39.jpg!/fh/520)
+# Hedy中国
 
+## Felienne
+[The Programmer's Brain](https://book.douban.com/subject/35498482/)
 
--------
+> ...What every programmer needs to know about cognition
 
-![Max Tegmark](https://ipic.zoomquiet.top/2023-12-12-l3-FLI_Profile-MaxTegmark.jpg!/fh/520)
+>- [程序员超强大脑 (2023)](https://book.douban.com/subject/36362026/)
+>   - 费莉安•赫尔曼斯（Felienne Hermans），荷兰莱顿大学副教授，致力于研究人类如何利用认知科学快速、高效地学习程序设计语言。
+>       + 她是TC39（JavaScript标准委员会） 成员，还自创了Hedy程序设计语言。
 
-## 迈克斯·泰格马克
-> FLI 联合创始人,董事
+## Why?
+> [Hedy Introduction Talk - YouTube](https://www.youtube.com/watch?v=EdqT313rM40)
 
->- Future of Life Institute **生命未来**研究所
->- 瑞典裔美国物理学家、宇宙学家和机器学习研究员
->- 麻省理工学院教授和基础问题研究所的科学主任
->- 200 多篇技术论文的作者，从认知系统物理学到精确宇宙学和现实的终极本质..
->- 有效利他主义运动的支持者
+>- 解决从 Scrach 到 Python 之类开发语言学习过程中的痛点
+>   - 难以学会...
 
-## TED
-> Scientist, author  科学家、作家
+## 遇见
+> 2023
 
->- 2015《我们的数学宇宙：我对现实终极本质的探索》
->- 2017《生命 3.0：人工智能时代，人类的进化与重生》
->- 2018[如何获得人工智能的支持，而不是被人工智能压垮 | TED演讲](https://www.ted.com/talks/max_tegmark_how_to_get_empowered_not_overpowered_by_ai)
->- ...
->- 2023[如何控制人工智能 | TED演讲](https://www.ted.com/talks/max_tegmark_how_to_keep_ai_under_control)
+>- 大妈, 自媒体
+>- Jason 主动探访
+>- 选择方向
+>   - Hedy
+>   - 加速中国编程教育
 
-## C1:故事开始了
-> Omega
+## 机会
+> 2024
 
->- Prometheus
->- 普罗米修斯
->- AGI 
->- ...统治地球
-
-## 生命3.0
->- 生命1.0（生物阶段）：靠进化获得硬件和软件
->- 生命2.0（文化阶段）：靠进化获得硬件，但大部分软件是由自己设计的
->- 生命3.0（科技阶段）：自己设计硬件和软件
-
-
--------
-
-![强AI三派](https://ipic.zoomquiet.top/2023-12-12-l3-future-3-class.jpg!/fh/520)
-
-## AI三派
-> 面对 AI
-
->- Digital Utopians:数字乌托邦主义者 ~ 佩奇
->- Techno-Skeptics:技术怀疑主义者 ~ 吴恩达
->- 人工智能有益运动支持者
->    + Members of The Beneficial-AI Movement
->    + ~ 图灵
-
-## 术语
-> 关键厘定
-
->- 智能 Intelligence ~ 完成复杂目标的能力
->- 人工智能 AI ~ 非生物智能
->- 专用智能 Narrow Intelligence
->- 通用智能 General Intelligence
->- 通用人工智能 AGI ~ 可完成任何认知任务
-
-## 术语+
->- 人类水平人工智能 Human-level AI
->- 强人工智能 Strong AI 
->- 超级智能 **S**uper**I**ntelligence
->- 文明 **C**ivilization ~ 一组相互影响的智能生命形式
->- 意识 Consciousness 主观体验
->- 伦理 Ethics ~ 制约应当如何行为的原则
-
-## 术语++
->- 智能爆炸 Intelligence Explosion
->- 奇点 Singularity ~ 弗诺·文奇,"银河界区三部曲"
->- 赛博格 Cyborg ~ 人和机器的混合体
->- 赛博朋克 Cyberpunk ~ "高科技,低生活"
->- ...
-
-## ## C2:智能何来?
-![人类能力地形](https://ipic.zoomquiet.top/2023-12-12-l3-sealevel-ai.jpg)
-
-
--------
-
-![AGI](https://ipic.zoomquiet.top/2023-12-12-l3-sealevel-agi.jpg)
-
-
--------
-
-![与非门](https://ipic.zoomquiet.top/2023-12-12-l3-NAND.jpg)
-
-
--------
-
-![构建一切](https://ipic.zoomquiet.top/2023-12-12-l3-NAND-buildall.jpg)
-
-## 学习?
->- 什么是记忆?
->- 什么是学习?
->- 持续改变自身组织结构的物质系统...
-
-## C3:大突破
->- DeepMind 为首...
->- 太空探索
->- 智能制造...以及挑战|事故
->- 能源..医疗..通讯..
->- 法律
->- 军事...
-
-## 就业
-> 人类全体失业?
-
->- 这份工作是否...
->    + 需要和人交互?
->    + 涉及创造性, 必须由你提出解决方案?
->    + 需要你在不可预料的环境中工作?
->- 1900 的两匹马?
-
-## C4:智能爆炸
-> AI 如何统治世界?
-
->- 1: 构建 AGI
->- 2: AGI 构建 SI
->- 3: 使用/任由SI统治世界
-
-## C5:AI世代
-> 各种可能
-
->- 自由主义乌托邦: 有产权,所有智能和平共处
->- 善意的独裁者: AI 老大哥
->- 平等主义乌托邦: 无产权,所有智能和平共处
->- 看门人: 禁止另外一个 SI
->- 守护神: 隐藏起来的 SI
->- 被奴役的神: 由人完全控制 SI
->- 征服者: 人类是病变
->- 后裔: 允许人类优雅的退出历史
-
-## 各种可能+
-> 各种可能
-
->- 动物园管理员: 人类被看护着
->- 1984: 严格禁止 AI,"新卢德分子"/neouddites
->- 逆转: 退回 阿米什人 社会,《基地》
->- 自我毁灭: WWIII
-
-## 你
-> 想要什么样的未来?
-
-## C6:10亿年后
-> 文明的边界
-
->- 前苏,宇宙学家卡尔达肖夫基: 宇宙文明级别:
->    + 1级: 行星文明, 当前 0.7
->    + 2级: 恒星文明, 戴森球,1960年<-1937年《造星者》
->    + 3级: 星系文明
->- 后续拓展:
->    + 4级: 宇宙文明, 本宇宙 80%+能源
->    + 5级: 多重宇宙文明
->    + 6级: 神级文明, 构造宇宙
-
-
-
--------
-
-
-![1977,O'Neill圆柱](https://ipic.zoomquiet.top/2023-12-13-Spacecolony1.jpg!/fh/620)
-
-
--------
-
-
-![圆柱内部](https://ipic.zoomquiet.top/2023-12-13-zshot%202023-12-13%2018.58.38.jpg!/fh/640)
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-13-space_colony___o_neill_cylinder_by_chiletrek_dbyglcc-fullview.jpg!/fh/640)
-
-## 能源
-> 一切的基础...
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-12-l3-power-levels.jpg!/fh/640)
-
-
--------
-
-![29%](https://ipic.zoomquiet.top/2023-12-12-l3-power-blackhole.jpg)
-
-
-
--------
-
-![90%](https://ipic.zoomquiet.top/2023-12-13-zshot%202023-12-13%2019.08.30.jpg!/fh/610)
-
-## 高边疆
-> 1977《高边疆：太空中的人类殖民地》
-
->- 通过殖民宇宙来获得资源
->- 我们能走多远?
->- 我们能走多快?
->- 我们能活多久?
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-12-l3-cosmos-end.jpg)
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-12-l3-cosmos-relation.jpg!/fh/640)
-
-## 大筛选
-> Great Filter
-
-费米悖论 Fermi Paradox
-
->- 138亿年之后
->- 人类会如何灭绝?
-
-## C7:目标
-> 最棘手的问题
-
->- 宇宙的目标:
->    + 趋向生命
->    + 趋向热寂
->- 工程|原子 的目标?
->    + 1阶: 熵增
->    + 2阶: 生命子目标
->    + 3阶: 生物重新排列, 物质子目标
-
-## 目标一致
-> 三大根本难题
-
->- 让 AI **学习**我们的目标
->- 让 AI **接受**我们的目标
->- 让 AI **保持**我们的目标
-
-~> 友好的人工智能
-
-## 愿望
-> 通常版本
-
->- 精怪, 可以实现任意愿望
->- ...第三个愿意总是惊人的相似:
->- 收回前两个愿望吧
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-12-l3-ai-aims.jpg!/fh/640)
-
-## 多数人
-> 主要观点:
-
->- 功利主义 ... 最小化痛苦
->- 多样化 ... 最大化体验
->- 自主性 ... 自由追求
->- 遗产 ... 多数人的幸福观
-
-## code2.0
-> 协议, 新法律
-
->- 机器人三定律
->    + 定律1：机器人不得伤害人类个体，或者目睹人类个体将遭受危险而袖手不管
->    + 定律2：机器人必须服从人给予它的命令，当该命令与第一定律冲突时例外
->    + 定律3：机器人在不违反第一、第二定律的情况下，要尽可能保护自己
-
-## 未来生命定律
->- 第一定律：一个有意识的实体有思考、学习、交流、拥有财产、不被伤害或不被毁灭的自由
->- 第二定律：在不违反第一定律的情况下，一个有意识的实体有权做任何事
-
-## 人性中的善良天使
-> 2011, Steven Pinker: The Better Angels of Our Nature
-
->- 友好的人工智能
->    + 终极目标不变:
->        + 对人类**友好**
->- 如何才能赋予超级智能这一目标?
-
-## C8:意识
-> Consciousness
-
-意识＝主观体验（subjective experience）
-
->- 如果你感觉“这就是现在的我”
-
-
-
--------
-
-![](https://ipic.zoomquiet.top/2023-12-12-l3-big3q-mind.jpg)
-
-## 信息
-> 意识即信息
-
->- 意识的物理学基础
->    + 记忆
->    + 计算
->    + 学习
->    + 体验
->- 能构造: "意识质"sentronium
-
-## 意义
-> "人类例外主义" human exceptionalism
-
->- 智人 Homo Sapiens
->- 意人 Homo Sentiens
-
-## 所以
-> 太多关键问题没有充分讨论
-
--------
-
-![2014](https://ipic.zoomquiet.top/2023-12-12-l3-fli-setup.jpg)
-
-## FLI
-> 2014 成立
-
-Musk 赞助 1000万$
-
->- 目标:
->    + 引导变革性技术造福生命并远离极端大规模风险
->- 工作领域:
->    + 政策
->    + 资助
->    + 教育
->    + 活动
->    + ...
-
-## 成果:
-[阿西洛马人工智能原则](https://futureoflife.org/open-letter/ai-principles-chinese/)
-
->- 研究问题 1..5
->- 伦理价值 6..18
->- 长期问题 19..23
-
-# 前程
-
-## 开始提问
->- 对未来,你的看法?
->- 对AI,你的看法?
->- 身为一个人类的意义是什么?
->- ...
-
--------
-
-![2015](https://ipic.zoomquiet.top/2023-12-12-l3-2015-meeting.jpg)
-
--------
-
-![2017](https://ipic.zoomquiet.top/2023-12-12-l3-2017-meeting.jpg!/fh/640)
-
-## 达利奥曰:
-> [看待事物的不同方式](https://www.linkedin.com/pulse/how-people-seeing-things-differently-ray-dalio-55lgc/)
-
->- 以自我为中心
->- 以他人和整体利益为中心
-
-## 架构
-> 什么是"Architecture"
-
->- 所有人认为重要的事
->- 系统中难以改变的事
->- ...
-
-## 伟大成果
-> 只能来自伟大的人
-
->- 如何变得伟大?
->- 如何让人们轻松地做正确的事情?
-
-## AIGCxChina
-> AIGC中国联盟
-
->- GC: 生成内容
->- G:
->    + **G**enerative 生成式
->    + **G**rowing 生长式
->- **C**ivilization 文明
->- 中国AI**共生文明**联盟
-
-## PS:
-[探讨信息化社会中中国传统思想的作用](https://blog.zoomquiet.io/issue-chinese-for-internet.html)
-
-- 1998 科学哲学
-
-## PPS:
-> 每位学习者
-
->- 都值得拥有自己的域名
->- CyberSpace 中私人王国
->- 持续输出...
->    - 直到突破
-
-
--------
-
-![[ZoomQuiet.io](https://zoomquiet.io/)](https://ipic.zoomquiet.top/2023-06-13-zoomquiet.io.png!/fh/610)
-
-## PPPS:
->- 忘记的必是不重要的
->- 不知道就是不必要的
->- 放弃的是真不上心的
->- 事实往往不是这样的
->- ...保持谦虚
+>- "成都+少儿编程"
+>- 成都青少年宫文章...
+>   - 电子科大
+>   - 彭老师
+>       - 贵州, 科技课程培训
 
 # (￣▽￣)
 
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/AIGCxZh-life3](http://slides.101.camp/AIGCxZh-life3.html)
+[slides.101.camp/hedy4cd120](http://slides.101.camp/hedy4cd120.html)
 
 ## 是也乎
-- 221212 pub.
-- 221211 re-factory
-- 221210 append
-- 231130 init.
+- 240521 pub.
+- 240519 re-factory
+- 240501 append
+- 240401 init.
 
 
 -------
@@ -694,14 +350,3 @@ Musk 赞助 1000万$
     blog.101.camp/NC/190711-NC101-self-destruction
     
 > askdama@googlegroups.com
-
-## 蟒营®
-> 沿革
-
->- 2008 PythoniCamp 金山大学
->- 2015 蟒营™课程
->- 2017 DebugUself/自怼圈
->- 2018 蟒营®网络课程开源框架
-
-## 눈_눈
-> 是也乎
