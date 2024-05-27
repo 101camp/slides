@@ -10,6 +10,7 @@
 >- 学生
 >- 教师
 >- 社区
+>- 课程
 
 # Hedy.org
 
@@ -40,6 +41,53 @@
 >- Hedy 是一种渐进式编程语言，用于教孩子编程。
 >- 渐进语言使用不同的语言级别，每个级别都会增加新的概念和句法复杂性。
 >- 在 Hedy 关卡序列的最后，孩子们掌握了语法上有效的 Python 子集。
+
+## 代码
+> 开发实力
+
+>- [Releases · hedyorg/hedy · GitHub](https://github.com/hedyorg/hedy/releases)
+>- [Pull requests ](https://github.com/hedyorg/hedy/pull/5558)
+
+## 配套设施
+> 社区活力
+
+>- [Discussions ](https://github.com/hedyorg/hedy/discussions)
+>- [提案 Issues ](https://github.com/hedyorg/hedy/issues/5554)
+>- [维基 Wiki ](https://github.com/hedyorg/hedy/wiki)
+>- ...
+
+# 日常贡献
+
+## SNS
+[Discord 服务器](https://discord.gg/8yY7dEme9r)
+
+
+
+
+------
+
+![discord](img/hedy-discord.jpg)
+
+## I18n
+> 国际化平台
+
+
+[Hedy @ Hosted Weblate](https://hosted.weblate.org/projects/hedy/)
+
+>- 54种语言
+
+
+
+------
+
+![简中](img/hedy-Weblate.jpg)
+
+## 问题
+> 中文翻译...
+
+>- AI 自动翻译
+>- 格式复杂, 有些地方界面不匹配
+>- 需要大家一起完善
 
 # (￣▽￣)
 
