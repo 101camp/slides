@@ -27,6 +27,20 @@
 >- 启动课程
 >- 持续观察
 
+## 学生
+> 友好界面
+
+>- 界面使用**[教程](https://hedy.org/tutorial)**
+
+# GitHub
+
+## 开源
+[GitHub - hedyorg/hedy: Hedy is a ...](https://github.com/hedyorg/hedy)
+
+>- Hedy 是一种渐进式编程语言，用于教孩子编程。
+>- 渐进语言使用不同的语言级别，每个级别都会增加新的概念和句法复杂性。
+>- 在 Hedy 关卡序列的最后，孩子们掌握了语法上有效的 Python 子集。
+
 # (￣▽￣)
 
 ## 幻灯
