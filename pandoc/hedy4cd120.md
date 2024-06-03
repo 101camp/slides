@@ -306,6 +306,13 @@ Fabric/Cello/...
 
 [slides.101.camp/hedy4cd120](http://slides.101.camp/hedy4cd120.html)
 
+## 小结
+> 关键在:
+
+>- 0: 编程私人经历
+>- 1: 网络教育体验
+>- 2: 海蒂方案希望
+
 ## 是也乎
 - 240521 pub.
 - 240519 re-factory

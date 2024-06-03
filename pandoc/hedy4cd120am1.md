@@ -147,6 +147,13 @@
 
 [slides.101.camp/hedy4cd120am1](http://slides.101.camp/hedy4cd120am1.html)
 
+## 小结
+> 关键在:
+
+>- 0: 编程难学原因
+>- 1: 代码难教本质
+>- 2: 海蒂解决方案
+
 ## 是也乎
 - 240522 pub.
 - 240519 re-factory
