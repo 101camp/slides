@@ -1,6 +1,6 @@
 % 兼容Python
 % Hedy 目标感
-% 电子科技大学科学素养中心+Hedy中国
+% 电子科大科学素养中心+Hedy中国
 
 # 课程规划
 
@@ -34,7 +34,7 @@
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/hedy4cd120pm2](http://slides.101.camp/hedy4cd120pm2.html)
+[slides.101.camp/hedy4cd120c6](http://slides.101.camp/hedy4cd120c6.html)
 
 ## 小结
 > 关键在:

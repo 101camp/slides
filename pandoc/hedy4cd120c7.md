@@ -1,6 +1,6 @@
 % 改善海蒂
 % Hedy 中国化
-% 电子科技大学科学素养中心+Hedy中国
+% 电子科大科学素养中心+Hedy中国
 
 # 课程规划
 
@@ -65,7 +65,7 @@
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/hedy4cd120pm3](http://slides.101.camp/hedy4cd120pm3.html)
+[slides.101.camp/hedy4cd120c7](http://slides.101.camp/hedy4cd120c7.html)
 
 ## 小结
 > 老师应该作什么?

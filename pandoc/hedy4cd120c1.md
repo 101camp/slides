@@ -1,6 +1,6 @@
 % 渐进式教学
 % Hedy 教学理念
-% 电子科技大学科学素养中心+Hedy中国
+% 电子科大科学素养中心+Hedy中国
 
 # 课程规划
 
@@ -140,12 +140,47 @@
 >- L17/ 完善 Python 语法
 >- L18/ 完成过渡进入 Python
 
+# Hedy中国
+
+## Felienne
+[The Programmer's Brain](https://book.douban.com/subject/35498482/)
+
+> ...What every programmer needs to know about cognition
+
+>- [程序员超强大脑 (2023)](https://book.douban.com/subject/36362026/)
+>   - 费莉安•赫尔曼斯（Felienne Hermans），荷兰莱顿大学副教授，致力于研究人类如何利用认知科学快速、高效地学习程序设计语言。
+>       + 她是TC39（JavaScript标准委员会） 成员，还自创了Hedy程序设计语言。
+
+## Why?
+> [Hedy Introduction Talk - YouTube](https://www.youtube.com/watch?v=EdqT313rM40)
+
+>- 解决从 Scrach 到 Python 之类开发语言学习过程中的痛点
+>   - 难以学会...
+
+## 遇见
+> 2023
+
+>- 大妈, 自媒体
+>- Jason 主动探访
+>- 选择方向
+>   - Hedy
+>   - 加速中国编程教育
+
+## 机会
+> 2024
+
+>- "成都+少儿编程"
+>- 成都青少年宫文章...
+>   - 电子科大
+>   - 彭老师
+>       - 贵州, 科技课程培训
+
 # (￣▽￣)
 
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/hedy4cd120am1](http://slides.101.camp/hedy4cd120am1.html)
+[slides.101.camp/hedy4cd120c1](http://slides.101.camp/hedy4cd120c1.html)
 
 ## 小结
 > 关键在:
@@ -199,38 +234,3 @@
     blog.101.camp/NC/190711-NC101-self-destruction
     
 > askdama@googlegroups.com
-
-# Hedy中国
-
-## Felienne
-[The Programmer's Brain](https://book.douban.com/subject/35498482/)
-
-> ...What every programmer needs to know about cognition
-
->- [程序员超强大脑 (2023)](https://book.douban.com/subject/36362026/)
->   - 费莉安•赫尔曼斯（Felienne Hermans），荷兰莱顿大学副教授，致力于研究人类如何利用认知科学快速、高效地学习程序设计语言。
->       + 她是TC39（JavaScript标准委员会） 成员，还自创了Hedy程序设计语言。
-
-## Why?
-> [Hedy Introduction Talk - YouTube](https://www.youtube.com/watch?v=EdqT313rM40)
-
->- 解决从 Scrach 到 Python 之类开发语言学习过程中的痛点
->   - 难以学会...
-
-## 遇见
-> 2023
-
->- 大妈, 自媒体
->- Jason 主动探访
->- 选择方向
->   - Hedy
->   - 加速中国编程教育
-
-## 机会
-> 2024
-
->- "成都+少儿编程"
->- 成都青少年宫文章...
->   - 电子科大
->   - 彭老师
->       - 贵州, 科技课程培训

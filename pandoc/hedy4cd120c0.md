@@ -1,6 +1,6 @@
 % Hedy 综介
 % 为什么需要一个中间学习
-% 电子科技大学科学素养中心+Hedy中国
+% 电子科大科学素养中心+Hedy中国
 
 # 课程规划
 
@@ -78,6 +78,7 @@
 >- Pascal
 >- C
 >- C++(毕业设计)
+>- 《Think JAVA》
 
 ## 自学
 > 就业向
@@ -304,7 +305,7 @@ Fabric/Cello/...
 ## 幻灯
 > NOT PPT
 
-[slides.101.camp/hedy4cd120](http://slides.101.camp/hedy4cd120.html)
+[slides.101.camp/hedy4cd120c0](http://slides.101.camp/hedy4cd120c0.html)
 
 ## 小结
 > 关键在:
