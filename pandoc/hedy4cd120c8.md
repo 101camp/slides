@@ -70,6 +70,14 @@
 > 友好界面
 
 >- 界面使用**[教程](https://hedy.org/tutorial)**
+>- 命令, 使用 `英文`
+
+
+
+
+------
+
+![keywords](img/hedy-keywords.jpg)
 
 # GitHub
 
@@ -94,10 +102,10 @@
 >- [维基 Wiki ](https://github.com/hedyorg/hedy/wiki)
 >- ...
 
-
 ------
 
 ![Issues](img/hedy-github.jpg)
+
 
 
 ------
