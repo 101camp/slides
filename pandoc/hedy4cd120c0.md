@@ -256,6 +256,10 @@ Fabric/Cello/...
 
 ------
 
+![习](img/meta-101camp.054-xi.png)
+
+------
+
 ![学习行为](img/HU-mis-learn.PNG)
 
 ------
